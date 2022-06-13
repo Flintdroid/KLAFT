@@ -16,11 +16,74 @@
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "3284648505",
+    "Hash": "419142967",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "374495388",
+      "Name": "Play_VOX_PANT_Cris_Douleur",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\CRIS_DOULEUR\\Play_VOX_PANT_Cris_Douleur",
+      "GUID": "{251D1968-78A0-47AF-8C2D-634D7BC1F045}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.629446",
+      "DurationMax": "0.651002",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "197328391",
+        "Language": "SFX",
+        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002.wav",
+        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002_AE159215.wem"
+       },
+       {
+        "Id": "990892073",
+        "Language": "SFX",
+        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001.wav",
+        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001_4C0F1D0D.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3729616362",
+      "Name": "Play_VOX_PANT_Donner_Coup",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\DONNER_COUP\\Play_VOX_PANT_Donner_Coup",
+      "GUID": "{19026A7E-6AA7-4CE6-828A-F09CDB1A3ED7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.931035",
+      "DurationMax": "1.381466",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "597277480",
+        "Language": "SFX",
+        "ShortName": "VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002.wav",
+        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002_2A00FCD0.wem"
+       },
+       {
+        "Id": "765612297",
+        "Language": "SFX",
+        "ShortName": "VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-001.wav",
+        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-001_68E4016D.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4068130120",
+      "Name": "Play_VOX_PANT_Mort",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\MORT\\Play_VOX_PANT_Mort",
+      "GUID": "{D3C7E525-A1D5-48BC-A4E8-C5BFA1EF59B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.209527",
+      "DurationMax": "2.209527",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "652187579",
+        "Language": "SFX",
+        "ShortName": "VOX\\PANTIN\\MORT\\PANTIN_CRIS_DOULEURS-003.wav",
+        "Path": "SFX\\VOX\\PANTIN\\MORT\\PANTIN_CRIS_DOULEURS-003_BDD25A8E.wem"
+       }
+      ]
+     },
      {
       "Id": "3306837711",
       "Name": "Play_VOX_PANT_React",

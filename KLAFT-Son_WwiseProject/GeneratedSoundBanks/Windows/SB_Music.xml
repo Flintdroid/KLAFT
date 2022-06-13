@@ -9,9 +9,9 @@
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="779753582" GUID="{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}" Language="SFX" Hash="299949866">
-			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
-			<ShortName>SB_Music</ShortName>
-			<Path>SB_Music.bnk</Path>
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_MUSIC</ObjectPath>
+			<ShortName>SB_MUSIC</ShortName>
+			<Path>SB_MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

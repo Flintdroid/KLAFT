@@ -173,6 +173,252 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_CRIS_DOULEURS-001" ID="{182E6D3C-5EF2-4BB3-9E08-135C7EFE7740}" ShortID="112052379">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-001" ID="{1FB74C86-0E55-4224-81EC-C2B619D5F75F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0215563637452106"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.148738909841954"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.485018184267241"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.11446400562739"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="990892073"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_CRIS_DOULEURS-001" ID="{1FB74C86-0E55-4224-81EC-C2B619D5F75F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PANTIN_CRIS_DOULEURS-002" ID="{251046E5-09EF-4061-B03C-D6E8769DC2E7}" ShortID="922113371">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-002" ID="{2FF248D8-0BB2-43F1-82DA-5EAD9F5865D3}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0129338182471265"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.204785455579502"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.392325820162836"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.0433280052682"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="197328391"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_CRIS_DOULEURS-002" ID="{2FF248D8-0BB2-43F1-82DA-5EAD9F5865D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_PANT_Mort" ID="{AEA1C08F-C146-4E86-909C-658440E90839}" ShortID="825463148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_Mort" ID="{949A5838-4FEB-4B5D-89A7-5B9089D86A68}" ShortID="235593402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_CRIS_DOULEURS-003" ID="{DAAA9F70-11E0-4D64-9E7E-FF870CC2A2F2}" ShortID="910000572">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-003" ID="{AF3DEC82-CE24-4F2B-AB01-ACA5DCE25519}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0172450909961686"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.14895418761973"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.433282911278736"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.64281019516284"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="652187579"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_CRIS_DOULEURS-003" ID="{AF3DEC82-CE24-4F2B-AB01-ACA5DCE25519}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_PANT_Donner_Coup" ID="{BB20741B-3987-4115-BBF2-6AE1CBF9E4CB}" ShortID="824719551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_Donner_Coup" ID="{52048687-E165-40C0-A148-14CDDAE2E191}" ShortID="85287879">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_CRIS_DOULEURS-001" ID="{93DADA24-3493-4C1B-97D1-7034FB7FACEF}" ShortID="462192334">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-001" ID="{C5BEE449-2315-4F56-87D4-94CA28300A69}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0625134548611112"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.351368729046935"/>
+																<Property Name="LoopBegin" Type="Real64" Value="1.0541061871408"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.04763927801724"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.36688873922414"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\DONNER_COUP\PANTIN_CRIS_DOULEURS-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="103621532"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_CRIS_DOULEURS-001" ID="{C5BEE449-2315-4F56-87D4-94CA28300A69}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PANTIN_REAC-002" ID="{D0417080-F0D7-43E3-8658-9A885894C851}" ShortID="685674236">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-002" ID="{81EE30C7-AC0B-4247-9A13-73124F19B1C2}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0172413793103449"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.435344827586207"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.07327586206897"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.00431034482759"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="597277480"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-002" ID="{81EE30C7-AC0B-4247-9A13-73124F19B1C2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PANTIN_REAC-001" ID="{55E6DB18-8BC1-4749-8C83-228EEFE7D35D}" ShortID="422630219">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-001" ID="{8411EFEF-358F-4F32-A1F2-D1F9649E5D48}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.103448275862069"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.383620689655172"/>
+																<Property Name="LoopBegin" Type="Real64" Value="1.58405172413793"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.920258620689655"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.30172413793103"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="765612297"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-001" ID="{8411EFEF-358F-4F32-A1F2-D1F9649E5D48}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>

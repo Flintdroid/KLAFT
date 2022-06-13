@@ -14,7 +14,7 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="SB_Music" ID="{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}">
+				<SoundBank Name="SB_MUSIC" ID="{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="20"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -47,7 +47,7 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="PERSONNAGES" ID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}">
+				<SoundBank Name="SB_PERSONNAGES" ID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
