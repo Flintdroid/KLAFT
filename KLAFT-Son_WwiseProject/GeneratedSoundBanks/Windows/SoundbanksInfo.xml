@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -31,7 +31,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="1543100470">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="1815140089">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -44,56 +44,56 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{AC66B69D-B93C-4BC0-8B27-A59145965944}" DurationType="OneShot" DurationMin="0.629446" DurationMax="0.651002">
+				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{AC66B69D-B93C-4BC0-8B27-A59145965944}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3729616362" Name="Play_VOX_PANT_Donner_Coup" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\DONNER_COUP\Play_VOX_PANT_Donner_Coup" GUID="{46B7DB04-2EAA-42A7-A52D-BF3F38A88190}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{A1C76C94-AF12-4301-B3CD-586060C80F02}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3306837711" Name="Play_VOX_PANT_React" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\REACT\Play_VOX_PANT_React" GUID="{35E42578-A3F0-45B1-9B3F-AE993CA27515}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2272853405">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
+			<ShortName>SB_PERSONNAGES</ShortName>
+			<Path>SB_PERSONNAGES.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.629274" DurationMax="0.754104">
 					<IncludedMemoryFiles>
-						<File Id="197328391" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_C4365B5A.wem</Path>
+						<File Id="533397186" Language="SFX">
+							<ShortName>PERSO\Cloth ramper04.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>
 						</File>
-						<File Id="990892073" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_A74049F7.wem</Path>
+						<File Id="656218864" Language="SFX">
+							<ShortName>PERSO\Cloth ramper02.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper02_10C4C929.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3729616362" Name="Play_VOX_PANT_Donner_Coup" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\DONNER_COUP\Play_VOX_PANT_Donner_Coup" GUID="{46B7DB04-2EAA-42A7-A52D-BF3F38A88190}" DurationType="OneShot" DurationMin="0.931035" DurationMax="1.381466">
-					<IncludedMemoryFiles>
-						<File Id="597277480" Language="SFX">
-							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002_7C19950D.wem</Path>
+						<File Id="730074681" Language="SFX">
+							<ShortName>PERSO\Cloth ramper03.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper03_10C4C929.wem</Path>
 						</File>
-						<File Id="765612297" Language="SFX">
-							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001_038ADB99.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{A1C76C94-AF12-4301-B3CD-586060C80F02}" DurationType="OneShot" DurationMin="2.209527" DurationMax="2.209527">
-					<IncludedMemoryFiles>
-						<File Id="652187579" Language="SFX">
-							<ShortName>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003_5B0BA240.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3306837711" Name="Play_VOX_PANT_React" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\REACT\Play_VOX_PANT_React" GUID="{35E42578-A3F0-45B1-9B3F-AE993CA27515}" DurationType="OneShot" DurationMin="1.374046" DurationMax="1.980396">
-					<IncludedMemoryFiles>
-						<File Id="124562742" Language="SFX">
-							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_80A856C3.wem</Path>
-						</File>
-						<File Id="296882556" Language="SFX">
-							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_B29AE958.wem</Path>
+						<File Id="830527586" Language="SFX">
+							<ShortName>PERSO\Cloth ramper.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-		</SoundBank>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="967307041">
-			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
-			<ShortName>SB_PERSONNAGES</ShortName>
-			<Path>SB_PERSONNAGES.bnk</Path>
+			<IncludedMemoryFiles>
+				<File Id="533397186" Language="SFX">
+					<ShortName>PERSO\Cloth ramper04.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>
+				</File>
+				<File Id="656218864" Language="SFX">
+					<ShortName>PERSO\Cloth ramper02.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper02_10C4C929.wem</Path>
+				</File>
+				<File Id="730074681" Language="SFX">
+					<ShortName>PERSO\Cloth ramper03.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper03_10C4C929.wem</Path>
+				</File>
+				<File Id="830527586" Language="SFX">
+					<ShortName>PERSO\Cloth ramper.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

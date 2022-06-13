@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	374495388	Play_VOX_PANT_Cris_Douleur			\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur	
 	2152833002	Play_VOX_BARD_Appel			\Default Work Unit\VOX\BARDE\BARD_Appel\Play_VOX_BARD_Appel	
+	3306837711	Play_VOX_PANT_React			\Default Work Unit\VOX\PANTIN\REACT\Play_VOX_PANT_React	
+	3729616362	Play_VOX_PANT_Donner_Coup			\Default Work Unit\VOX\PANTIN\DONNER_COUP\Play_VOX_PANT_Donner_Coup	
+	4068130120	Play_VOX_PANT_Mort			\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	839806510	ONO_APPEL_BARDE-005	C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\SFX\VOX\BARDE\ONO_APPEL_BARDE-005_99D4DD0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOX\PERSONNAGES\Barde\VOX_BARD_Appel\VOX_BARD_Appel\ONO_APPEL_BARDE-005		186464
+	839806510	ONO_APPEL_BARDE-005	C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\SFX\VOX\BARDE\ONO_APPEL_BARDE-005_B2001863.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOX\PERSONNAGES\Barde\VOX_BARD_Appel\VOX_BARD_Appel\ONO_APPEL_BARDE-005		186464
 

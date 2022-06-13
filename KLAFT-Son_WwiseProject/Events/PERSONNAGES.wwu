@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_PERS_BRUI_VETO_AGONIE" ID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}">
+					<ChildrenList>
+						<Action Name="" ID="{ED2AFC29-D22F-4B38-A4C4-9FC21FAB3247}" ShortID="496327343">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PERS_BRUI_VETO_AGONIE" ID="{D2E55695-F6C9-4F12-9E0E-2AEDDD2ADA9F}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>
