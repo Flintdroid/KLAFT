@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2152833002	Play_VOX_BARD_Appel			\Default Work Unit\VOX\BARDE\BARD_Appel\Play_VOX_BARD_Appel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	839806510	ONO_APPEL_BARDE-005	C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\SFX\VOX\BARDE\ONO_APPEL_BARDE-005_99D4DD0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOX\PERSONNAGES\Barde\VOX_BARD_Appel\VOX_BARD_Appel\ONO_APPEL_BARDE-005		186464
+

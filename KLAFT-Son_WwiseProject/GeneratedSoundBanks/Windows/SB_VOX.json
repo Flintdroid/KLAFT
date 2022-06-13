@@ -5,105 +5,36 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "419142967",
+    "Hash": "1086303462",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
     "IncludedEvents": [
      {
-      "Id": "374495388",
-      "Name": "Play_VOX_PANT_Cris_Douleur",
-      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\CRIS_DOULEUR\\Play_VOX_PANT_Cris_Douleur",
-      "GUID": "{251D1968-78A0-47AF-8C2D-634D7BC1F045}",
+      "Id": "2152833002",
+      "Name": "Play_VOX_BARD_Appel",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BARDE\\BARD_Appel\\Play_VOX_BARD_Appel",
+      "GUID": "{152DE60F-AD74-4C45-AA78-39C4161AF6C9}",
       "DurationType": "OneShot",
-      "DurationMin": "0.629446",
-      "DurationMax": "0.651002",
+      "DurationMin": "0.970834",
+      "DurationMax": "0.970834",
       "IncludedMemoryFiles": [
        {
-        "Id": "197328391",
+        "Id": "839806510",
         "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002.wav",
-        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002_AE159215.wem"
-       },
-       {
-        "Id": "990892073",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001.wav",
-        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001_4C0F1D0D.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3729616362",
-      "Name": "Play_VOX_PANT_Donner_Coup",
-      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\DONNER_COUP\\Play_VOX_PANT_Donner_Coup",
-      "GUID": "{19026A7E-6AA7-4CE6-828A-F09CDB1A3ED7}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.931035",
-      "DurationMax": "1.381466",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "597277480",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002.wav",
-        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002_2A00FCD0.wem"
-       },
-       {
-        "Id": "765612297",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-001.wav",
-        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-001_68E4016D.wem"
-       }
-      ]
-     },
-     {
-      "Id": "4068130120",
-      "Name": "Play_VOX_PANT_Mort",
-      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\MORT\\Play_VOX_PANT_Mort",
-      "GUID": "{D3C7E525-A1D5-48BC-A4E8-C5BFA1EF59B4}",
-      "DurationType": "OneShot",
-      "DurationMin": "2.209527",
-      "DurationMax": "2.209527",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "652187579",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\MORT\\PANTIN_CRIS_DOULEURS-003.wav",
-        "Path": "SFX\\VOX\\PANTIN\\MORT\\PANTIN_CRIS_DOULEURS-003_BDD25A8E.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3306837711",
-      "Name": "Play_VOX_PANT_React",
-      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\REACT\\Play_VOX_PANT_React",
-      "GUID": "{E4B635C9-926C-471F-B786-9B13FAAA20B8}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.374046",
-      "DurationMax": "1.980396",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "124562742",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\REACT\\PANTIN_REAC-001.wav",
-        "Path": "SFX\\VOX\\PANTIN\\REACT\\PANTIN_REAC-001_80A856C3.wem"
-       },
-       {
-        "Id": "296882556",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\REACT\\PANTIN_REAC-002.wav",
-        "Path": "SFX\\VOX\\PANTIN\\REACT\\PANTIN_REAC-002_B29AE958.wem"
+        "ShortName": "VOX\\BARDE\\ONO_APPEL_BARDE-005.wav",
+        "Path": "SFX\\VOX\\BARDE\\ONO_APPEL_BARDE-005_99D4DD0B.wem"
        }
       ]
      }

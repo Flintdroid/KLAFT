@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "541248123",
+    "GUID": "{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}",
+    "Language": "SFX",
+    "Hash": "3883559930",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FX",
+    "ShortName": "SB_FX",
+    "Path": "SB_FX.bnk"
+   },
+   {
+    "Id": "779753582",
+    "GUID": "{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}",
+    "Language": "SFX",
+    "Hash": "299949866",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MUSIC",
+    "ShortName": "SB_MUSIC",
+    "Path": "SB_MUSIC.bnk"
+   },
+   {
+    "Id": "925885567",
+    "GUID": "{E9DDCC24-5B56-4CA4-9856-9D38428FA434}",
+    "Language": "SFX",
+    "Hash": "3858175676",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AMB",
+    "ShortName": "SB_AMB",
+    "Path": "SB_AMB.bnk"
+   },
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1552941487",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   },
+   {
+    "Id": "1425815436",
+    "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
+    "Language": "SFX",
+    "Hash": "1086303462",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
+    "ShortName": "SB_VOX",
+    "Path": "SB_VOX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2152833002",
+      "Name": "Play_VOX_BARD_Appel",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BARDE\\BARD_Appel\\Play_VOX_BARD_Appel",
+      "GUID": "{152DE60F-AD74-4C45-AA78-39C4161AF6C9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.970834",
+      "DurationMax": "0.970834",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "839806510",
+        "Language": "SFX",
+        "ShortName": "VOX\\BARDE\\ONO_APPEL_BARDE-005.wav",
+        "Path": "SFX\\VOX\\BARDE\\ONO_APPEL_BARDE-005_99D4DD0B.wem"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2823438860",
+    "GUID": "{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}",
+    "Language": "SFX",
+    "Hash": "967307041",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PERSONNAGES",
+    "ShortName": "SB_PERSONNAGES",
+    "Path": "SB_PERSONNAGES.bnk"
+   }
+  ]
+ }
+}

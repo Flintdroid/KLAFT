@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+KLAFT-Son_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml
+KLAFT-Son_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.json
+KLAFT-Son_WwiseProject/GeneratedSoundBanks/Windows/SB_VOX.xml
+KLAFT-Son_WwiseProject/GeneratedSoundBanks/Windows/SB_VOX.txt
+KLAFT-Son_WwiseProject/GeneratedSoundBanks/Windows/SB_VOX.json
+KLAFT-Son_WwiseProject/.cache/SoundBankInfoCache.dat
+KLAFT-Son_WwiseProject/.cache/SoundBankInfoCache.dat

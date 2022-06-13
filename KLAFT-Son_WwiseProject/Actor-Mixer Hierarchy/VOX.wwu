@@ -489,6 +489,52 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_BARD_Appel" ID="{61D86EBD-8190-4C34-A31F-832F43F07735}" ShortID="383183989">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_APPEL_BARDE-005" ID="{B80BA1E0-7DCD-4931-B198-7FE77C5D0B6C}" ShortID="895071117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_APPEL_BARDE-005" ID="{4BB3CEE8-2712-46E9-8A67-EFAA498D2C80}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0296588740458015"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.183885019083969"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.223430184478372"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.19426399491094"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\ONO_APPEL_BARDE-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="839806510"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_APPEL_BARDE-005" ID="{4BB3CEE8-2712-46E9-8A67-EFAA498D2C80}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="VOX_BARD_Enga_Cmb" ID="{F26E767A-E9B2-4D46-A84C-B2608F43A4E5}" ShortID="905889029">

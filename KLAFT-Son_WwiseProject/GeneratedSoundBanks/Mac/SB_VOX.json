@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1425815436",
+    "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
+    "Language": "SFX",
+    "Hash": "1086303462",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
+    "ShortName": "SB_VOX",
+    "Path": "SB_VOX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2152833002",
+      "Name": "Play_VOX_BARD_Appel",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BARDE\\BARD_Appel\\Play_VOX_BARD_Appel",
+      "GUID": "{152DE60F-AD74-4C45-AA78-39C4161AF6C9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.970834",
+      "DurationMax": "0.970834",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "839806510",
+        "Language": "SFX",
+        "ShortName": "VOX\\BARDE\\ONO_APPEL_BARDE-005.wav",
+        "Path": "SFX\\VOX\\BARDE\\ONO_APPEL_BARDE-005_99D4DD0B.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

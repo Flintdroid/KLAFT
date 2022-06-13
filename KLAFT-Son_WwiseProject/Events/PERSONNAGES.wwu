@@ -6,19 +6,6 @@
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
-			<ChildrenList>
-				<Event Name="Play_Herbe" ID="{BB93CFD9-DB02-4EA5-B042-0B0E1BE4CCB7}">
-					<ChildrenList>
-						<Action Name="" ID="{A1084BA7-202B-4EF6-AAFB-1C2888486657}" ShortID="504958565">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>
