@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="3702612490">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
+			<ShortName>SB_PERSONNAGES</ShortName>
+			<Path>SB_PERSONNAGES.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.629274" DurationMax="0.754104">
+					<IncludedMemoryFiles>
+						<File Id="533397186" Language="SFX">
+							<ShortName>PERSO\Cloth ramper04.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>
+						</File>
+						<File Id="656218864" Language="SFX">
+							<ShortName>PERSO\Cloth ramper02.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper02_10C4C929.wem</Path>
+						</File>
+						<File Id="730074681" Language="SFX">
+							<ShortName>PERSO\Cloth ramper03.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper03_10C4C929.wem</Path>
+						</File>
+						<File Id="830527586" Language="SFX">
+							<ShortName>PERSO\Cloth ramper.wav</ShortName>
+							<Path>SFX\PERSO\Cloth ramper_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="533397186" Language="SFX">
+					<ShortName>PERSO\Cloth ramper04.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>
+				</File>
+				<File Id="656218864" Language="SFX">
+					<ShortName>PERSO\Cloth ramper02.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper02_10C4C929.wem</Path>
+				</File>
+				<File Id="730074681" Language="SFX">
+					<ShortName>PERSO\Cloth ramper03.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper03_10C4C929.wem</Path>
+				</File>
+				<File Id="830527586" Language="SFX">
+					<ShortName>PERSO\Cloth ramper.wav</ShortName>
+					<Path>SFX\PERSO\Cloth ramper_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

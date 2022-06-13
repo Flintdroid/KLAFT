@@ -11,12 +11,12 @@
 					<ChildrenList>
 						<Folder Name="REACT" ID="{C7C5B36E-6BD3-4456-8A2D-0A4916A61161}" ShortID="238724667">
 							<ChildrenList>
-								<Event Name="Play_VOX_PANT_React" ID="{35E42578-A3F0-45B1-9B3F-AE993CA27515}">
+								<Event Name="Play_VOX_PANT_React" ID="{4F37D5FC-F52D-40DB-A2AE-0D216CDF1617}">
 									<ChildrenList>
-										<Action Name="" ID="{0224691B-0C58-4F37-9125-CE934CC69E4B}" ShortID="536029527">
+										<Action Name="" ID="{328E31AF-AC57-4A6F-9AC4-594868F05F67}" ShortID="496466884">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="VOX_PANT_React" ID="{F81B9F46-1FDD-4CBE-8545-4ECC3496CE8A}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+													<ObjectRef Name="VOX_PANT_React" ID="{4B2BDD55-137D-45B4-B275-E1200B606EED}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -26,12 +26,12 @@
 						</Folder>
 						<Folder Name="CRIS_DOULEUR" ID="{757AD63D-0FAB-4128-91B3-221684AED799}" ShortID="929020314">
 							<ChildrenList>
-								<Event Name="Play_VOX_PANT_Cris_Douleur" ID="{AC66B69D-B93C-4BC0-8B27-A59145965944}">
+								<Event Name="Play_VOX_PANT_Cris_Douleur" ID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}">
 									<ChildrenList>
-										<Action Name="" ID="{22460926-996A-412A-83FE-5F3D8073471C}" ShortID="694938025">
+										<Action Name="" ID="{1EDE4498-017D-4C4B-9793-FA739E5AA1F4}" ShortID="985621914">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="VOX_PANT_Cris_Douleur" ID="{303ECE73-6413-4B12-B919-C971CFFDFB2A}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+													<ObjectRef Name="VOX_PANT_Cris_Douleur" ID="{B61DBA68-8C2A-446E-9CD8-13746877D538}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -41,12 +41,12 @@
 						</Folder>
 						<Folder Name="MORT" ID="{393D7535-0B5C-499F-9234-B6F70F4CBC3C}" ShortID="455804438">
 							<ChildrenList>
-								<Event Name="Play_VOX_PANT_Mort" ID="{A1C76C94-AF12-4301-B3CD-586060C80F02}">
+								<Event Name="Play_VOX_PANT_Mort" ID="{FF357CB7-A517-40C9-A257-C670CD823B39}">
 									<ChildrenList>
-										<Action Name="" ID="{BFDC84C6-6D2D-4632-A270-BE87C9DB41B1}" ShortID="466418052">
+										<Action Name="" ID="{E2FCADF9-FC7A-460C-8B54-7E0DEB37D577}" ShortID="823780257">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="VOX_PANT_Mort" ID="{949A5838-4FEB-4B5D-89A7-5B9089D86A68}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+													<ObjectRef Name="VOX_PANT_Mort" ID="{8646516B-23F6-477E-8C30-9B032C375C3F}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -56,12 +56,12 @@
 						</Folder>
 						<Folder Name="DONNER_COUP" ID="{3D2F5062-ABC9-40E3-BB7D-27D533A60046}" ShortID="674796399">
 							<ChildrenList>
-								<Event Name="Play_VOX_PANT_Donner_Coup" ID="{46B7DB04-2EAA-42A7-A52D-BF3F38A88190}">
+								<Event Name="Play_VOX_PANT_Donner_Coup" ID="{53198A17-2EFB-4913-876C-E991C710B351}">
 									<ChildrenList>
-										<Action Name="" ID="{8A3D042A-3A71-4B0D-B8A5-33D52BA950B9}" ShortID="340720724">
+										<Action Name="" ID="{99E7C380-2A69-43E5-8AC0-16DBD811197F}" ShortID="831379522">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="VOX_PANT_Donner_Coup" ID="{52048687-E165-40C0-A148-14CDDAE2E191}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+													<ObjectRef Name="VOX_PANT_Donner_Coup" ID="{63938657-8D89-418A-A799-70188249C68F}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
