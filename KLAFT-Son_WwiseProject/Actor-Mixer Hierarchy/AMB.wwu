@@ -4,6 +4,11 @@
 		<WorkUnit Name="AMB" ID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}" OwnerID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" PersistMode="Nested">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>

@@ -185,6 +185,115 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="BRUITAGES" ID="{A5E9D730-0BEB-4BB6-AC81-118AEFC00E98}" ShortID="39341610">
+					<ChildrenList>
+						<RandomSequenceContainer Name="PERS_BRUI_VETO_AGONIE" ID="{D2E55695-F6C9-4F12-9E0E-2AEDDD2ADA9F}" ShortID="272472374">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PERSONNAGES" ID="{AEDF41C8-94D8-45D2-BB47-C616DB05C2A9}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Cloth ramper02" ID="{807C5F94-38EE-4FE6-BB39-2432078F9F4B}" ShortID="673304833">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth ramper02" ID="{66A6BBED-7725-4BDB-B117-E81B1F884589}">
+											<Language>SFX</Language>
+											<AudioFile>PERSO\Cloth ramper02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="656218864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth ramper02" ID="{66A6BBED-7725-4BDB-B117-E81B1F884589}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth ramper03" ID="{D21C0BAF-3B70-4CA2-AAF9-688907DEF3DC}" ShortID="498815146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth ramper03" ID="{D019DD24-112D-4A3E-87D9-9F5488191BC1}">
+											<Language>SFX</Language>
+											<AudioFile>PERSO\Cloth ramper03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="730074681"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth ramper03" ID="{D019DD24-112D-4A3E-87D9-9F5488191BC1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth ramper04" ID="{ED4410CA-E782-4D6D-9305-4AC41D764C53}" ShortID="937709131">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth ramper04" ID="{D0FE6AB1-040C-4E04-B1B7-B40CE60819FA}">
+											<Language>SFX</Language>
+											<AudioFile>PERSO\Cloth ramper04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="533397186"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth ramper04" ID="{D0FE6AB1-040C-4E04-B1B7-B40CE60819FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cloth ramper" ID="{95B8B16D-80DF-4E05-A580-782339C9E65A}" ShortID="846610685">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cloth ramper" ID="{64C03EDB-AD3A-4DBC-9570-2FA9EAE09FEE}">
+											<Language>SFX</Language>
+											<AudioFile>PERSO\Cloth ramper.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830527586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cloth ramper" ID="{64C03EDB-AD3A-4DBC-9570-2FA9EAE09FEE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

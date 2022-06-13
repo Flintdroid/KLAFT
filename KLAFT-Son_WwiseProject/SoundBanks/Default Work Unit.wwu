@@ -53,6 +53,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="PERSONNAGES" ID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PERSONNAGES" ID="{6F4BC1E7-0480-4F8E-9743-EC79151D8ADE}" WorkUnitID="{6F4BC1E7-0480-4F8E-9743-EC79151D8ADE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

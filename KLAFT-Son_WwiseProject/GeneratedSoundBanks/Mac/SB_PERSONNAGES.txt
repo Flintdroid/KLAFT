@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3931238372	Play_PERS_BRUI_VETO_AGONIE			\Default Work Unit\PERSONNAGES\Play_PERS_BRUI_VETO_AGONIE	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	533397186	Cloth ramper04	C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\SFX\PERSO\Cloth ramper04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PERSONNAGES\BRUITAGES\PERS_BRUI_VETO_AGONIE\Cloth ramper04		133088
+	656218864	Cloth ramper02	C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\SFX\PERSO\Cloth ramper02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PERSONNAGES\BRUITAGES\PERS_BRUI_VETO_AGONIE\Cloth ramper02		119156
+	730074681	Cloth ramper03	C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\SFX\PERSO\Cloth ramper03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PERSONNAGES\BRUITAGES\PERS_BRUI_VETO_AGONIE\Cloth ramper03		111068
+	830527586	Cloth ramper	C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\SFX\PERSO\Cloth ramper_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PERSONNAGES\BRUITAGES\PERS_BRUI_VETO_AGONIE\Cloth ramper		117720
+

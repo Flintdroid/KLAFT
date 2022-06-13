@@ -1,0 +1,89 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2823438860",
+    "GUID": "{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}",
+    "Language": "SFX",
+    "Hash": "1681944009",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PERSONNAGES",
+    "ShortName": "SB_PERSONNAGES",
+    "Path": "SB_PERSONNAGES.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3931238372",
+      "Name": "Play_PERS_BRUI_VETO_AGONIE",
+      "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Play_PERS_BRUI_VETO_AGONIE",
+      "GUID": "{15A64A2E-077A-429E-A832-127138408292}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.629274",
+      "DurationMax": "0.754104",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "533397186",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper04.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper04_10C4C929.wem"
+       },
+       {
+        "Id": "656218864",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper02.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper02_10C4C929.wem"
+       },
+       {
+        "Id": "730074681",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper03.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper03_10C4C929.wem"
+       },
+       {
+        "Id": "830527586",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "533397186",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper04.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper04_10C4C929.wem"
+     },
+     {
+      "Id": "656218864",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper02.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper02_10C4C929.wem"
+     },
+     {
+      "Id": "730074681",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper03.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper03_10C4C929.wem"
+     },
+     {
+      "Id": "830527586",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper_10C4C929.wem"
+     }
+    ]
+   }
+  ]
+ }
+}
