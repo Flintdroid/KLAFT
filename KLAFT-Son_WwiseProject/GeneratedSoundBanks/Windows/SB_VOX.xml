@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="1188876771">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2101323138">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -21,15 +21,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.638068" DurationMax="0.939857">
+				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.86441" DurationMax="0.939857">
 					<IncludedMemoryFiles>
 						<File Id="197328391" Language="SFX">
 							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_9CD0998E.wem</Path>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_81DD5824.wem</Path>
 						</File>
 						<File Id="990892073" Language="SFX">
 							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_8EC9F769.wem</Path>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_446329EE.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -37,11 +37,11 @@
 					<IncludedMemoryFiles>
 						<File Id="597277480" Language="SFX">
 							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002_E4AB5EC3.wem</Path>
+							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002_AD6F8379.wem</Path>
 						</File>
 						<File Id="765612297" Language="SFX">
 							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001_BBC1BDDE.wem</Path>
+							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001_80950B1C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +49,7 @@
 					<IncludedMemoryFiles>
 						<File Id="652187579" Language="SFX">
 							<ShortName>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003_DB9EE1A2.wem</Path>
+							<Path>SFX\VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003_DC2126E0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,11 +57,11 @@
 					<IncludedMemoryFiles>
 						<File Id="124562742" Language="SFX">
 							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_BD19F516.wem</Path>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_826EB2F4.wem</Path>
 						</File>
 						<File Id="296882556" Language="SFX">
 							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_BBBDE162.wem</Path>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_51D5D875.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

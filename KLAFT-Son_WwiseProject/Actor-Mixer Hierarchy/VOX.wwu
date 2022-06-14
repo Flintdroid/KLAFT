@@ -214,11 +214,11 @@
 														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-002" ID="{59B68401-3E72-49DE-BA8B-FA8038224CF6}">
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.0258676364942529"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.280232728687739"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.174606546336206"/>
 																<Property Name="FadeOutShape" Type="int16" Value="0"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.40094836566092"/>
-																<Property Name="TrimEnd" Type="Real64" Value="1.03901673251916"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.26535855184387"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</AudioFile>

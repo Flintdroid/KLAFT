@@ -16,7 +16,7 @@
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "2749005104",
+    "Hash": "2028540639",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
@@ -44,14 +44,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\CRIS_DOULEUR\\Play_VOX_PANT_Cris_Douleur",
       "GUID": "{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}",
       "DurationType": "OneShot",
-      "DurationMin": "0.638068",
+      "DurationMin": "0.86441",
       "DurationMax": "0.939857",
       "IncludedMemoryFiles": [
        {
         "Id": "197328391",
         "Language": "SFX",
         "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002.wav",
-        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002_FF3C2305.wem"
+        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem"
        },
        {
         "Id": "990892073",
