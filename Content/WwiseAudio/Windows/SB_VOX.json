@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "2028540639",
+    "Hash": "3228405977",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
@@ -35,6 +35,64 @@
         "Language": "SFX",
         "ShortName": "VOX\\BARDE\\ONO_APPEL_BARDE-005.wav",
         "Path": "SFX\\VOX\\BARDE\\ONO_APPEL_BARDE-005_B2001863.wem"
+       }
+      ]
+     },
+     {
+      "Id": "319568522",
+      "Name": "Play_VOX_BARD_Enga_Cmb",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BARDE\\BARD_Enga_Cmb\\Play_VOX_BARD_Enga_Cmb",
+      "GUID": "{B1ABF677-273A-4776-B826-743A79B26154}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.034371",
+      "DurationMax": "1.366643",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "556459483",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-006.wav",
+        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-006_0DBD7F1A.wem"
+       },
+       {
+        "Id": "669547984",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-009.wav",
+        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-009_249BEBCA.wem"
+       },
+       {
+        "Id": "972430348",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-008.wav",
+        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-008_3777DF1B.wem"
+       }
+      ]
+     },
+     {
+      "Id": "140324371",
+      "Name": "Play_VOX_BARD_HIT",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BARDE\\BARD_Hit\\Play_VOX_BARD_HIT",
+      "GUID": "{E9E6C1CA-7895-404A-9D7B-0C714EF1775A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.365184",
+      "DurationMax": "0.561286",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "78133750",
+        "Language": "SFX",
+        "ShortName": "VOX\\BARDE\\Hit\\ONO_HIT_BARDE-010.wav",
+        "Path": "SFX\\VOX\\BARDE\\Hit\\ONO_HIT_BARDE-010_50EE1F45.wem"
+       },
+       {
+        "Id": "520588617",
+        "Language": "SFX",
+        "ShortName": "VOX\\BARDE\\Hit\\ONO_HIT_BARDE-004.wav",
+        "Path": "SFX\\VOX\\BARDE\\Hit\\ONO_HIT_BARDE-004_B455F7D9.wem"
+       },
+       {
+        "Id": "923213743",
+        "Language": "SFX",
+        "ShortName": "VOX\\BARDE\\Hit\\ONO_HIT_BARDE-006.wav",
+        "Path": "SFX\\VOX\\BARDE\\Hit\\ONO_HIT_BARDE-006_B08539E2.wem"
        }
       ]
      },

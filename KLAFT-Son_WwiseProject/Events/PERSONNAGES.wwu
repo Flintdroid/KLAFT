@@ -7,17 +7,40 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_PERS_BRUI_VETO_AGONIE" ID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}">
+				<Folder Name="Barde" ID="{C7132313-A0FA-4267-B5A6-37352AF6FCFC}" ShortID="262941858">
 					<ChildrenList>
-						<Action Name="" ID="{ED2AFC29-D22F-4B38-A4C4-9FC21FAB3247}" ShortID="496327343">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PERS_BRUI_VETO_AGONIE" ID="{D2E55695-F6C9-4F12-9E0E-2AEDDD2ADA9F}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Folder Name="BARD_Impact" ID="{7FE90E66-0DD7-42A2-BD70-06C013617B87}" ShortID="995595113">
+							<ChildrenList>
+								<Event Name="Play_VOX_BARD_Impact" ID="{CA7E40FC-D177-4807-AFC6-5C56A16D313B}">
+									<ChildrenList>
+										<Action Name="" ID="{B4B96374-2478-4DE9-B318-74A1C0CBC7A6}" ShortID="1001777454">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VOX_BARD_Impact" ID="{326C321B-FA86-4C59-BF44-EC9B82A1AC93}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Veto" ID="{973AA684-A7F5-45A8-A26D-D89D1BA2763B}" ShortID="993900435">
+					<ChildrenList>
+						<Event Name="Play_PERS_BRUI_VETO_AGONIE" ID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}">
+							<ChildrenList>
+								<Action Name="" ID="{ED2AFC29-D22F-4B38-A4C4-9FC21FAB3247}" ShortID="496327343">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PERS_BRUI_VETO_AGONIE" ID="{D2E55695-F6C9-4F12-9E0E-2AEDDD2ADA9F}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

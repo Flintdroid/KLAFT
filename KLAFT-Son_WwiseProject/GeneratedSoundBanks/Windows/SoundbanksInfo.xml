@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,7 +21,7 @@
 			<ShortName>SB_MUSIC</ShortName>
 			<Path>SB_MUSIC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="1155854745">
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="3159878336">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
 			<ShortName>SB_AMB</ShortName>
 			<Path>SB_AMB.bnk</Path>
@@ -30,27 +30,27 @@
 					<IncludedMemoryFiles>
 						<File Id="86148298" Language="SFX">
 							<ShortName>AMB\Cristallerie\Pickaxe\Mining_Axe_1.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_1_545456D7.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_1_99FD4275.wem</Path>
 						</File>
 						<File Id="131839311" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_3.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_3_67C892A5.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_3_77FB4061.wem</Path>
 						</File>
 						<File Id="283160276" Language="SFX">
 							<ShortName>AMB\Cristallerie\Minecart\Minecart_1.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Minecart\Minecart_1_E1A4DA20.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Minecart\Minecart_1_CF7F468D.wem</Path>
 						</File>
 						<File Id="480632708" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_2.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_2_1D02327C.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_2_9F740125.wem</Path>
 						</File>
 						<File Id="562705575" Language="SFX">
 							<ShortName>AMB\Cristallerie\Pickaxe\Mining_Axe_2.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_2_8D035C46.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_2_7092632E.wem</Path>
 						</File>
 						<File Id="758956671" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_5.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_5_DB77E5AD.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_5_F634FAE0.wem</Path>
 						</File>
 						<File Id="812772404" Language="SFX">
 							<ShortName>AMB\Cristallerie\Minecart\Minecart_2.wav</ShortName>
@@ -58,11 +58,11 @@
 						</File>
 						<File Id="910219664" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_4.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_4_AEE7F07B.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_4_B2B19389.wem</Path>
 						</File>
 						<File Id="1027366607" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_1.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_1_A2E1E700.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_1_5D6739A1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -70,19 +70,19 @@
 					<IncludedMemoryFiles>
 						<File Id="294707068" Language="SFX">
 							<ShortName>AMB\Foret\Birds\Birds_1.wav</ShortName>
-							<Path>SFX\AMB\Foret\Birds\Birds_1_E3FA0587.wem</Path>
+							<Path>SFX\AMB\Foret\Birds\Birds_1_1C6CA7FF.wem</Path>
 						</File>
 						<File Id="415218091" Language="SFX">
 							<ShortName>AMB\Foret\Birds\Birds_2.wav</ShortName>
-							<Path>SFX\AMB\Foret\Birds\Birds_2_52790941.wem</Path>
+							<Path>SFX\AMB\Foret\Birds\Birds_2_29DD330A.wem</Path>
 						</File>
 						<File Id="516687177" Language="SFX">
 							<ShortName>AMB\Foret\Birds\Birds_3.wav</ShortName>
-							<Path>SFX\AMB\Foret\Birds\Birds_3_1B0AC25B.wem</Path>
+							<Path>SFX\AMB\Foret\Birds\Birds_3_86D9E352.wem</Path>
 						</File>
 						<File Id="588287137" Language="SFX">
 							<ShortName>AMB\Foret\Wind\Foret_Wind.wav</ShortName>
-							<Path>SFX\AMB\Foret\Wind\Foret_Wind_F57E495E.wem</Path>
+							<Path>SFX\AMB\Foret\Wind\Foret_Wind_97BEB31B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -98,7 +98,7 @@
 						</File>
 						<File Id="832968079" Language="SFX">
 							<ShortName>AMB\Plaine\Wind\Plaine_Wind.wav</ShortName>
-							<Path>SFX\AMB\Plaine\Wind\Plaine_Wind_1A5F37DD.wem</Path>
+							<Path>SFX\AMB\Plaine\Wind\Plaine_Wind_652B1392.wem</Path>
 						</File>
 						<File Id="940172562" Language="SFX">
 							<ShortName>AMB\Plaine\Birds\Plaine_Birds_Distant_4.wav</ShortName>
@@ -114,19 +114,19 @@
 					<IncludedMemoryFiles>
 						<File Id="213264294" Language="SFX">
 							<ShortName>AMB\Village\Market\Village_Market_1.wav</ShortName>
-							<Path>SFX\AMB\Village\Market\Village_Market_1_540975D6.wem</Path>
+							<Path>SFX\AMB\Village\Market\Village_Market_1_E0048DF8.wem</Path>
 						</File>
 						<File Id="453237215" Language="SFX">
 							<ShortName>AMB\Village\Market\Village_Market_2.wav</ShortName>
-							<Path>SFX\AMB\Village\Market\Village_Market_2_FACEBD04.wem</Path>
+							<Path>SFX\AMB\Village\Market\Village_Market_2_FB641FA2.wem</Path>
 						</File>
 						<File Id="579982564" Language="SFX">
 							<ShortName>AMB\Village\Wind\Village_Wind_etc.wav</ShortName>
-							<Path>SFX\AMB\Village\Wind\Village_Wind_etc_BCB3885C.wem</Path>
+							<Path>SFX\AMB\Village\Wind\Village_Wind_etc_519D2339.wem</Path>
 						</File>
 						<File Id="935250185" Language="SFX">
 							<ShortName>AMB\Village\Market\Village_Market_3.wav</ShortName>
-							<Path>SFX\AMB\Village\Market\Village_Market_3_E2C89405.wem</Path>
+							<Path>SFX\AMB\Village\Market\Village_Market_3_5B14C297.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -137,7 +137,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2101323138">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="1801800888">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -150,11 +150,43 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="319568522" Name="Play_VOX_BARD_Enga_Cmb" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Enga_Cmb\Play_VOX_BARD_Enga_Cmb" GUID="{B1ABF677-273A-4776-B826-743A79B26154}" DurationType="OneShot" DurationMin="1.034371" DurationMax="1.366643">
+					<IncludedMemoryFiles>
+						<File Id="556459483" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006_D8EE3493.wem</Path>
+						</File>
+						<File Id="669547984" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009_442838F8.wem</Path>
+						</File>
+						<File Id="972430348" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008_E80F49CA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="140324371" Name="Play_VOX_BARD_HIT" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Hit\Play_VOX_BARD_HIT" GUID="{E9E6C1CA-7895-404A-9D7B-0C714EF1775A}" DurationType="OneShot" DurationMin="0.365184" DurationMax="0.561286">
+					<IncludedMemoryFiles>
+						<File Id="78133750" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-010.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-010_50EE1F45.wem</Path>
+						</File>
+						<File Id="520588617" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-004.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-004_B455F7D9.wem</Path>
+						</File>
+						<File Id="923213743" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-006.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-006_B08539E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.86441" DurationMax="0.939857">
 					<IncludedMemoryFiles>
 						<File Id="197328391" Language="SFX">
 							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_81DD5824.wem</Path>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem</Path>
 						</File>
 						<File Id="990892073" Language="SFX">
 							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
@@ -196,12 +228,12 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="3702612490">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2419821292">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.629274" DurationMax="0.754104">
+				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Veto\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.629274" DurationMax="0.754104">
 					<IncludedMemoryFiles>
 						<File Id="533397186" Language="SFX">
 							<ShortName>PERSO\Cloth ramper04.wav</ShortName>
@@ -221,8 +253,28 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2269187458" Name="Play_VOX_BARD_Impact" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Barde\BARD_Impact\Play_VOX_BARD_Impact" GUID="{CA7E40FC-D177-4807-AFC6-5C56A16D313B}" DurationType="OneShot" DurationMin="0.188406" DurationMax="0.451935">
+					<IncludedMemoryFiles>
+						<File Id="5884502" Language="SFX">
+							<ShortName>PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem</Path>
+						</File>
+						<File Id="371963788" Language="SFX">
+							<ShortName>PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="5884502" Language="SFX">
+					<ShortName>PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav</ShortName>
+					<Path>SFX\PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem</Path>
+				</File>
+				<File Id="371963788" Language="SFX">
+					<ShortName>PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav</ShortName>
+					<Path>SFX\PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem</Path>
+				</File>
 				<File Id="533397186" Language="SFX">
 					<ShortName>PERSO\Cloth ramper04.wav</ShortName>
 					<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>

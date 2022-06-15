@@ -503,6 +503,129 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_BARD_Enga_Cmb" ID="{DF57CFC1-FE2B-4AC1-885B-2729FA70D595}" ShortID="333583171">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{913CA9BD-A698-48EC-B202-BB564B95F47D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_ENGAAG_COMBAT_BARDE-006" ID="{4E67145E-77CD-4BA0-81CA-CD415959C89A}" ShortID="834708752">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAAG_COMBAT_BARDE-006" ID="{00379A35-B450-4905-B127-C255DCA45626}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.159815521628499"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.091323155216285"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.01977523324852"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.11565309584394"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="556459483"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAAG_COMBAT_BARDE-006" ID="{00379A35-B450-4905-B127-C255DCA45626}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAAG_COMBAT_BARDE-008" ID="{F56ADF02-494F-4C57-9DD4-D0F8DC3ED75B}" ShortID="126765458">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAAG_COMBAT_BARDE-008" ID="{049DC55C-CF3D-479A-A491-2D142B37FF8D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.201671967769296"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.27016433418151"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.722974978795589"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.8607092875318"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="972430348"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAAG_COMBAT_BARDE-008" ID="{049DC55C-CF3D-479A-A491-2D142B37FF8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAAG_COMBAT_BARDE-009" ID="{BA5F6876-B90B-46AC-AD79-C5048F53DD17}" ShortID="611021118">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAAG_COMBAT_BARDE-009" ID="{2815B8BE-B0B8-4BE1-8C41-1441C2FCECA9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.091323155216285"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0684923664122137"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.627846692111957"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.91778625954198"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="669547984"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAAG_COMBAT_BARDE-009" ID="{2815B8BE-B0B8-4BE1-8C41-1441C2FCECA9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="VOX_BARD_Cris_Victoire" ID="{AB6FAE17-B2CF-4219-A705-937CFA93CC93}" ShortID="562335288">
@@ -525,6 +648,129 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_BARD_HIT" ID="{ABE1E188-F6FC-4D4B-B33C-09FCFA53D7DA}" ShortID="513569059">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1CC5381B-B8A5-48F0-AE42-23A6A9E5AE3D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_HIT_BARDE-004" ID="{48F4DBF9-7204-453D-BB6B-35114176BEC2}" ShortID="527952693">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_BARDE-004" ID="{83B68831-4805-48B6-915C-303065063170}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0563541666666666"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0544756944444444"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.338125"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.852826388888889"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\Hit\ONO_HIT_BARDE-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="520588617"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_BARDE-004" ID="{83B68831-4805-48B6-915C-303065063170}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_BARDE-006" ID="{31C65556-D00D-423D-A243-5A3E72029CBC}" ShortID="120822539">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_BARDE-006" ID="{1E866B37-0DBE-4DC1-BA59-F035A0131962}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0244201388888889"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0695034722222223"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.375694444444444"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.773930555555555"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\Hit\ONO_HIT_BARDE-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="923213743"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_BARDE-006" ID="{1E866B37-0DBE-4DC1-BA59-F035A0131962}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_BARDE-010" ID="{310FDCF2-8BB2-40A6-AABE-58C30D4AA8ED}" ShortID="186017643">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_BARDE-010" ID="{C3D70514-0942-45CA-AD49-194284B97A14}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0450833333333333"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.139006944444444"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.279892361111111"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.734482638888889"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\Hit\ONO_HIT_BARDE-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="78133750"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_BARDE-010" ID="{C3D70514-0942-45CA-AD49-194284B97A14}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 							</ChildrenList>

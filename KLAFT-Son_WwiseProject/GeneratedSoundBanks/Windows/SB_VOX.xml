@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2101323138">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="1801800888">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -21,11 +21,43 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="319568522" Name="Play_VOX_BARD_Enga_Cmb" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Enga_Cmb\Play_VOX_BARD_Enga_Cmb" GUID="{B1ABF677-273A-4776-B826-743A79B26154}" DurationType="OneShot" DurationMin="1.034371" DurationMax="1.366643">
+					<IncludedMemoryFiles>
+						<File Id="556459483" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006_D8EE3493.wem</Path>
+						</File>
+						<File Id="669547984" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009_442838F8.wem</Path>
+						</File>
+						<File Id="972430348" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008_E80F49CA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="140324371" Name="Play_VOX_BARD_HIT" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Hit\Play_VOX_BARD_HIT" GUID="{E9E6C1CA-7895-404A-9D7B-0C714EF1775A}" DurationType="OneShot" DurationMin="0.365184" DurationMax="0.561286">
+					<IncludedMemoryFiles>
+						<File Id="78133750" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-010.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-010_50EE1F45.wem</Path>
+						</File>
+						<File Id="520588617" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-004.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-004_B455F7D9.wem</Path>
+						</File>
+						<File Id="923213743" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-006.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-006_B08539E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.86441" DurationMax="0.939857">
 					<IncludedMemoryFiles>
 						<File Id="197328391" Language="SFX">
 							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_81DD5824.wem</Path>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem</Path>
 						</File>
 						<File Id="990892073" Language="SFX">
 							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>

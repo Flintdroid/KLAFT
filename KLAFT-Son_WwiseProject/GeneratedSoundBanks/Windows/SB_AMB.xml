@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="1155854745">
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="3159878336">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
 			<ShortName>SB_AMB</ShortName>
 			<Path>SB_AMB.bnk</Path>
@@ -17,27 +17,27 @@
 					<IncludedMemoryFiles>
 						<File Id="86148298" Language="SFX">
 							<ShortName>AMB\Cristallerie\Pickaxe\Mining_Axe_1.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_1_545456D7.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_1_99FD4275.wem</Path>
 						</File>
 						<File Id="131839311" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_3.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_3_67C892A5.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_3_77FB4061.wem</Path>
 						</File>
 						<File Id="283160276" Language="SFX">
 							<ShortName>AMB\Cristallerie\Minecart\Minecart_1.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Minecart\Minecart_1_E1A4DA20.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Minecart\Minecart_1_CF7F468D.wem</Path>
 						</File>
 						<File Id="480632708" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_2.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_2_1D02327C.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_2_9F740125.wem</Path>
 						</File>
 						<File Id="562705575" Language="SFX">
 							<ShortName>AMB\Cristallerie\Pickaxe\Mining_Axe_2.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_2_8D035C46.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Pickaxe\Mining_Axe_2_7092632E.wem</Path>
 						</File>
 						<File Id="758956671" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_5.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_5_DB77E5AD.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_5_F634FAE0.wem</Path>
 						</File>
 						<File Id="812772404" Language="SFX">
 							<ShortName>AMB\Cristallerie\Minecart\Minecart_2.wav</ShortName>
@@ -45,11 +45,11 @@
 						</File>
 						<File Id="910219664" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_4.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_4_AEE7F07B.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_4_B2B19389.wem</Path>
 						</File>
 						<File Id="1027366607" Language="SFX">
 							<ShortName>AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_1.wav</ShortName>
-							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_1_A2E1E700.wem</Path>
+							<Path>SFX\AMB\Cristallerie\Gemmes\SW_GEMME_SCINTILLEMENT_SAIN_1_5D6739A1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,19 +57,19 @@
 					<IncludedMemoryFiles>
 						<File Id="294707068" Language="SFX">
 							<ShortName>AMB\Foret\Birds\Birds_1.wav</ShortName>
-							<Path>SFX\AMB\Foret\Birds\Birds_1_E3FA0587.wem</Path>
+							<Path>SFX\AMB\Foret\Birds\Birds_1_1C6CA7FF.wem</Path>
 						</File>
 						<File Id="415218091" Language="SFX">
 							<ShortName>AMB\Foret\Birds\Birds_2.wav</ShortName>
-							<Path>SFX\AMB\Foret\Birds\Birds_2_52790941.wem</Path>
+							<Path>SFX\AMB\Foret\Birds\Birds_2_29DD330A.wem</Path>
 						</File>
 						<File Id="516687177" Language="SFX">
 							<ShortName>AMB\Foret\Birds\Birds_3.wav</ShortName>
-							<Path>SFX\AMB\Foret\Birds\Birds_3_1B0AC25B.wem</Path>
+							<Path>SFX\AMB\Foret\Birds\Birds_3_86D9E352.wem</Path>
 						</File>
 						<File Id="588287137" Language="SFX">
 							<ShortName>AMB\Foret\Wind\Foret_Wind.wav</ShortName>
-							<Path>SFX\AMB\Foret\Wind\Foret_Wind_F57E495E.wem</Path>
+							<Path>SFX\AMB\Foret\Wind\Foret_Wind_97BEB31B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -85,7 +85,7 @@
 						</File>
 						<File Id="832968079" Language="SFX">
 							<ShortName>AMB\Plaine\Wind\Plaine_Wind.wav</ShortName>
-							<Path>SFX\AMB\Plaine\Wind\Plaine_Wind_1A5F37DD.wem</Path>
+							<Path>SFX\AMB\Plaine\Wind\Plaine_Wind_652B1392.wem</Path>
 						</File>
 						<File Id="940172562" Language="SFX">
 							<ShortName>AMB\Plaine\Birds\Plaine_Birds_Distant_4.wav</ShortName>
@@ -101,19 +101,19 @@
 					<IncludedMemoryFiles>
 						<File Id="213264294" Language="SFX">
 							<ShortName>AMB\Village\Market\Village_Market_1.wav</ShortName>
-							<Path>SFX\AMB\Village\Market\Village_Market_1_540975D6.wem</Path>
+							<Path>SFX\AMB\Village\Market\Village_Market_1_E0048DF8.wem</Path>
 						</File>
 						<File Id="453237215" Language="SFX">
 							<ShortName>AMB\Village\Market\Village_Market_2.wav</ShortName>
-							<Path>SFX\AMB\Village\Market\Village_Market_2_FACEBD04.wem</Path>
+							<Path>SFX\AMB\Village\Market\Village_Market_2_FB641FA2.wem</Path>
 						</File>
 						<File Id="579982564" Language="SFX">
 							<ShortName>AMB\Village\Wind\Village_Wind_etc.wav</ShortName>
-							<Path>SFX\AMB\Village\Wind\Village_Wind_etc_BCB3885C.wem</Path>
+							<Path>SFX\AMB\Village\Wind\Village_Wind_etc_519D2339.wem</Path>
 						</File>
 						<File Id="935250185" Language="SFX">
 							<ShortName>AMB\Village\Market\Village_Market_3.wav</ShortName>
-							<Path>SFX\AMB\Village\Market\Village_Market_3_E2C89405.wem</Path>
+							<Path>SFX\AMB\Village\Market\Village_Market_3_5B14C297.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

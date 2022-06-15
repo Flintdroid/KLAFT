@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2272853405">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2419821292">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.629274" DurationMax="0.754104">
+				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Veto\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.629274" DurationMax="0.754104">
 					<IncludedMemoryFiles>
 						<File Id="533397186" Language="SFX">
 							<ShortName>PERSO\Cloth ramper04.wav</ShortName>
@@ -33,8 +33,28 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2269187458" Name="Play_VOX_BARD_Impact" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Barde\BARD_Impact\Play_VOX_BARD_Impact" GUID="{CA7E40FC-D177-4807-AFC6-5C56A16D313B}" DurationType="OneShot" DurationMin="0.188406" DurationMax="0.451935">
+					<IncludedMemoryFiles>
+						<File Id="5884502" Language="SFX">
+							<ShortName>PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem</Path>
+						</File>
+						<File Id="371963788" Language="SFX">
+							<ShortName>PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="5884502" Language="SFX">
+					<ShortName>PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav</ShortName>
+					<Path>SFX\PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem</Path>
+				</File>
+				<File Id="371963788" Language="SFX">
+					<ShortName>PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav</ShortName>
+					<Path>SFX\PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem</Path>
+				</File>
 				<File Id="533397186" Language="SFX">
 					<ShortName>PERSO\Cloth ramper04.wav</ShortName>
 					<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>

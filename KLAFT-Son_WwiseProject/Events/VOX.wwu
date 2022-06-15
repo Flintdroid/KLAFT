@@ -88,6 +88,36 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="BARD_Hit" ID="{428A38AC-8EE8-486B-BDA3-FE2DEA01CB9E}" ShortID="747572127">
+							<ChildrenList>
+								<Event Name="Play_VOX_BARD_HIT" ID="{E9E6C1CA-7895-404A-9D7B-0C714EF1775A}">
+									<ChildrenList>
+										<Action Name="" ID="{30E68EAD-7370-4BB4-805C-99F64AD83AD0}" ShortID="337480346">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VOX_BARD_HIT" ID="{ABE1E188-F6FC-4D4B-B33C-09FCFA53D7DA}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BARD_Enga_Cmb" ID="{3AD4D95A-5B87-4E8D-8237-0C4440623141}" ShortID="859236654">
+							<ChildrenList>
+								<Event Name="Play_VOX_BARD_Enga_Cmb" ID="{B1ABF677-273A-4776-B826-743A79B26154}">
+									<ChildrenList>
+										<Action Name="" ID="{8574C820-C87C-4156-BDCD-360FE38D0975}" ShortID="886872995">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VOX_BARD_Enga_Cmb" ID="{DF57CFC1-FE2B-4AC1-885B-2729FA70D595}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

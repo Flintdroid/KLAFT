@@ -294,6 +294,120 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Barde" ID="{37608754-02FE-46AF-A80E-616228DF63E9}" ShortID="846858067">
+					<ChildrenList>
+						<RandomSequenceContainer Name="VOX_BARD_Impact" ID="{326C321B-FA86-4C59-BF44-EC9B82A1AC93}" ShortID="85353608">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>23</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D850985F-B358-43EF-B8F3-BEDECA5568D5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="7"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7C899C0F-6B15-4A60-8414-E6C3D530877C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn" ID="{371ABAAB-40AE-4280-A371-2C2764E9411D}" ShortID="736208123">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn" ID="{3A54696E-DEAC-4CDD-B142-8255697C387D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0241626421560991"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0351456613179623"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0702913226359246"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.484717245676897"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="371963788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn" ID="{3A54696E-DEAC-4CDD-B142-8255697C387D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn" ID="{E4F47238-F1B8-40D0-86DF-E7F5040682E4}" ShortID="686153594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn" ID="{93A52F42-6FE0-47DD-91B2-B962C817F9DC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0117100275224594"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0290976441467172"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0734538090045178"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5884502"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn" ID="{93A52F42-6FE0-47DD-91B2-B962C817F9DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
