@@ -74,6 +74,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="VOX_PANT_React" ID="{4B2BDD55-137D-45B4-B275-E1200B606EED}" ShortID="737262580">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
@@ -161,6 +168,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="VOX_PANT_Cris_Douleur" ID="{B61DBA68-8C2A-446E-9CD8-13746877D538}" ShortID="16371124">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
@@ -249,6 +263,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="VOX_PANT_Mort" ID="{8646516B-23F6-477E-8C30-9B032C375C3F}" ShortID="877255251">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
@@ -306,6 +327,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="VOX_PANT_Donner_Coup" ID="{63938657-8D89-418A-A799-70188249C68F}" ShortID="547727882">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
@@ -327,10 +355,10 @@
 													<ChildrenList>
 														<AudioFileSource Name="PANTIN_REAC-001" ID="{31244251-0007-476E-AD7F-A949C26E33EB}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0517241379310345"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0150862068965519"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.53448275862069"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.959051724137931"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.771551724137931"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.16810344827586"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -357,10 +385,11 @@
 													<ChildrenList>
 														<AudioFileSource Name="PANTIN_REAC-002" ID="{54A43D89-1B3C-483F-A8C5-F628A0A53D02}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0840517241379309"/>
+																<Property Name="CrossfadeShape" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0172413793103451"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.418103448275862"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.07112068965517"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.816810344827582"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.88577586206896"/>
 															</PropertyList>
 															<Language>SFX</Language>

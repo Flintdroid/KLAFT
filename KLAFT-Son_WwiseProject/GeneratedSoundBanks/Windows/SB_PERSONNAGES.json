@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "2823438860",
     "GUID": "{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}",
     "Language": "SFX",
-    "Hash": "2419821292",
+    "Hash": "2361247011",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PERSONNAGES",
     "ShortName": "SB_PERSONNAGES",
     "Path": "SB_PERSONNAGES.bnk",

@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -37,7 +37,7 @@
     "Id": "925885567",
     "GUID": "{E9DDCC24-5B56-4CA4-9856-9D38428FA434}",
     "Language": "SFX",
-    "Hash": "3159878336",
+    "Hash": "3542222645",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AMB",
     "ShortName": "SB_AMB",
     "Path": "SB_AMB.bnk",
@@ -225,7 +225,7 @@
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "1801800888",
+    "Hash": "3468784670",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
@@ -260,19 +260,19 @@
         "Id": "556459483",
         "Language": "SFX",
         "ShortName": "PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-006.wav",
-        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-006_D8EE3493.wem"
+        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-006_0DBD7F1A.wem"
        },
        {
         "Id": "669547984",
         "Language": "SFX",
         "ShortName": "PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-009.wav",
-        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-009_442838F8.wem"
+        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-009_249BEBCA.wem"
        },
        {
         "Id": "972430348",
         "Language": "SFX",
         "ShortName": "PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-008.wav",
-        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-008_E80F49CA.wem"
+        "Path": "SFX\\PERSO\\Barde\\Engagement combat\\ONO_ENGAAG_COMBAT_BARDE-008_3777DF1B.wem"
        }
       ]
      },
@@ -334,20 +334,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\DONNER_COUP\\Play_VOX_PANT_Donner_Coup",
       "GUID": "{53198A17-2EFB-4913-876C-E991C710B351}",
       "DurationType": "OneShot",
-      "DurationMin": "0.814655",
-      "DurationMax": "1.209052",
+      "DurationMin": "1.068966",
+      "DurationMax": "1.396552",
       "IncludedMemoryFiles": [
        {
         "Id": "597277480",
         "Language": "SFX",
         "ShortName": "VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002.wav",
-        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002_AD6F8379.wem"
+        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002_F48CF28F.wem"
        },
        {
         "Id": "765612297",
         "Language": "SFX",
         "ShortName": "VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-001.wav",
-        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-001_80950B1C.wem"
+        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-001_976EFF3C.wem"
        }
       ]
      },
@@ -397,7 +397,7 @@
     "Id": "2823438860",
     "GUID": "{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}",
     "Language": "SFX",
-    "Hash": "2419821292",
+    "Hash": "2361247011",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PERSONNAGES",
     "ShortName": "SB_PERSONNAGES",
     "Path": "SB_PERSONNAGES.bnk",

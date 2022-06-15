@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Marc\Documents\GitHub\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Marc\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2419821292">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2361247011">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>
