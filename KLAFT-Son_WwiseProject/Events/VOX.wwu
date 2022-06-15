@@ -120,6 +120,21 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="VETO" ID="{E596DEAA-7948-4C4C-878E-4A141C0344F9}" ShortID="852187950">
+					<ChildrenList>
+						<Event Name="Play_VOX_VETO_Enga_Cmb" ID="{F08ED171-0B8A-4663-94D2-96123C675EA3}">
+							<ChildrenList>
+								<Action Name="" ID="{5F269688-503D-472E-8660-A60F39D3208B}" ShortID="340727308">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VOX_VETO_Enga_Cmb" ID="{42E6778F-B2A1-4543-B96E-CE1C633D9FDC}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

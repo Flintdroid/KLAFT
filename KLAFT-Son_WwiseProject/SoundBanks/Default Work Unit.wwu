@@ -43,6 +43,7 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="VOX" ID="{908B0E92-238C-429A-B8D7-9CED30CD0B2F}" WorkUnitID="{908B0E92-238C-429A-B8D7-9CED30CD0B2F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VOX_VETO_Enga_Cmb" ID="{42E6778F-B2A1-4543-B96E-CE1C633D9FDC}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

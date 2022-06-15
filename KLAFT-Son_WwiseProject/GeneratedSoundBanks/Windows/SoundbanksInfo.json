@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -19,7 +19,6 @@
     "Id": "541248123",
     "GUID": "{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}",
     "Language": "SFX",
-    "Hash": "3883559930",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FX",
     "ShortName": "SB_FX",
     "Path": "SB_FX.bnk"
@@ -28,7 +27,6 @@
     "Id": "779753582",
     "GUID": "{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}",
     "Language": "SFX",
-    "Hash": "299949866",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MUSIC",
     "ShortName": "SB_MUSIC",
     "Path": "SB_MUSIC.bnk"
@@ -37,7 +35,6 @@
     "Id": "925885567",
     "GUID": "{E9DDCC24-5B56-4CA4-9856-9D38428FA434}",
     "Language": "SFX",
-    "Hash": "3542222645",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AMB",
     "ShortName": "SB_AMB",
     "Path": "SB_AMB.bnk",
@@ -225,7 +222,7 @@
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "3468784670",
+    "Hash": "1421116919",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
@@ -341,7 +338,7 @@
         "Id": "597277480",
         "Language": "SFX",
         "ShortName": "VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002.wav",
-        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002_F48CF28F.wem"
+        "Path": "SFX\\VOX\\PANTIN\\DONNER_COUP\\PANTIN_REAC-002_4F2D9F54.wem"
        },
        {
         "Id": "765612297",
@@ -390,6 +387,79 @@
         "Path": "SFX\\VOX\\PANTIN\\REACT\\PANTIN_REAC-002_51D5D875.wem"
        }
       ]
+     },
+     {
+      "Id": "1207659309",
+      "Name": "Play_VOX_VETO_Enga_Cmb",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\VETO\\Play_VOX_VETO_Enga_Cmb",
+      "GUID": "{F08ED171-0B8A-4663-94D2-96123C675EA3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9305",
+      "DurationMax": "1.9305",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "5859098",
+        "Language": "SFX",
+        "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001.wav",
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_10C4C929.wem"
+       },
+       {
+        "Id": "568673081",
+        "Language": "SFX",
+        "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005.wav",
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_10C4C929.wem"
+       },
+       {
+        "Id": "653223579",
+        "Language": "SFX",
+        "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003.wav",
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_10C4C929.wem"
+       },
+       {
+        "Id": "927061123",
+        "Language": "SFX",
+        "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004.wav",
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004_10C4C929.wem"
+       },
+       {
+        "Id": "1049659696",
+        "Language": "SFX",
+        "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002.wav",
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "5859098",
+      "Language": "SFX",
+      "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001.wav",
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_10C4C929.wem"
+     },
+     {
+      "Id": "568673081",
+      "Language": "SFX",
+      "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005.wav",
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_10C4C929.wem"
+     },
+     {
+      "Id": "653223579",
+      "Language": "SFX",
+      "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003.wav",
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_10C4C929.wem"
+     },
+     {
+      "Id": "927061123",
+      "Language": "SFX",
+      "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004.wav",
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004_10C4C929.wem"
+     },
+     {
+      "Id": "1049659696",
+      "Language": "SFX",
+      "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002.wav",
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_10C4C929.wem"
      }
     ]
    },
@@ -397,7 +467,6 @@
     "Id": "2823438860",
     "GUID": "{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}",
     "Language": "SFX",
-    "Hash": "2361247011",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PERSONNAGES",
     "ShortName": "SB_PERSONNAGES",
     "Path": "SB_PERSONNAGES.bnk",

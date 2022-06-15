@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3468784670">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="1421116919">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -69,7 +69,7 @@
 					<IncludedMemoryFiles>
 						<File Id="597277480" Language="SFX">
 							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002_F48CF28F.wem</Path>
+							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002_4F2D9F54.wem</Path>
 						</File>
 						<File Id="765612297" Language="SFX">
 							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001.wav</ShortName>
@@ -97,7 +97,53 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1207659309" Name="Play_VOX_VETO_Enga_Cmb" ObjectPath="\Events\Default Work Unit\VOX\VETO\Play_VOX_VETO_Enga_Cmb" GUID="{F08ED171-0B8A-4663-94D2-96123C675EA3}" DurationType="OneShot" DurationMin="1.9305" DurationMax="1.9305">
+					<IncludedMemoryFiles>
+						<File Id="5859098" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-001.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-001_10C4C929.wem</Path>
+						</File>
+						<File Id="568673081" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-005.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-005_10C4C929.wem</Path>
+						</File>
+						<File Id="653223579" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-003.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-003_10C4C929.wem</Path>
+						</File>
+						<File Id="927061123" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-004.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-004_10C4C929.wem</Path>
+						</File>
+						<File Id="1049659696" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-002.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5859098" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-001.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-001_10C4C929.wem</Path>
+				</File>
+				<File Id="568673081" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-005.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-005_10C4C929.wem</Path>
+				</File>
+				<File Id="653223579" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-003.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-003_10C4C929.wem</Path>
+				</File>
+				<File Id="927061123" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-004.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-004_10C4C929.wem</Path>
+				</File>
+				<File Id="1049659696" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-002.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-002_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
