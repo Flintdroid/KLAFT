@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Etudiant3A\Desktop\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Etudiant3A\Desktop\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Etudiant3A\Desktop\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Desktop\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,7 +21,7 @@
 			<ShortName>SB_MUSIC</ShortName>
 			<Path>SB_MUSIC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="1667255197">
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="2499431999">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
 			<ShortName>SB_AMB</ShortName>
 			<Path>SB_AMB.bnk</Path>
@@ -137,7 +137,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="4236137069">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="1090708803">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -207,6 +207,34 @@
 						<File Id="923213743" Language="SFX">
 							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-006.wav</ShortName>
 							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-006_B08539E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="46312159" Name="Play_VOX_BDT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\BANDIT\BANDIT_Hit\Play_VOX_BDT_Cris_Douleur" GUID="{2E843A2B-3D76-491E-BA75-05787B990230}" DurationType="OneShot" DurationMin="3." DurationMax="3.">
+					<IncludedMemoryFiles>
+						<File Id="50941968" Language="SFX">
+							<ShortName>VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-004.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-004_10C4C929.wem</Path>
+						</File>
+						<File Id="59505308" Language="SFX">
+							<ShortName>VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-001.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-001_10C4C929.wem</Path>
+						</File>
+						<File Id="248976581" Language="SFX">
+							<ShortName>VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-002.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-002_10C4C929.wem</Path>
+						</File>
+						<File Id="571171768" Language="SFX">
+							<ShortName>VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-006.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-006_10C4C929.wem</Path>
+						</File>
+						<File Id="664844704" Language="SFX">
+							<ShortName>VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-005.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-005_10C4C929.wem</Path>
+						</File>
+						<File Id="1059333330" Language="SFX">
+							<ShortName>VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-003.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\Cris_Douleur\ONO_CRIS_BANDIT-003_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -338,7 +366,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="1487576903">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="3446599190">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>
