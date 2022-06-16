@@ -168,6 +168,25 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="BANDIT" ID="{C9483E54-8949-4F87-9DD0-868961B43B7F}" ShortID="384398139">
+					<ChildrenList>
+						<Folder Name="BANDIT_Hit" ID="{EE9562A3-5A32-4658-AA28-B9997D43A822}" ShortID="74023868">
+							<ChildrenList>
+								<Event Name="Play_VOX_BDT_Cris_Douleur" ID="{2E843A2B-3D76-491E-BA75-05787B990230}">
+									<ChildrenList>
+										<Action Name="" ID="{52D22787-331B-4F79-BDD5-E19DEDF3C07B}" ShortID="434698323">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VOX_BDT_Cris_Douleur" ID="{AA9606AC-6057-4D82-8E16-98B5D4CFF55F}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
