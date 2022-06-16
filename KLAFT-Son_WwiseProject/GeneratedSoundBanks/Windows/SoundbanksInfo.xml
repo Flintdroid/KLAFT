@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="541248123" GUID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}" Language="SFX">
+		<SoundBank Id="541248123" GUID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}" Language="SFX" Hash="3883559930">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_FX</ObjectPath>
 			<ShortName>SB_FX</ShortName>
 			<Path>SB_FX.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="779753582" GUID="{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}" Language="SFX">
+		<SoundBank Id="779753582" GUID="{37A6E497-2EFF-449C-ABDC-34E7FC7642C3}" Language="SFX" Hash="299949866">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_MUSIC</ObjectPath>
 			<ShortName>SB_MUSIC</ShortName>
 			<Path>SB_MUSIC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX">
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="3542222645">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
 			<ShortName>SB_AMB</ShortName>
 			<Path>SB_AMB.bnk</Path>
@@ -137,7 +137,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="4236137069">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2604056264">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -210,18 +210,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.86441" DurationMax="0.939857">
-					<IncludedMemoryFiles>
-						<File Id="197328391" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem</Path>
-						</File>
-						<File Id="990892073" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_446329EE.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="3729616362" Name="Play_VOX_PANT_Donner_Coup" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\DONNER_COUP\Play_VOX_PANT_Donner_Coup" GUID="{53198A17-2EFB-4913-876C-E991C710B351}" DurationType="OneShot" DurationMin="1.068966" DurationMax="1.396552">
 					<IncludedMemoryFiles>
 						<File Id="597277480" Language="SFX">
@@ -234,11 +222,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{FF357CB7-A517-40C9-A257-C670CD823B39}" DurationType="OneShot" DurationMin="2.13408" DurationMax="2.13408">
+				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{FF357CB7-A517-40C9-A257-C670CD823B39}" DurationType="OneShot" DurationMin="1.511101" DurationMax="2.13408">
 					<IncludedMemoryFiles>
+						<File Id="197328391" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_E94FBABD.wem</Path>
+						</File>
 						<File Id="652187579" Language="SFX">
 							<ShortName>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</ShortName>
 							<Path>SFX\VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003_DC2126E0.wem</Path>
+						</File>
+						<File Id="990892073" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_369AFCF5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -338,7 +334,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="3074010084">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="3189965218">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>
@@ -367,27 +363,27 @@
 					<IncludedMemoryFiles>
 						<File Id="172570730" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8_9E4844CF.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8_ACEE10FA.wem</Path>
 						</File>
 						<File Id="188977558" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_11.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_11_F0754DF7.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_11_D1282773.wem</Path>
 						</File>
 						<File Id="326356134" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_9.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_9_C6D6EEAF.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_9_FBE54B4D.wem</Path>
 						</File>
 						<File Id="461584228" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_966CA2C8.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_08B42BFD.wem</Path>
 						</File>
 						<File Id="817409173" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10_C3F67DD2.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10_4ADAF03F.wem</Path>
 						</File>
 						<File Id="865744123" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12_B0386031.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12_2A3C71FC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -395,27 +391,27 @@
 					<IncludedMemoryFiles>
 						<File Id="218600078" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15_F63426CA.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15_81D94D55.wem</Path>
 						</File>
 						<File Id="282536497" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10_66DC2B98.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10_956A54EF.wem</Path>
 						</File>
 						<File Id="289827403" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_2.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_2_B7CAF873.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_2_2285A82E.wem</Path>
 						</File>
 						<File Id="543140271" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9_4EB4A38E.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9_49FEA996.wem</Path>
 						</File>
 						<File Id="595199163" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14_EE2F04C8.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14_0EF2E174.wem</Path>
 						</File>
 						<File Id="661719658" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1_3E51C46E.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1_D4B73613.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -439,27 +435,27 @@
 				</File>
 				<File Id="172570730" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8_9E4844CF.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8_ACEE10FA.wem</Path>
 				</File>
 				<File Id="188977558" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_11.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_11_F0754DF7.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_11_D1282773.wem</Path>
 				</File>
 				<File Id="218600078" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15_F63426CA.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15_81D94D55.wem</Path>
 				</File>
 				<File Id="282536497" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10_66DC2B98.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10_956A54EF.wem</Path>
 				</File>
 				<File Id="289827403" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_2.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_2_B7CAF873.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_2_2285A82E.wem</Path>
 				</File>
 				<File Id="326356134" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_9.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_9_C6D6EEAF.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_9_FBE54B4D.wem</Path>
 				</File>
 				<File Id="371963788" Language="SFX">
 					<ShortName>PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav</ShortName>
@@ -467,7 +463,7 @@
 				</File>
 				<File Id="461584228" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_966CA2C8.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_08B42BFD.wem</Path>
 				</File>
 				<File Id="533397186" Language="SFX">
 					<ShortName>PERSO\Cloth ramper04.wav</ShortName>
@@ -475,11 +471,11 @@
 				</File>
 				<File Id="543140271" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9_4EB4A38E.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9_49FEA996.wem</Path>
 				</File>
 				<File Id="595199163" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14_EE2F04C8.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14_0EF2E174.wem</Path>
 				</File>
 				<File Id="656218864" Language="SFX">
 					<ShortName>PERSO\Cloth ramper02.wav</ShortName>
@@ -487,7 +483,7 @@
 				</File>
 				<File Id="661719658" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1_3E51C46E.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1_D4B73613.wem</Path>
 				</File>
 				<File Id="730074681" Language="SFX">
 					<ShortName>PERSO\Cloth ramper03.wav</ShortName>
@@ -495,7 +491,7 @@
 				</File>
 				<File Id="817409173" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10_C3F67DD2.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10_4ADAF03F.wem</Path>
 				</File>
 				<File Id="830527586" Language="SFX">
 					<ShortName>PERSO\Cloth ramper.wav</ShortName>
@@ -503,7 +499,7 @@
 				</File>
 				<File Id="865744123" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12_B0386031.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12_2A3C71FC.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<SwitchGroups>

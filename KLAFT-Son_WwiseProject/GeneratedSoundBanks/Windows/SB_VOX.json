@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "4236137069",
+    "Hash": "2604056264",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
@@ -144,29 +144,6 @@
       ]
      },
      {
-      "Id": "374495388",
-      "Name": "Play_VOX_PANT_Cris_Douleur",
-      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\CRIS_DOULEUR\\Play_VOX_PANT_Cris_Douleur",
-      "GUID": "{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.86441",
-      "DurationMax": "0.939857",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "197328391",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002.wav",
-        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem"
-       },
-       {
-        "Id": "990892073",
-        "Language": "SFX",
-        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001.wav",
-        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001_446329EE.wem"
-       }
-      ]
-     },
-     {
       "Id": "3729616362",
       "Name": "Play_VOX_PANT_Donner_Coup",
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\DONNER_COUP\\Play_VOX_PANT_Donner_Coup",
@@ -195,14 +172,26 @@
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\PANTIN\\MORT\\Play_VOX_PANT_Mort",
       "GUID": "{FF357CB7-A517-40C9-A257-C670CD823B39}",
       "DurationType": "OneShot",
-      "DurationMin": "2.13408",
+      "DurationMin": "1.511101",
       "DurationMax": "2.13408",
       "IncludedMemoryFiles": [
+       {
+        "Id": "197328391",
+        "Language": "SFX",
+        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002.wav",
+        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-002_E94FBABD.wem"
+       },
        {
         "Id": "652187579",
         "Language": "SFX",
         "ShortName": "VOX\\PANTIN\\MORT\\PANTIN_CRIS_DOULEURS-003.wav",
         "Path": "SFX\\VOX\\PANTIN\\MORT\\PANTIN_CRIS_DOULEURS-003_DC2126E0.wem"
+       },
+       {
+        "Id": "990892073",
+        "Language": "SFX",
+        "ShortName": "VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001.wav",
+        "Path": "SFX\\VOX\\PANTIN\\CRIS_DOULEUR\\PANTIN_CRIS_DOULEURS-001_369AFCF5.wem"
        }
       ]
      },
