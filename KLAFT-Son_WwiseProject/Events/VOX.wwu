@@ -133,6 +133,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_VOIX_VETO_HIit" ID="{7FF0CA51-D3B9-47FD-985A-E4176106E30A}">
+							<ChildrenList>
+								<Action Name="" ID="{82CC71BF-003C-4AFC-BD47-0485073320B5}" ShortID="848554739">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VOIX_VETO_HIit" ID="{CA5AA039-FBFD-4E0E-9564-CB8476CD5255}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_VOX_VETO_Appel" ID="{2BCF1600-8B4F-4F39-ADF0-DAAE2C18EF0F}">
+							<ChildrenList>
+								<Action Name="" ID="{FF03FE83-0862-44BD-8696-F3567079E160}" ShortID="719823958">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VOX_VETO_Appel" ID="{DE6DF2B1-3E0B-4553-8583-C1D33DAA05F5}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_VOX_VETO_Cris_Victoire" ID="{A4EE40DE-DB0B-4414-AAF7-A5BBA9554195}">
+							<ChildrenList>
+								<Action Name="" ID="{9AA43058-D03E-417F-97FA-159E8AF64758}" ShortID="15340935">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VOX_VETO_Cris_Victoire" ID="{B120C75F-695C-47B4-B49D-EFDC5D7EC380}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

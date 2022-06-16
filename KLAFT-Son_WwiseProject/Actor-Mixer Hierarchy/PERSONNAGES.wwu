@@ -73,7 +73,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+									<ObjectRef Name="PERSONNAGES" ID="{AEDF41C8-94D8-45D2-BB47-C616DB05C2A9}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -82,8 +82,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="PAVE" ID="{18D14442-B589-47A9-A214-7C95E3CD2886}" WorkUnitID="{21482BDD-E6B2-4342-BE01-1CF0E68AC3B2}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SW_PERS_RAMP_Hero" ID="{62150EE0-C5C9-4A53-9394-CEC74E310AC8}" WorkUnitID="{21482BDD-E6B2-4342-BE01-1CF0E68AC3B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -96,6 +102,181 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SW_Ramper_Pave_1" ID="{973A5A6F-47E1-48D8-A1DF-022EEFE5FEF4}" ShortID="987454938">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Pave_1" ID="{841EEB00-FE12-46F4-960F-8EE5910F7E21}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0862830829756795"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.746016809728183"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="661719658"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Pave_1" ID="{841EEB00-FE12-46F4-960F-8EE5910F7E21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Pave_2" ID="{AE5F43E5-CD24-4AC9-ACE0-786B98ADB4F8}" ShortID="611591826">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Pave_2" ID="{9A4E3C3C-7040-423D-AF5C-BE21800D4888}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.126582916070577"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.126582916070577"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.749194235813066"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="289827403"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Pave_2" ID="{9A4E3C3C-7040-423D-AF5C-BE21800D4888}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Pave_9" ID="{F7071D4D-8490-4FCB-A727-3E26FE3F3E8A}" ShortID="139524865">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Pave_9" ID="{806F8106-EBD7-4DED-907D-74DC38D64AEC}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.101684310920362"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.101684310920362"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.848428469241774"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="543140271"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Pave_9" ID="{806F8106-EBD7-4DED-907D-74DC38D64AEC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Pave_10" ID="{1B107273-9544-4D9C-9400-E93218F3B7A7}" ShortID="147078115">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Pave_10" ID="{B23D93DE-A33F-47F1-82A5-9BA68328BDF2}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.311981402002861"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.066296047925608"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.688958929422986"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="282536497"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Pave_10" ID="{B23D93DE-A33F-47F1-82A5-9BA68328BDF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Pave_14" ID="{856DC67B-7601-4C4E-AB4E-E4F133BEA901}" ShortID="700367975">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Pave_14" ID="{B8F4BA01-14C5-473A-A218-6D2620BE1B7D}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.274130305197902"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0491365641392465"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.655585211015737"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="595199163"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Pave_14" ID="{B8F4BA01-14C5-473A-A218-6D2620BE1B7D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Pave_15" ID="{8F50B616-FD38-49FA-B6B1-8AE0E19ED587}" ShortID="198339670">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Pave_15" ID="{2E5E734C-4965-484F-8919-F77076F1476F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.105920898903195"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0247607296137339"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.592881914639962"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="218600078"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Pave_15" ID="{2E5E734C-4965-484F-8919-F77076F1476F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Herbe" ID="{4F48A20D-7E2A-4E61-AE25-9186A3C19E12}" ShortID="729619374">
@@ -107,6 +288,183 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SW_Ramper_Herbe_7" ID="{7F2ADECD-22CE-4A9C-AED1-7DFF9C6A4779}" ShortID="968491936">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Herbe_7" ID="{E6FA8F24-C95D-4452-83DB-2D9D03EBD18B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.290325464949928"/>
+																<Property Name="LoopEnd" Type="Real64" Value="0.716059817596566"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="461584228"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Herbe_7" ID="{E6FA8F24-C95D-4452-83DB-2D9D03EBD18B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Herbe_8" ID="{A159759E-7DF2-4CA1-85E0-CAE645BF5B98}" ShortID="263380449">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Herbe_8" ID="{9C5D0EF9-5E26-4413-BDE7-EEDFB82FB029}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.103429721030043"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.423636802575107"/>
+																<Property Name="LoopEnd" Type="Real64" Value="0.61398667739628"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.187023605150215"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="172570730"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Herbe_8" ID="{9C5D0EF9-5E26-4413-BDE7-EEDFB82FB029}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Herbe_9" ID="{108B4BAC-0C42-4FD6-B783-DE0F0C775ADF}" ShortID="230554315">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Herbe_9" ID="{6A9A2E16-9876-404C-A22F-9869801720B9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0929630424415832"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.23090820219361"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.23090820219361"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.737706723891273"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="326356134"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Herbe_9" ID="{6A9A2E16-9876-404C-A22F-9869801720B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Herbe_10" ID="{31027E23-C368-4C5C-875E-9339F3CE249F}" ShortID="790551567">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Herbe_10" ID="{F9C1D092-A78C-44A5-AE6C-AE05A9E98085}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.173930853600381"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.173930853600381"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.701721030042918"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="817409173"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Herbe_10" ID="{F9C1D092-A78C-44A5-AE6C-AE05A9E98085}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Herbe_11" ID="{358356A3-8295-441F-AD73-8E7EAF979A97}" ShortID="237133693">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Herbe_11" ID="{82D5E83C-B263-4B3A-A8C4-B3A7D7CA2BD8}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.167271340009537"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.167271340009537"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.569768001907487"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="188977558"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Herbe_11" ID="{82D5E83C-B263-4B3A-A8C4-B3A7D7CA2BD8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Ramper_Herbe_12" ID="{AA550C1B-6FAE-4536-BFB2-E1B7074A2444}" ShortID="125078154">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Ramper_Herbe_12" ID="{BD401CF8-2016-48DD-AC28-CCBC3DD54523}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.141713668335718"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.141713668335718"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.586498152122079"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="865744123"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Ramper_Herbe_12" ID="{BD401CF8-2016-48DD-AC28-CCBC3DD54523}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -120,6 +478,20 @@
 												<ItemRef Name="Pave" ID="{8B6DB924-52A8-469F-AA89-9EFA075950E7}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="PAVE" ID="{18D14442-B589-47A9-A214-7C95E3CD2886}"/>
+												<ItemList>
+													<ItemRef Name="Pave" ID="{8B6DB924-52A8-469F-AA89-9EFA075950E7}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Herbe" ID="{E22A0FE4-EB89-4A0B-B76E-ABCB37385F19}"/>
+												<ItemList>
+													<ItemRef Name="Herbe" ID="{4F48A20D-7E2A-4E61-AE25-9186A3C19E12}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>

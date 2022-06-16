@@ -41,6 +41,36 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Footsteps" ID="{04E25563-69AE-4119-A428-3B6DDCB8971D}" ShortID="688255588">
+					<ChildrenList>
+						<Folder Name="Rmper_Héro" ID="{674B2C04-7066-4B33-91E9-002DA32DCB1B}" ShortID="433670140">
+							<ChildrenList>
+								<Event Name="Play_Ramp_Herbe" ID="{01749EDE-8497-4EBD-A9E8-528FEECA0DD7}">
+									<ChildrenList>
+										<Action Name="" ID="{CE549C1D-CD87-4693-ADA4-9E32A49FDBBC}" ShortID="703979756">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Herbe" ID="{4F48A20D-7E2A-4E61-AE25-9186A3C19E12}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Ramp_Pave" ID="{B0C47F6B-3D4D-434F-B2E2-696B086F8B19}">
+									<ChildrenList>
+										<Action Name="" ID="{D195C10A-4E8A-4EE8-A679-62539AF6B8DA}" ShortID="1017037457">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pave" ID="{8B6DB924-52A8-469F-AA89-9EFA075950E7}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
