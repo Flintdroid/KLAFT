@@ -5,22 +5,39 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "4027473332",
+    "Hash": "3622424688",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3963515780",
+      "Name": "Play_ONO_CRIS_VICTORY_BARDE",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BARDE\\BARD_Victory\\Play_ONO_CRIS_VICTORY_BARDE",
+      "GUID": "{BB820490-E87B-4D1A-AAF0-6D97FA333CC0}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.555898",
+      "DurationMax": "1.850285",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "986558447",
+        "Language": "SFX",
+        "ShortName": "VOX\\BARDE\\Victoire\\ONO_CRIS_VICTORY_BARDE-002.wav",
+        "Path": "SFX\\VOX\\BARDE\\Victoire\\ONO_CRIS_VICTORY_BARDE-002_9EC8B337.wem"
+       }
+      ]
+     },
      {
       "Id": "1327486536",
       "Name": "Play_VOIX_VETO_HIit",
@@ -34,37 +51,37 @@
         "Id": "63171022",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-003_708A7EC7.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-003_D0CBE1C3.wem"
        },
        {
         "Id": "163266434",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-006.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-006_0BFBE467.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-006_38A59434.wem"
        },
        {
         "Id": "232780025",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-001.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-001_0138000E.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-001_5909C668.wem"
        },
        {
         "Id": "286676746",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-005.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-005_82FE13AA.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-005_B23C7250.wem"
        },
        {
         "Id": "534442628",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-002.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-002_2E6EC9DD.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-002_A518ED1A.wem"
        },
        {
         "Id": "963491228",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-004.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-004_EFEFC427.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-004_B57C91E1.wem"
        }
       ]
      },
@@ -140,6 +157,117 @@
         "Language": "SFX",
         "ShortName": "VOX\\BARDE\\Hit\\ONO_HIT_BARDE-006.wav",
         "Path": "SFX\\VOX\\BARDE\\Hit\\ONO_HIT_BARDE-006_B08539E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "46312159",
+      "Name": "Play_VOX_BDT_Cris_Douleur",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BANDIT\\VOX_BDT_Cris_Douleur\\Play_VOX_BDT_Cris_Douleur",
+      "GUID": "{11703B1A-9392-45AC-8432-BAF9B4949FB5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.592275",
+      "DurationMax": "0.660944",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "39410418",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-004.wav",
+        "Path": "SFX\\VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-004_A1730A3D.wem"
+       },
+       {
+        "Id": "77048823",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-006.wav",
+        "Path": "SFX\\VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-006_4FB32334.wem"
+       },
+       {
+        "Id": "102516211",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-002.wav",
+        "Path": "SFX\\VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-002_409B9AD7.wem"
+       },
+       {
+        "Id": "127418074",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-001.wav",
+        "Path": "SFX\\VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-001_C54D19CC.wem"
+       },
+       {
+        "Id": "668360539",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-003.wav",
+        "Path": "SFX\\VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-003_A4DA6745.wem"
+       },
+       {
+        "Id": "758625015",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-005.wav",
+        "Path": "SFX\\VOX\\BANDIT\\HIT\\ONO_CRIS_BANDIT-005_F64D0418.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1967901538",
+      "Name": "Play_VOX_BDT_Reac",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\BANDIT\\VOX_BDT_Reac\\Play_VOX_BDT_Reac",
+      "GUID": "{2FEA2E66-650D-411A-A861-82E1E7A02618}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.566524",
+      "DurationMax": "1.137339",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "170370318",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-001.wav",
+        "Path": "SFX\\VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-001_20D28167.wem"
+       },
+       {
+        "Id": "235044227",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-004.wav",
+        "Path": "SFX\\VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-004_10BA7579.wem"
+       },
+       {
+        "Id": "375140246",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-006.wav",
+        "Path": "SFX\\VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-006_716C8A5D.wem"
+       },
+       {
+        "Id": "471398185",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-002.wav",
+        "Path": "SFX\\VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-002_BD2DB26D.wem"
+       },
+       {
+        "Id": "611640476",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-003.wav",
+        "Path": "SFX\\VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-003_5754DEA8.wem"
+       },
+       {
+        "Id": "699538964",
+        "Language": "SFX",
+        "ShortName": "VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-005.wav",
+        "Path": "SFX\\VOX\\BANDIT\\REAC\\ONO_REACTION_BANDIT-005_60B21118.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1629000726",
+      "Name": "Play_VOX_LZD_Reac",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\LEZARD\\VOX_LZD_Reac\\Play_VOX_LZD_Reac",
+      "GUID": "{4E91E7FD-1F67-4718-8A72-507D6071D4E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.369099",
+      "DurationMax": "1.369099",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "115959853",
+        "Language": "SFX",
+        "ShortName": "VOX\\LEZARD\\REAC\\LEZARD_REAC-001.wav",
+        "Path": "SFX\\VOX\\LEZARD\\REAC\\LEZARD_REAC-001_8539BA3A.wem"
        }
       ]
      },
@@ -242,31 +370,31 @@
         "Id": "19065871",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-006.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-006_1F7DC8B1.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-006_A23BF553.wem"
        },
        {
         "Id": "51999793",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-002.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-002_38BF5CC8.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-002_15819BAE.wem"
        },
        {
         "Id": "62259681",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-001.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-001_36C4C907.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-001_5317CF90.wem"
        },
        {
         "Id": "356979004",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-004.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-004_ACC3FC75.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-004_B5A2FD6A.wem"
        },
        {
         "Id": "980821479",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-003_AF92278C.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-003_8B1C8D69.wem"
        }
       ]
      },
@@ -283,13 +411,13 @@
         "Id": "61292502",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-004.wav",
-        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-004_A0C4B197.wem"
+        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-004_2CAD7E09.wem"
        },
        {
         "Id": "346942262",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-003_C61635A2.wem"
+        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-003_C2757FA6.wem"
        }
       ]
      },
@@ -306,13 +434,13 @@
         "Id": "926376036",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\Decorruption\\DECORRUPTION-002.wav",
-        "Path": "SFX\\VOX\\VETO\\Decorruption\\DECORRUPTION-002_C2C686CB.wem"
+        "Path": "SFX\\VOX\\VETO\\Decorruption\\DECORRUPTION-002_9CFA8593.wem"
        },
        {
         "Id": "1024795878",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\Decorruption\\DECORRUPTION-001.wav",
-        "Path": "SFX\\VOX\\VETO\\Decorruption\\DECORRUPTION-001_A8BB2F7D.wem"
+        "Path": "SFX\\VOX\\VETO\\Decorruption\\DECORRUPTION-001_E94AA3D5.wem"
        }
       ]
      },
@@ -329,19 +457,19 @@
         "Id": "5859098",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_E55FD173.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_42185FB1.wem"
        },
        {
         "Id": "568673081",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_93D12F83.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_61FFA9E1.wem"
        },
        {
         "Id": "653223579",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_EE9324C0.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_C2390BF8.wem"
        },
        {
         "Id": "927061123",
@@ -353,7 +481,7 @@
         "Id": "1049659696",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_32866ED0.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_3889EDD5.wem"
        }
       ]
      }
@@ -363,19 +491,19 @@
       "Id": "5859098",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_E55FD173.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_42185FB1.wem"
      },
      {
       "Id": "568673081",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_93D12F83.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_61FFA9E1.wem"
      },
      {
       "Id": "653223579",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_EE9324C0.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_C2390BF8.wem"
      },
      {
       "Id": "927061123",
@@ -387,7 +515,7 @@
       "Id": "1049659696",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_32866ED0.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_3889EDD5.wem"
      }
     ]
    }

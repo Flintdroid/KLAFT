@@ -904,7 +904,7 @@
 											<Modifier Name="" ID="{7278E2A1-F56D-4559-8D33-DFE39F0CB2C3}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
