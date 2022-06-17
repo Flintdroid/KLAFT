@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2604056264">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2116990353">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -81,6 +81,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.86441" DurationMax="0.939857">
+					<IncludedMemoryFiles>
+						<File Id="197328391" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem</Path>
+						</File>
+						<File Id="990892073" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_446329EE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3729616362" Name="Play_VOX_PANT_Donner_Coup" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\DONNER_COUP\Play_VOX_PANT_Donner_Coup" GUID="{53198A17-2EFB-4913-876C-E991C710B351}" DurationType="OneShot" DurationMin="1.068966" DurationMax="1.396552">
 					<IncludedMemoryFiles>
 						<File Id="597277480" Language="SFX">
@@ -93,19 +105,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{FF357CB7-A517-40C9-A257-C670CD823B39}" DurationType="OneShot" DurationMin="1.511101" DurationMax="2.13408">
+				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{FF357CB7-A517-40C9-A257-C670CD823B39}" DurationType="OneShot" DurationMin="2.13408" DurationMax="2.13408">
 					<IncludedMemoryFiles>
-						<File Id="197328391" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_E94FBABD.wem</Path>
-						</File>
 						<File Id="652187579" Language="SFX">
 							<ShortName>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</ShortName>
 							<Path>SFX\VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003_DC2126E0.wem</Path>
-						</File>
-						<File Id="990892073" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_369AFCF5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

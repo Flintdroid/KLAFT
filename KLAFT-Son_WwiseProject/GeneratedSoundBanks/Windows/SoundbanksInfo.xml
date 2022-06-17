@@ -21,7 +21,7 @@
 			<ShortName>SB_MUSIC</ShortName>
 			<Path>SB_MUSIC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="3542222645">
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="2774010055">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
 			<ShortName>SB_AMB</ShortName>
 			<Path>SB_AMB.bnk</Path>
@@ -130,6 +130,10 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1743022906" Name="Stop_AMB_Cristallerie" ObjectPath="\Events\Default Work Unit\AMB\Cristallerie\Stop_AMB_Cristallerie" GUID="{D6157579-6AEA-43F6-A838-2519E3E94FBE}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3513359395" Name="Stop_AMB_Foret" ObjectPath="\Events\Default Work Unit\AMB\Foret\Stop_AMB_Foret" GUID="{74C30D7F-BCBD-4C53-8AAF-8420A8DB8AB1}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2553317114" Name="Stop_AMB_Plaine" ObjectPath="\Events\Default Work Unit\AMB\Plaine\Stop_AMB_Plaine" GUID="{549D53C6-5D8B-4771-BC5A-38AFC64CDDF4}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3078626809" Name="Stop_AMB_Village" ObjectPath="\Events\Default Work Unit\AMB\Village\Stop_AMB_Village" GUID="{31BEC786-A39C-481F-965F-A8FF738EF321}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3036819865">
@@ -137,7 +141,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2604056264">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="2116990353">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
@@ -210,6 +214,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.86441" DurationMax="0.939857">
+					<IncludedMemoryFiles>
+						<File Id="197328391" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem</Path>
+						</File>
+						<File Id="990892073" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_446329EE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3729616362" Name="Play_VOX_PANT_Donner_Coup" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\DONNER_COUP\Play_VOX_PANT_Donner_Coup" GUID="{53198A17-2EFB-4913-876C-E991C710B351}" DurationType="OneShot" DurationMin="1.068966" DurationMax="1.396552">
 					<IncludedMemoryFiles>
 						<File Id="597277480" Language="SFX">
@@ -222,19 +238,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{FF357CB7-A517-40C9-A257-C670CD823B39}" DurationType="OneShot" DurationMin="1.511101" DurationMax="2.13408">
+				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{FF357CB7-A517-40C9-A257-C670CD823B39}" DurationType="OneShot" DurationMin="2.13408" DurationMax="2.13408">
 					<IncludedMemoryFiles>
-						<File Id="197328391" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_E94FBABD.wem</Path>
-						</File>
 						<File Id="652187579" Language="SFX">
 							<ShortName>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</ShortName>
 							<Path>SFX\VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003_DC2126E0.wem</Path>
-						</File>
-						<File Id="990892073" Language="SFX">
-							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
-							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_369AFCF5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -334,7 +342,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="3189965218">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2916731405">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>

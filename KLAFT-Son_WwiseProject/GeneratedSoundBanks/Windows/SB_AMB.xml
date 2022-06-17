@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="3542222645">
+		<SoundBank Id="925885567" GUID="{E9DDCC24-5B56-4CA4-9856-9D38428FA434}" Language="SFX" Hash="2774010055">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_AMB</ObjectPath>
 			<ShortName>SB_AMB</ShortName>
 			<Path>SB_AMB.bnk</Path>
@@ -117,6 +117,10 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1743022906" Name="Stop_AMB_Cristallerie" ObjectPath="\Events\Default Work Unit\AMB\Cristallerie\Stop_AMB_Cristallerie" GUID="{D6157579-6AEA-43F6-A838-2519E3E94FBE}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3513359395" Name="Stop_AMB_Foret" ObjectPath="\Events\Default Work Unit\AMB\Foret\Stop_AMB_Foret" GUID="{74C30D7F-BCBD-4C53-8AAF-8420A8DB8AB1}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2553317114" Name="Stop_AMB_Plaine" ObjectPath="\Events\Default Work Unit\AMB\Plaine\Stop_AMB_Plaine" GUID="{549D53C6-5D8B-4771-BC5A-38AFC64CDDF4}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3078626809" Name="Stop_AMB_Village" ObjectPath="\Events\Default Work Unit\AMB\Village\Stop_AMB_Village" GUID="{31BEC786-A39C-481F-965F-A8FF738EF321}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
