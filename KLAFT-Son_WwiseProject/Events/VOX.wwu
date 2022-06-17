@@ -118,6 +118,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="BARD_Victory" ID="{5281762C-CF52-4E40-AF4A-CC6B5804B528}" ShortID="442613511">
+							<ChildrenList>
+								<Event Name="Play_ONO_CRIS_VICTORY_BARDE" ID="{BB820490-E87B-4D1A-AAF0-6D97FA333CC0}">
+									<ChildrenList>
+										<Action Name="" ID="{2458324B-A173-4697-9D04-8A1F8B27C319}" ShortID="254650893">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ONO_CRIS_VICTORY_BARDE-002" ID="{9CB0F789-4B29-4B80-874F-50A9BFB278AD}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="VETO" ID="{E596DEAA-7948-4C4C-878E-4A141C0344F9}" ShortID="852187950">
@@ -177,6 +192,59 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BANDIT" ID="{81207892-C002-4F9D-BA7C-B8EEB1F6AB62}" ShortID="1007760419">
+					<ChildrenList>
+						<Folder Name="VOX_BDT_Cris_Douleur" ID="{87DF4E63-2417-4628-BC58-DA79E5140E9E}" ShortID="673791748">
+							<ChildrenList>
+								<Event Name="Play_VOX_BDT_Cris_Douleur" ID="{11703B1A-9392-45AC-8432-BAF9B4949FB5}">
+									<ChildrenList>
+										<Action Name="" ID="{5D4EF662-A626-4727-84E5-94EB5318CB51}" ShortID="1071564652">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VOX_BDT_Cris_Douleur" ID="{792CE754-6D3E-449A-B5F7-596823EEF2D5}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="VOX_BDT_Reac" ID="{AC26ADCB-2141-4526-8A87-587DF82C349C}" ShortID="172670449">
+							<ChildrenList>
+								<Event Name="Play_VOX_BDT_Reac" ID="{2FEA2E66-650D-411A-A861-82E1E7A02618}">
+									<ChildrenList>
+										<Action Name="" ID="{0C188778-C23A-401D-A5B4-3DA6354A6952}" ShortID="790127003">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Vox_BDT_Reac" ID="{695B8158-DBE4-4258-B415-312022C94932}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LEZARD" ID="{F03B8FAF-310B-4FA1-93EB-5DFB3D22F009}" ShortID="828745778">
+					<ChildrenList>
+						<Folder Name="VOX_LZD_Reac" ID="{24B80E20-FAF8-4B4D-80DC-659B0920CB77}" ShortID="1024382637">
+							<ChildrenList>
+								<Event Name="Play_VOX_LZD_Reac" ID="{4E91E7FD-1F67-4718-8A72-507D6071D4E0}">
+									<ChildrenList>
+										<Action Name="" ID="{2BE70784-83FA-4525-AD5F-E445D05E61A4}" ShortID="713530655">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VOX_LZD_Reac" ID="{F05AD4D6-12D7-4842-85AA-B3570F5B2923}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

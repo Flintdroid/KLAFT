@@ -1263,6 +1263,238 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_1" ID="{46670632-264A-4732-AD0A-6E2EAFD40702}" ShortID="485084422">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_1" ID="{BB8C31EE-CD5E-49EF-B501-47A51E90DDFF}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1012025408"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_1" ID="{BB8C31EE-CD5E-49EF-B501-47A51E90DDFF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_2" ID="{BEE8477D-B46C-4713-A48B-B9A423BB541A}" ShortID="207890438">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_2" ID="{D3982560-43B6-44B7-885F-682D4536DFC9}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="467743688"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_2" ID="{D3982560-43B6-44B7-885F-682D4536DFC9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_3" ID="{23B6610E-0E3F-440A-B79C-9A09860AC55F}" ShortID="9474032">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_3" ID="{1B47B971-ACC9-432A-A246-2A69D1DAFF9B}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="157579942"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_3" ID="{1B47B971-ACC9-432A-A246-2A69D1DAFF9B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_4" ID="{059A7ABC-9859-4627-926A-3DBBC05845EC}" ShortID="1060545123">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_4" ID="{C16DEB39-41BA-4FF1-8B35-681A56FD8837}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="788710427"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_4" ID="{C16DEB39-41BA-4FF1-8B35-681A56FD8837}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_5" ID="{B6C73CE1-C283-4F49-A410-9892E7D52D1D}" ShortID="761326287">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_5" ID="{5D1106BF-227B-4915-819E-238461765E67}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="986881169"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_5" ID="{5D1106BF-227B-4915-819E-238461765E67}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_6" ID="{ADA1546D-DBAD-4DF9-8C38-2CFE55B4D45E}" ShortID="726405479">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_6" ID="{AF64CF0B-299B-4AE8-84D9-5FA157EBD989}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="886587891"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_6" ID="{AF64CF0B-299B-4AE8-84D9-5FA157EBD989}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_7" ID="{F016C5D1-4E74-4963-8432-1114A1B218FC}" ShortID="685184979">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_7" ID="{624C83E3-6E58-404D-B1F5-148F91F15FDD}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="143735686"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_7" ID="{624C83E3-6E58-404D-B1F5-148F91F15FDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_8" ID="{7B3CE10A-45A9-416D-801C-4FF0B3F78311}" ShortID="550387966">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_8" ID="{BC7E9C71-B918-442F-BF91-0FDBB7CB9F83}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="31156039"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_8" ID="{BC7E9C71-B918-442F-BF91-0FDBB7CB9F83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_9" ID="{28B49DB8-7133-4F44-B62B-C5374ABEDBAA}" ShortID="651687800">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_9" ID="{E300FCFC-28CB-43ED-AFF4-001F683506C3}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="709961042"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_9" ID="{E300FCFC-28CB-43ED-AFF4-001F683506C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Pave_FUITE_10" ID="{3248838B-5698-4D93-8160-2505A6FC3B1A}" ShortID="378326972">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Pave_FUITE_10" ID="{B85246F5-0593-4C69-BC8F-27CE9504E53C}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="195633523"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Pave_FUITE_10" ID="{B85246F5-0593-4C69-BC8F-27CE9504E53C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Herbe" ID="{077F75DE-7E9A-4AFF-BD75-0E539FDB8567}" ShortID="501113306">
@@ -1274,6 +1506,238 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_1" ID="{1A2E2C6B-1828-409B-950C-766F6A448353}" ShortID="475915494">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_1" ID="{04726320-D73F-4E00-AEF2-CFDDD480EDBE}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="565004694"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_1" ID="{04726320-D73F-4E00-AEF2-CFDDD480EDBE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_2" ID="{13347141-4BE5-465F-923F-2648E4B8FD58}" ShortID="1062064455">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_2" ID="{77CC876F-E3B2-405B-9587-B43A5D5A19E1}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="58808148"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_2" ID="{77CC876F-E3B2-405B-9587-B43A5D5A19E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_3" ID="{14B25D2B-68F8-490E-86CE-F43A48B6B329}" ShortID="309724005">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_3" ID="{0D2B6C9E-69F4-44B3-99C0-31E111AFDE2E}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="203383959"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_3" ID="{0D2B6C9E-69F4-44B3-99C0-31E111AFDE2E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_4" ID="{B90AD214-0A97-4DA0-BF89-74A868327E56}" ShortID="478974217">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_4" ID="{6736E129-9BA4-4A87-B2CC-A1179430B280}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="338117789"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_4" ID="{6736E129-9BA4-4A87-B2CC-A1179430B280}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_5" ID="{32C3F072-2051-4A1D-9E87-09B3B4BE8C46}" ShortID="767819297">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_5" ID="{823B238F-573F-4FBB-8E55-BF36992B8F8F}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="517660556"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_5" ID="{823B238F-573F-4FBB-8E55-BF36992B8F8F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_6" ID="{25751100-FC9C-4EE2-A76B-2E2DD0253C6D}" ShortID="697043039">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_6" ID="{DECF6A11-A578-4817-9E93-909BB87A8F5F}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="822637006"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_6" ID="{DECF6A11-A578-4817-9E93-909BB87A8F5F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_7" ID="{C5E578CD-DA83-4794-A017-85666CB29146}" ShortID="385149479">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_7" ID="{2DFF914D-D4F6-45D3-ADFA-7FC5E9530BE7}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="732325841"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_7" ID="{2DFF914D-D4F6-45D3-ADFA-7FC5E9530BE7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_8" ID="{9575091F-6943-48D2-8C9B-538B7C3F56C4}" ShortID="745899937">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_8" ID="{54FDA112-991A-4CCF-A50C-A419F63B21F5}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="513589891"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_8" ID="{54FDA112-991A-4CCF-A50C-A419F63B21F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_9" ID="{9F5E91A1-F212-43AE-82AD-3ACD67EED090}" ShortID="14422581">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_9" ID="{3F41D695-33C9-472B-9A34-5F5A27AB32F6}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="143359635"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_9" ID="{3F41D695-33C9-472B-9A34-5F5A27AB32F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SW_Bruit_Pas_Herbe_FUITE_10" ID="{6B556F62-1582-47F3-8AFF-B8287A32A10C}" ShortID="486799555">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SW_Bruit_Pas_Herbe_FUITE_10" ID="{3006BC05-E484-4482-962B-0BAD760CEFF5}">
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="77998201"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SW_Bruit_Pas_Herbe_FUITE_10" ID="{3006BC05-E484-4482-962B-0BAD760CEFF5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
