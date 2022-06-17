@@ -20,6 +20,189 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Vox_BDT_Reac" ID="{695B8158-DBE4-4258-B415-312022C94932}" ShortID="816492202">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_REACTION_BANDIT-001" ID="{5630D4E8-83BE-4415-84F1-8FE18487F95A}" ShortID="32229389">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_REACTION_BANDIT-001" ID="{8ADBE32F-98D2-41AE-9D77-FBEC7AE8B9E4}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.948497854077253"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.78969957081545"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="170370318"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_REACTION_BANDIT-001" ID="{8ADBE32F-98D2-41AE-9D77-FBEC7AE8B9E4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_REACTION_BANDIT-002" ID="{FBA60426-4446-4B9A-BF82-BC328498722B}" ShortID="634336874">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_REACTION_BANDIT-002" ID="{1981C797-BA10-420C-945F-0204E3724406}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.648068669527897"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.78540772532189"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="471398185"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_REACTION_BANDIT-002" ID="{1981C797-BA10-420C-945F-0204E3724406}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_REACTION_BANDIT-003" ID="{D04C9FBD-7F75-4DFC-9986-BCBC77085446}" ShortID="611879971">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_REACTION_BANDIT-003" ID="{02FCEDCF-313B-4927-B9B3-3320421A79D6}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.871244635193133"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.58798283261803"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="611640476"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_REACTION_BANDIT-003" ID="{02FCEDCF-313B-4927-B9B3-3320421A79D6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_REACTION_BANDIT-004" ID="{34FDC882-F75D-4658-B7E7-6A6A78BC9BA9}" ShortID="745363260">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_REACTION_BANDIT-004" ID="{7D8ECC47-942C-4AA3-BD86-BAE54D66FE2B}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.682403433476395"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.69527896995708"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="235044227"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_REACTION_BANDIT-004" ID="{7D8ECC47-942C-4AA3-BD86-BAE54D66FE2B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_REACTION_BANDIT-005" ID="{D65E3E71-0ECE-4B59-BBB5-B5278BAAF75C}" ShortID="735905991">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_REACTION_BANDIT-005" ID="{EE34142A-F5E8-4DB2-82C9-74726F978E7B}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.927038626609442"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.50643776824034"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="699538964"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_REACTION_BANDIT-005" ID="{EE34142A-F5E8-4DB2-82C9-74726F978E7B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_REACTION_BANDIT-006" ID="{8D205CA8-D59B-43EC-8199-5A41B1BB0BB9}" ShortID="150060045">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_REACTION_BANDIT-006" ID="{E056F1C1-9C80-4346-B55A-46FDCE28114D}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.875536480686695"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.44206008583691"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="375140246"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_REACTION_BANDIT-006" ID="{E056F1C1-9C80-4346-B55A-46FDCE28114D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="VOX_BDT_Cris_Douleur" ID="{3C03DC5E-CF2C-4A25-9325-49F3D1190F80}" ShortID="78823987">
@@ -31,6 +214,197 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_BDT_Cris_Douleur" ID="{792CE754-6D3E-449A-B5F7-596823EEF2D5}" ShortID="241623692">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_CRIS_BANDIT-001" ID="{FAC40796-8329-48A1-B747-76ED17DE792A}" ShortID="267872139">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_CRIS_BANDIT-001" ID="{77BF5934-7474-4752-BCDC-F213051A0E26}">
+															<PropertyList>
+																<Property Name="LoopEnd" Type="Real64" Value="1.41630901287554"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.781115879828326"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.4206008583691"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="127418074"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_CRIS_BANDIT-001" ID="{77BF5934-7474-4752-BCDC-F213051A0E26}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_CRIS_BANDIT-002" ID="{FC4BFC0E-9A7B-4DAC-B532-A208EF115F17}" ShortID="146838634">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_CRIS_BANDIT-002" ID="{EF9F68EF-5926-4F5B-A3F3-202CCC42D1A3}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.802575107296137"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.793991416309013"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.41201716738197"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="102516211"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_CRIS_BANDIT-002" ID="{EF9F68EF-5926-4F5B-A3F3-202CCC42D1A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_CRIS_BANDIT-003" ID="{AC347725-E83E-4017-9FF5-DCEBD2816A62}" ShortID="802117809">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_CRIS_BANDIT-003" ID="{AFA26ECB-F705-4D3B-87A2-C8E8948BEDF0}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.793991416309013"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.789699570815451"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.38197424892704"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="668360539"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_CRIS_BANDIT-003" ID="{AFA26ECB-F705-4D3B-87A2-C8E8948BEDF0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_CRIS_BANDIT-004" ID="{A3185E87-B6C4-4818-AA6E-0BFA33B55346}" ShortID="1071484414">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_CRIS_BANDIT-004" ID="{7B3807ED-5923-44AF-A478-D3171A2641CC}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.755364806866953"/>
+																<Property Name="LoopEnd" Type="Real64" Value="1.3862660944206"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.746781115879828"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.39055793991416"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="39410418"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_CRIS_BANDIT-004" ID="{7B3807ED-5923-44AF-A478-D3171A2641CC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_CRIS_BANDIT-005" ID="{E56E3274-9DFE-4C6D-B000-2D94A9169DE1}" ShortID="402618402">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_CRIS_BANDIT-005" ID="{377C6434-E9F3-4692-B2F4-D37A80FB2B56}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.708154506437768"/>
+																<Property Name="LoopEnd" Type="Real64" Value="1.30042918454936"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.699570815450644"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.30901287553648"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="758625015"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_CRIS_BANDIT-005" ID="{377C6434-E9F3-4692-B2F4-D37A80FB2B56}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_CRIS_BANDIT-006" ID="{E0759DE1-8FD4-4AA3-8CC5-9C23CB913157}" ShortID="573655862">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_CRIS_BANDIT-006" ID="{FF622F41-A6A3-496B-BB59-EE3419B8D87E}">
+															<PropertyList>
+																<Property Name="LoopEnd" Type="Real64" Value="1.35622317596567"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.703862660944206"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.36480686695279"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="77048823"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_CRIS_BANDIT-006" ID="{FF622F41-A6A3-496B-BB59-EE3419B8D87E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 							</ChildrenList>
@@ -46,6 +420,48 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_LZD_Reac" ID="{F05AD4D6-12D7-4842-85AA-B3570F5B2923}" ShortID="213177705">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="LEZARD_REAC-001" ID="{43112F43-70D8-4061-B3A9-A0DAD8EEEC2D}" ShortID="387592589">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LEZARD_REAC-001" ID="{8CB9FC55-1DEC-4052-B056-D574A8E4C0D9}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.36909871244635"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\LEZARD\REAC\LEZARD_REAC-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="115959853"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="LEZARD_REAC-001" ID="{8CB9FC55-1DEC-4052-B056-D574A8E4C0D9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="VOX_LZD_Cris_Douleur" ID="{D5558063-93AC-4393-B110-C5569FB1DDC4}" ShortID="761766994">
