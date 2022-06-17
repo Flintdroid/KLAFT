@@ -24,8 +24,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Pave" ID="{74E7535D-D5B0-458A-9312-6EE4A78D3F32}" WorkUnitID="{21482BDD-E6B2-4342-BE01-1CF0E68AC3B2}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="SW_PERS_FTP_Hero" ID="{0344CE24-EFA8-4DB2-A857-89EA435AD9E3}" WorkUnitID="{21482BDD-E6B2-4342-BE01-1CF0E68AC3B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -38,9 +44,527 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="PERS_FTP_Pave_Heavy" ID="{01FBEAF5-4BC7-48B4-A54A-3479C2DDD7AF}" ShortID="677236753">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SW_Bruit_Pas_Pave_HEAVY_5" ID="{05F14C98-6EB9-46C9-8D71-70EEA7307C62}" ShortID="843260736">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_HEAVY_5" ID="{4D1B67E2-81F5-4F7C-A4C7-ACD2FB7C6B3D}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.221543457253297"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.162965865165985"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.75550073897226"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_5.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="734819606"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_HEAVY_5" ID="{4D1B67E2-81F5-4F7C-A4C7-ACD2FB7C6B3D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_HEAVY_6" ID="{C6284692-32E3-40F3-B7C0-FA86B31CFB1D}" ShortID="834547572">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_HEAVY_6" ID="{EE897211-CA22-44A9-A95B-0376115D4327}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.257239199636198"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.257845895861755"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.70012744429286"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_6.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="791009424"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_HEAVY_6" ID="{EE897211-CA22-44A9-A95B-0376115D4327}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_HEAVY_7" ID="{1EB2D8A6-4783-4080-B929-9F74EEF6FF2B}" ShortID="1065434410">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_HEAVY_7" ID="{8B392003-0437-4CCA-8826-58D042073760}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0923244372442019"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.232319662346521"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.728940654843111"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_7.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="529767638"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_HEAVY_7" ID="{8B392003-0437-4CCA-8826-58D042073760}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_HEAVY_8" ID="{4466F2FC-0F56-4CC1-BD4D-5213DBE9278B}" ShortID="450132522">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_HEAVY_8" ID="{EB307120-ED64-4259-8092-39C9087C1AED}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0120423345839018"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.139601878694861"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.139601878694861"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.495519767507958"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_8.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="876827148"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_HEAVY_8" ID="{EB307120-ED64-4259-8092-39C9087C1AED}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_HEAVY_9" ID="{A0A82337-299F-406A-8E03-3298E638AE82}" ShortID="114278489">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_HEAVY_9" ID="{B6E290D6-4F85-478F-A7B4-FB1323CDB14B}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0113862266939518"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0455449067758072"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.18768909163256"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.427534447476126"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_9.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="403608477"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_HEAVY_9" ID="{B6E290D6-4F85-478F-A7B4-FB1323CDB14B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_HEAVY_10" ID="{BFEB9463-6BC7-46D2-BE77-40DC0EA6A03F}" ShortID="476521809">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_HEAVY_10" ID="{65268A56-DA03-41CB-BD9F-C8955772E6F4}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.199442701227831"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.199442701227831"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.729509166098226"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_10.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="704227235"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_HEAVY_10" ID="{65268A56-DA03-41CB-BD9F-C8955772E6F4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_HEAVY_11" ID="{6663135B-4849-417A-A4D2-3D6C7414AD31}" ShortID="370352292">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_HEAVY_11" ID="{82B47033-A4F6-4766-9BCF-EFCCB344697E}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.183288284447476"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.597384038199182"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_11.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="640829140"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_HEAVY_11" ID="{82B47033-A4F6-4766-9BCF-EFCCB344697E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="PERS_FTP_Pave_Soft" ID="{95021577-7E2C-45FC-82E0-657B1CFE211F}" ShortID="1023468854">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_1" ID="{2ED1A208-FA3A-4D29-B6CB-C638D8F490E4}" ShortID="37737691">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_1" ID="{93723113-6A8B-4413-BD27-58E0B3A576FF}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.198342883128695"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.198342883128695"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.557839358799454"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="399886222"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_1" ID="{93723113-6A8B-4413-BD27-58E0B3A576FF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_2" ID="{F5B3084E-2A53-466E-8EDA-88C197C03D9F}" ShortID="988137103">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_2" ID="{D21B9981-E0F7-4B6E-9824-BBADB661638E}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.157113830150068"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.157113830150068"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.487594645293315"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="763828367"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_2" ID="{D21B9981-E0F7-4B6E-9824-BBADB661638E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_3" ID="{0BB9FBA9-0D6F-4D43-A97C-B27FCDB3EF12}" ShortID="962507868">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_3" ID="{AB341F72-2F30-45FD-83E0-43762F4AB874}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.234880542291951"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="955938359"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_3" ID="{AB341F72-2F30-45FD-83E0-43762F4AB874}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_4" ID="{8A3357CA-8183-4323-A3AB-4298ABCFB454}" ShortID="555149399">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_4" ID="{080E8BED-5B2E-45D7-80AC-AF34F8C69A5B}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.215200261482492"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="668789148"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_4" ID="{080E8BED-5B2E-45D7-80AC-AF34F8C69A5B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_5" ID="{0ED6EDD5-893F-47F0-AFD4-0DB7C8DC94D2}" ShortID="121537137">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_5" ID="{F3D28772-3FE4-415D-B340-5F4D05876344}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.204922066848568"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.204922066848568"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.704452194179172"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_5.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="66737117"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_5" ID="{F3D28772-3FE4-415D-B340-5F4D05876344}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_6" ID="{EF8C47DC-08F5-4637-9483-D646378B5246}" ShortID="202224306">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_6" ID="{F2B7513E-9534-4B82-99A9-F066C637CCEA}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.218607179399727"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.218607179399727"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.812158793769895"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_6.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1073559451"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_6" ID="{F2B7513E-9534-4B82-99A9-F066C637CCEA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_7" ID="{ED9B26A1-1594-4890-823E-8293D36B3103}" ShortID="904741704">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_7" ID="{99554E9B-5B44-459C-A1A3-288540701595}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.195424837994543"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.195424837994543"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.468245651432469"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_7.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="540195159"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_7" ID="{99554E9B-5B44-459C-A1A3-288540701595}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_8" ID="{F15C5C15-D1C9-497B-9362-1AB48731F92C}" ShortID="168549540">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_8" ID="{6B65D547-0459-4AAB-9888-C7C841C206FF}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.216153137789904"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.216153137789904"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.540887875170532"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_8.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="701221975"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_8" ID="{6B65D547-0459-4AAB-9888-C7C841C206FF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_9" ID="{E0A642CD-4F58-438C-B223-74D5684FF48A}" ShortID="755344233">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_9" ID="{860EAC09-89EE-43CD-B31B-DDE957CD2B4C}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.204049369031378"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.204049369031378"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.633891072646658"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_9.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="898637930"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_9" ID="{860EAC09-89EE-43CD-B31B-DDE957CD2B4C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SW_Bruit_Pas_Pave_SOFT_10" ID="{5994D5C0-D771-4748-A89E-CB1EDC084E8D}" ShortID="579380230">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SW_Bruit_Pas_Pave_SOFT_10" ID="{F9247BDD-6A94-449C-889F-B3538D9FBBB1}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.201098567530696"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.201098567530696"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.614773931332424"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_10.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="148253501"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="SW_Bruit_Pas_Pave_SOFT_10" ID="{F9247BDD-6A94-449C-889F-B3538D9FBBB1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</RandomSequenceContainer>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}" ShortID="737374225">
+										<RandomSequenceContainer Name="PERS_FTP_Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}" ShortID="737374225">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
@@ -49,6 +573,204 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SD KLAFT - SW_Bruit_Pas_Herbe #1" ID="{3C968C6A-8DF4-4348-B255-EA4EF99C8EE8}" ShortID="481101780">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #1" ID="{2B0EEE5F-69AC-49B3-87D3-B215C28EE9CD}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0904731554115507"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.103184259890859"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.583963094020009"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1052821990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #1" ID="{2B0EEE5F-69AC-49B3-87D3-B215C28EE9CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SD KLAFT - SW_Bruit_Pas_Herbe #2" ID="{FED6BD66-089C-4B03-93D8-1D35D743B354}" ShortID="689262819">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #2" ID="{0CAF892D-EF90-4ABC-91A6-DC6B92139A7F}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0919371731468849"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.110184245679854"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.527761482492041"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="426421083"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #2" ID="{0CAF892D-EF90-4ABC-91A6-DC6B92139A7F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SD KLAFT - SW_Bruit_Pas_Herbe #3" ID="{3F2877EA-9913-46FE-A036-18B54492A8FB}" ShortID="195088855">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #3" ID="{B0D99FC6-4BF2-494E-B39E-1FA8391C3E33}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0310599704411096"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.118179399727149"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="956135550"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #3" ID="{B0D99FC6-4BF2-494E-B39E-1FA8391C3E33}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SD KLAFT - SW_Bruit_Pas_Herbe #4" ID="{7A652054-0C41-4FAD-9276-FBC932FA2277}" ShortID="473109683">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #4" ID="{A9A81913-947C-4E3F-AD53-3D4606D6442C}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0763979081400637"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="976123084"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #4" ID="{A9A81913-947C-4E3F-AD53-3D4606D6442C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SD KLAFT - SW_Bruit_Pas_Herbe #5" ID="{95911D91-4C63-4737-A365-0B961BD1D791}" ShortID="81739578">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #5" ID="{70A6DD69-B87B-48DE-9581-D0367D5F7E14}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0590958248067304"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="585162244"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #5" ID="{70A6DD69-B87B-48DE-9581-D0367D5F7E14}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SD KLAFT - SW_Bruit_Pas_Herbe #6" ID="{F39D7E4C-385F-4215-94D2-5C69F5441BFC}" ShortID="290375370">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #6" ID="{42ED9A8D-A451-4C8C-955B-474F75E0612E}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0460735845839018"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="264432207"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #6" ID="{42ED9A8D-A451-4C8C-955B-474F75E0612E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SD KLAFT - SW_Bruit_Pas_Herbe #7" ID="{DEFF18F0-D2A8-407F-917C-6F1C7A4FCFE7}" ShortID="630632972">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #7" ID="{64BDCDF7-68BC-4B32-90C3-A70B020991A7}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.296865833901774"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0575484595270577"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.886080412494039"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1028358002"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SD KLAFT - SW_Bruit_Pas_Herbe #7" ID="{64BDCDF7-68BC-4B32-90C3-A70B020991A7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -56,12 +778,26 @@
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}"/>
+												<ItemRef Name="PERS_FTP_Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Pave" ID="{545211DA-5884-4EBE-BEF5-ACAE1E3E5B51}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Pave" ID="{74E7535D-D5B0-458A-9312-6EE4A78D3F32}"/>
+												<ItemList>
+													<ItemRef Name="Pave" ID="{545211DA-5884-4EBE-BEF5-ACAE1E3E5B51}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Herbe" ID="{4D6E58AB-0317-4CF6-9810-901D90AF1E38}"/>
+												<ItemList>
+													<ItemRef Name="PERS_FTP_Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 							</ChildrenList>
@@ -301,9 +1037,10 @@
 													<ChildrenList>
 														<AudioFileSource Name="SW_Ramper_Herbe_7" ID="{E6FA8F24-C95D-4452-83DB-2D9D03EBD18B}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.290325464949928"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.02433808432237"/>
 																<Property Name="LoopEnd" Type="Real64" Value="0.716059817596566"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0978427694406548"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7.wav</AudioFile>
@@ -557,115 +1294,6 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="BRUITAGES" ID="{A5E9D730-0BEB-4BB6-AC81-118AEFC00E98}" ShortID="39341610">
-					<ChildrenList>
-						<RandomSequenceContainer Name="PERS_BRUI_VETO_AGONIE" ID="{D2E55695-F6C9-4F12-9E0E-2AEDDD2ADA9F}" ShortID="272472374">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="PERSONNAGES" ID="{AEDF41C8-94D8-45D2-BB47-C616DB05C2A9}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Cloth ramper02" ID="{807C5F94-38EE-4FE6-BB39-2432078F9F4B}" ShortID="673304833">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cloth ramper02" ID="{66A6BBED-7725-4BDB-B117-E81B1F884589}">
-											<Language>SFX</Language>
-											<AudioFile>PERSO\Cloth ramper02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="656218864"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Cloth ramper02" ID="{66A6BBED-7725-4BDB-B117-E81B1F884589}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Cloth ramper03" ID="{D21C0BAF-3B70-4CA2-AAF9-688907DEF3DC}" ShortID="498815146">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cloth ramper03" ID="{D019DD24-112D-4A3E-87D9-9F5488191BC1}">
-											<Language>SFX</Language>
-											<AudioFile>PERSO\Cloth ramper03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="730074681"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Cloth ramper03" ID="{D019DD24-112D-4A3E-87D9-9F5488191BC1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Cloth ramper04" ID="{ED4410CA-E782-4D6D-9305-4AC41D764C53}" ShortID="937709131">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cloth ramper04" ID="{D0FE6AB1-040C-4E04-B1B7-B40CE60819FA}">
-											<Language>SFX</Language>
-											<AudioFile>PERSO\Cloth ramper04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="533397186"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Cloth ramper04" ID="{D0FE6AB1-040C-4E04-B1B7-B40CE60819FA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Cloth ramper" ID="{95B8B16D-80DF-4E05-A580-782339C9E65A}" ShortID="846610685">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cloth ramper" ID="{64C03EDB-AD3A-4DBC-9570-2FA9EAE09FEE}">
-											<Language>SFX</Language>
-											<AudioFile>PERSO\Cloth ramper.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="830527586"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Cloth ramper" ID="{64C03EDB-AD3A-4DBC-9570-2FA9EAE09FEE}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Barde" ID="{37608754-02FE-46AF-A80E-616228DF63E9}" ShortID="846858067">
 					<ChildrenList>
 						<RandomSequenceContainer Name="VOX_BARD_Impact" ID="{326C321B-FA86-4C59-BF44-EC9B82A1AC93}" ShortID="85353608">
@@ -778,6 +1406,207 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="VETO" ID="{06DF7FEF-0952-4100-90C0-236B2B5B8A30}" ShortID="88352148">
+					<ChildrenList>
+						<Folder Name="BRUITAGES" ID="{A5E9D730-0BEB-4BB6-AC81-118AEFC00E98}" ShortID="39341610">
+							<ChildrenList>
+								<RandomSequenceContainer Name="PERS_BRUI_VETO_AGONIE" ID="{D2E55695-F6C9-4F12-9E0E-2AEDDD2ADA9F}" ShortID="272472374">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PERSONNAGES" ID="{AEDF41C8-94D8-45D2-BB47-C616DB05C2A9}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Cloth ramper02" ID="{807C5F94-38EE-4FE6-BB39-2432078F9F4B}" ShortID="673304833">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cloth ramper02" ID="{66A6BBED-7725-4BDB-B117-E81B1F884589}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0318728406956488"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0367020589828683"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>PERSO\Cloth ramper02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="656218864"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Cloth ramper02" ID="{66A6BBED-7725-4BDB-B117-E81B1F884589}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cloth ramper03" ID="{D21C0BAF-3B70-4CA2-AAF9-688907DEF3DC}" ShortID="498815146">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cloth ramper03" ID="{D019DD24-112D-4A3E-87D9-9F5488191BC1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0193160620319069"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.12233505953541"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>PERSO\Cloth ramper03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="730074681"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Cloth ramper03" ID="{D019DD24-112D-4A3E-87D9-9F5488191BC1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cloth ramper04" ID="{ED4410CA-E782-4D6D-9305-4AC41D764C53}" ShortID="937709131">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cloth ramper04" ID="{D0FE6AB1-040C-4E04-B1B7-B40CE60819FA}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0210902296343731"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.195470421001507"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>PERSO\Cloth ramper04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="533397186"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Cloth ramper04" ID="{D0FE6AB1-040C-4E04-B1B7-B40CE60819FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cloth ramper" ID="{95B8B16D-80DF-4E05-A580-782339C9E65A}" ShortID="846610685">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cloth ramper" ID="{64C03EDB-AD3A-4DBC-9570-2FA9EAE09FEE}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0295801258033018"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0419846946885573"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>PERSO\Cloth ramper.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="830527586"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Cloth ramper" ID="{64C03EDB-AD3A-4DBC-9570-2FA9EAE09FEE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="PERS_BRUI_VETO_COUP" ID="{F2C94365-70DF-49B1-99D5-DA0EBDF0A709}" ShortID="77593393">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PERSONNAGES" ID="{AEDF41C8-94D8-45D2-BB47-C616DB05C2A9}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="COUP02" ID="{D75A9DF1-C676-4495-A958-414C4ACB2C74}" ShortID="104520285">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="COUP02" ID="{45B84BF6-5854-47A3-9C88-89E0A718084F}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00599971229965383"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>PERSO\Body\VETO\COUP02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1067752451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="COUP02" ID="{45B84BF6-5854-47A3-9C88-89E0A718084F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="COUP" ID="{CD03D657-CDCA-4324-83EE-D7701D0CDE1C}" ShortID="271578541">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="COUP" ID="{581D65BE-92D3-4CE2-8FB6-DECE44891575}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0190414010078793"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0190414010078793"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>PERSO\Body\VETO\COUP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="34818717"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="COUP" ID="{581D65BE-92D3-4CE2-8FB6-DECE44891575}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -17,6 +17,12 @@
 										<Switch Name="Herbe" ID="{E22A0FE4-EB89-4A0B-B76E-ABCB37385F19}"/>
 									</ChildrenList>
 								</SwitchGroup>
+								<SwitchGroup Name="SW_PERS_FTP_Hero" ID="{0344CE24-EFA8-4DB2-A857-89EA435AD9E3}">
+									<ChildrenList>
+										<Switch Name="Herbe" ID="{4D6E58AB-0317-4CF6-9810-901D90AF1E38}"/>
+										<Switch Name="Pave" ID="{74E7535D-D5B0-458A-9312-6EE4A78D3F32}"/>
+									</ChildrenList>
+								</SwitchGroup>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

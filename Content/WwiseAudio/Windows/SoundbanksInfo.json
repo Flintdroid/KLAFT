@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Etudiant3A\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -35,7 +35,7 @@
     "Id": "925885567",
     "GUID": "{E9DDCC24-5B56-4CA4-9856-9D38428FA434}",
     "Language": "SFX",
-    "Hash": "3542222645",
+    "Hash": "1667255197",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AMB",
     "ShortName": "SB_AMB",
     "Path": "SB_AMB.bnk",
@@ -223,7 +223,7 @@
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "1215448186",
+    "Hash": "3762717517",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
@@ -234,44 +234,44 @@
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\VETO\\Play_VOIX_VETO_HIit",
       "GUID": "{7FF0CA51-D3B9-47FD-985A-E4176106E30A}",
       "DurationType": "OneShot",
-      "DurationMin": "1.316062",
-      "DurationMax": "1.316062",
+      "DurationMin": "0.851939",
+      "DurationMax": "0.961462",
       "IncludedMemoryFiles": [
        {
         "Id": "63171022",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-003_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-003_D0CBE1C3.wem"
        },
        {
         "Id": "163266434",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-006.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-006_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-006_38A59434.wem"
        },
        {
         "Id": "232780025",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-001.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-001_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-001_5909C668.wem"
        },
        {
         "Id": "286676746",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-005.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-005_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-005_B23C7250.wem"
        },
        {
         "Id": "534442628",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-002.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-002_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-002_A518ED1A.wem"
        },
        {
         "Id": "963491228",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\HIT\\ONO_HIT_VETO-004.wav",
-        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-004_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\HIT\\ONO_HIT_VETO-004_B57C91E1.wem"
        }
       ]
      },
@@ -442,38 +442,38 @@
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\VETO\\Play_VOX_VETO_Appel",
       "GUID": "{2BCF1600-8B4F-4F39-ADF0-DAAE2C18EF0F}",
       "DurationType": "OneShot",
-      "DurationMin": "1.643167",
-      "DurationMax": "1.643167",
+      "DurationMin": "1.202672",
+      "DurationMax": "1.329329",
       "IncludedMemoryFiles": [
        {
         "Id": "19065871",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-006.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-006_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-006_A23BF553.wem"
        },
        {
         "Id": "51999793",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-002.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-002_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-002_15819BAE.wem"
        },
        {
         "Id": "62259681",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-001.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-001_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-001_5317CF90.wem"
        },
        {
         "Id": "356979004",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-004.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-004_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-004_B5A2FD6A.wem"
        },
        {
         "Id": "980821479",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\APPEL\\ONO_APPEL_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-003_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\APPEL\\ONO_APPEL_VETO-003_8B1C8D69.wem"
        }
       ]
      },
@@ -483,20 +483,43 @@
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\VETO\\Play_VOX_VETO_Cris_Victoire",
       "GUID": "{A4EE40DE-DB0B-4414-AAF7-A5BBA9554195}",
       "DurationType": "OneShot",
-      "DurationMin": "1.69",
-      "DurationMax": "1.69",
+      "DurationMin": "1.283063",
+      "DurationMax": "1.344161",
       "IncludedMemoryFiles": [
        {
         "Id": "61292502",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-004.wav",
-        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-004_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-004_2CAD7E09.wem"
        },
        {
         "Id": "346942262",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-003_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\VICTOIRE\\ONO_VICTORY_VETO-003_C2757FA6.wem"
+       }
+      ]
+     },
+     {
+      "Id": "441192577",
+      "Name": "Play_VOX_VETO_Decorruption",
+      "ObjectPath": "\\Events\\Default Work Unit\\VOX\\VETO\\Play_VOX_VETO_Decorruption",
+      "GUID": "{42BFEE9E-A7FE-4FA4-B5E7-E75FE33F680B}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.197531",
+      "DurationMax": "4.571854",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "926376036",
+        "Language": "SFX",
+        "ShortName": "VOX\\VETO\\Decorruption\\DECORRUPTION-002.wav",
+        "Path": "SFX\\VOX\\VETO\\Decorruption\\DECORRUPTION-002_9CFA8593.wem"
+       },
+       {
+        "Id": "1024795878",
+        "Language": "SFX",
+        "ShortName": "VOX\\VETO\\Decorruption\\DECORRUPTION-001.wav",
+        "Path": "SFX\\VOX\\VETO\\Decorruption\\DECORRUPTION-001_E94AA3D5.wem"
        }
       ]
      },
@@ -506,38 +529,38 @@
       "ObjectPath": "\\Events\\Default Work Unit\\VOX\\VETO\\Play_VOX_VETO_Enga_Cmb",
       "GUID": "{F08ED171-0B8A-4663-94D2-96123C675EA3}",
       "DurationType": "OneShot",
-      "DurationMin": "1.9305",
-      "DurationMax": "1.9305",
+      "DurationMin": "1.597337",
+      "DurationMax": "1.682932",
       "IncludedMemoryFiles": [
        {
         "Id": "5859098",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_42185FB1.wem"
        },
        {
         "Id": "568673081",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_61FFA9E1.wem"
        },
        {
         "Id": "653223579",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_C2390BF8.wem"
        },
        {
         "Id": "927061123",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004_499C8CFE.wem"
        },
        {
         "Id": "1049659696",
         "Language": "SFX",
         "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002.wav",
-        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_10C4C929.wem"
+        "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_3889EDD5.wem"
        }
       ]
      }
@@ -547,31 +570,31 @@
       "Id": "5859098",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_10C4C929.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-001_42185FB1.wem"
      },
      {
       "Id": "568673081",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_10C4C929.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-005_61FFA9E1.wem"
      },
      {
       "Id": "653223579",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_10C4C929.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-003_C2390BF8.wem"
      },
      {
       "Id": "927061123",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004_10C4C929.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-004_499C8CFE.wem"
      },
      {
       "Id": "1049659696",
       "Language": "SFX",
       "ShortName": "VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002.wav",
-      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_10C4C929.wem"
+      "Path": "SFX\\VOX\\VETO\\ONO_ENGAG_COMBAT_VETO-002_3889EDD5.wem"
      }
     ]
    },
@@ -579,7 +602,7 @@
     "Id": "2823438860",
     "GUID": "{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}",
     "Language": "SFX",
-    "Hash": "3189965218",
+    "Hash": "518084094",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PERSONNAGES",
     "ShortName": "SB_PERSONNAGES",
     "Path": "SB_PERSONNAGES.bnk",
@@ -590,32 +613,232 @@
       "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Veto\\Play_PERS_BRUI_VETO_AGONIE",
       "GUID": "{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.629274",
-      "DurationMax": "0.754104",
+      "DurationMin": "0.506939",
+      "DurationMax": "0.638423",
       "IncludedMemoryFiles": [
        {
         "Id": "533397186",
         "Language": "SFX",
         "ShortName": "PERSO\\Cloth ramper04.wav",
-        "Path": "SFX\\PERSO\\Cloth ramper04_10C4C929.wem"
+        "Path": "SFX\\PERSO\\Cloth ramper04_FB1D3802.wem"
        },
        {
         "Id": "656218864",
         "Language": "SFX",
         "ShortName": "PERSO\\Cloth ramper02.wav",
-        "Path": "SFX\\PERSO\\Cloth ramper02_10C4C929.wem"
+        "Path": "SFX\\PERSO\\Cloth ramper02_D1C62FA8.wem"
        },
        {
         "Id": "730074681",
         "Language": "SFX",
         "ShortName": "PERSO\\Cloth ramper03.wav",
-        "Path": "SFX\\PERSO\\Cloth ramper03_10C4C929.wem"
+        "Path": "SFX\\PERSO\\Cloth ramper03_3B8EEF2D.wem"
        },
        {
         "Id": "830527586",
         "Language": "SFX",
         "ShortName": "PERSO\\Cloth ramper.wav",
-        "Path": "SFX\\PERSO\\Cloth ramper_10C4C929.wem"
+        "Path": "SFX\\PERSO\\Cloth ramper_991DA4EC.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1754226524",
+      "Name": "Play_PERS_BRUI_VETO_COUP",
+      "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Veto\\Play_PERS_BRUI_VETO_COUP",
+      "GUID": "{862B029F-4BB2-4886-8B3B-563BB838B466}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.086585",
+      "DurationMax": "0.153272",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "34818717",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Body\\VETO\\COUP.wav",
+        "Path": "SFX\\PERSO\\Body\\VETO\\COUP_26C226C7.wem"
+       },
+       {
+        "Id": "1067752451",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Body\\VETO\\COUP02.wav",
+        "Path": "SFX\\PERSO\\Body\\VETO\\COUP02_DE4AFAEC.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2215914434",
+      "Name": "Play_PERS_FTP_Herbe",
+      "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Footsteps\\FTP\\Herbe\\Play_PERS_FTP_Herbe",
+      "GUID": "{7EBE32C8-ECC6-4C97-A460-0B750B7EA661}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.417577",
+      "DurationMax": "1.026051",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "264432207",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #6.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #6_592779EE.wem"
+       },
+       {
+        "Id": "426421083",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #2.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #2_97E041E1.wem"
+       },
+       {
+        "Id": "585162244",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #5.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #5_B14A5179.wem"
+       },
+       {
+        "Id": "956135550",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #3.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #3_33346619.wem"
+       },
+       {
+        "Id": "976123084",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #4.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #4_A35771FB.wem"
+       },
+       {
+        "Id": "1028358002",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #7.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #7_153EED56.wem"
+       },
+       {
+        "Id": "1052821990",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #1.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #1_83AFF943.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2483551162",
+      "Name": "Play_PERS_FTP_Pave_Heavy",
+      "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Footsteps\\FTP\\PAVE\\Play_PERS_FTP_Pave_Heavy",
+      "GUID": "{376BBDFC-02AA-40E7-B3F3-D3453D85D220}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.239845",
+      "DurationMax": "0.592535",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "403608477",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_9.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_9_B0374EA7.wem"
+       },
+       {
+        "Id": "529767638",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_7.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_7_C2FDE754.wem"
+       },
+       {
+        "Id": "640829140",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_11.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_11_7D034F95.wem"
+       },
+       {
+        "Id": "704227235",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_10.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_10_ED458627.wem"
+       },
+       {
+        "Id": "734819606",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_5.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_5_1B5B8370.wem"
+       },
+       {
+        "Id": "791009424",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_6.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_6_43C3566A.wem"
+       },
+       {
+        "Id": "876827148",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_8.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_8_FF76D00F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2311472293",
+      "Name": "Play_PERS_FTP_Pave_Soft",
+      "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Footsteps\\FTP\\PAVE\\Play_PERS_FTP_Pave_Soft",
+      "GUID": "{303F4B3C-B8FB-4A98-98B8-D9E2C46DED7E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.272821",
+      "DurationMax": "0.799216",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "66737117",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_5.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_5_05A4F935.wem"
+       },
+       {
+        "Id": "148253501",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_10.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_10_049E322C.wem"
+       },
+       {
+        "Id": "399886222",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_1.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_1_12D7F147.wem"
+       },
+       {
+        "Id": "540195159",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_7.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_7_99A2BE52.wem"
+       },
+       {
+        "Id": "668789148",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_4.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_4_B416EA43.wem"
+       },
+       {
+        "Id": "701221975",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_8.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_8_5F61140C.wem"
+       },
+       {
+        "Id": "763828367",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_2.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_2_1BE57C43.wem"
+       },
+       {
+        "Id": "898637930",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_9.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_9_992BC98A.wem"
+       },
+       {
+        "Id": "955938359",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_3.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_3_09DAB26D.wem"
+       },
+       {
+        "Id": "1073559451",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_6.wav",
+        "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_6_DF9EB045.wem"
        }
       ]
      },
@@ -626,7 +849,7 @@
       "GUID": "{01749EDE-8497-4EBD-A9E8-528FEECA0DD7}",
       "DurationType": "OneShot",
       "DurationMin": "0.402497",
-      "DurationMax": "1.0625",
+      "DurationMax": "0.964657",
       "IncludedMemoryFiles": [
        {
         "Id": "172570730",
@@ -650,7 +873,7 @@
         "Id": "461584228",
         "Language": "SFX",
         "ShortName": "PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_7.wav",
-        "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_7_08B42BFD.wem"
+        "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_7_71CE8BB8.wem"
        },
        {
         "Id": "817409173",
@@ -745,6 +968,24 @@
       "Path": "SFX\\PERSO\\Barde\\Impact hit\\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem"
      },
      {
+      "Id": "34818717",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Body\\VETO\\COUP.wav",
+      "Path": "SFX\\PERSO\\Body\\VETO\\COUP_26C226C7.wem"
+     },
+     {
+      "Id": "66737117",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_5.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_5_05A4F935.wem"
+     },
+     {
+      "Id": "148253501",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_10.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_10_049E322C.wem"
+     },
+     {
       "Id": "172570730",
       "Language": "SFX",
       "ShortName": "PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_8.wav",
@@ -761,6 +1002,12 @@
       "Language": "SFX",
       "ShortName": "PERSO\\Footsteps\\Ramper\\Pave\\SW_Ramper_Pave_15.wav",
       "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Pave\\SW_Ramper_Pave_15_81D94D55.wem"
+     },
+     {
+      "Id": "264432207",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #6.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #6_592779EE.wem"
      },
      {
       "Id": "282536497",
@@ -787,16 +1034,46 @@
       "Path": "SFX\\PERSO\\Barde\\Impact hit\\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem"
      },
      {
+      "Id": "399886222",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_1.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_1_12D7F147.wem"
+     },
+     {
+      "Id": "403608477",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_9.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_9_B0374EA7.wem"
+     },
+     {
+      "Id": "426421083",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #2.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #2_97E041E1.wem"
+     },
+     {
       "Id": "461584228",
       "Language": "SFX",
       "ShortName": "PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_7.wav",
-      "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_7_08B42BFD.wem"
+      "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_7_71CE8BB8.wem"
+     },
+     {
+      "Id": "529767638",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_7.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_7_C2FDE754.wem"
      },
      {
       "Id": "533397186",
       "Language": "SFX",
       "ShortName": "PERSO\\Cloth ramper04.wav",
-      "Path": "SFX\\PERSO\\Cloth ramper04_10C4C929.wem"
+      "Path": "SFX\\PERSO\\Cloth ramper04_FB1D3802.wem"
+     },
+     {
+      "Id": "540195159",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_7.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_7_99A2BE52.wem"
      },
      {
       "Id": "543140271",
@@ -805,16 +1082,28 @@
       "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Pave\\SW_Ramper_Pave_9_49FEA996.wem"
      },
      {
+      "Id": "585162244",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #5.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #5_B14A5179.wem"
+     },
+     {
       "Id": "595199163",
       "Language": "SFX",
       "ShortName": "PERSO\\Footsteps\\Ramper\\Pave\\SW_Ramper_Pave_14.wav",
       "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Pave\\SW_Ramper_Pave_14_0EF2E174.wem"
      },
      {
+      "Id": "640829140",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_11.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_11_7D034F95.wem"
+     },
+     {
       "Id": "656218864",
       "Language": "SFX",
       "ShortName": "PERSO\\Cloth ramper02.wav",
-      "Path": "SFX\\PERSO\\Cloth ramper02_10C4C929.wem"
+      "Path": "SFX\\PERSO\\Cloth ramper02_D1C62FA8.wem"
      },
      {
       "Id": "661719658",
@@ -823,10 +1112,46 @@
       "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Pave\\SW_Ramper_Pave_1_D4B73613.wem"
      },
      {
+      "Id": "668789148",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_4.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_4_B416EA43.wem"
+     },
+     {
+      "Id": "701221975",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_8.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_8_5F61140C.wem"
+     },
+     {
+      "Id": "704227235",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_10.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_10_ED458627.wem"
+     },
+     {
       "Id": "730074681",
       "Language": "SFX",
       "ShortName": "PERSO\\Cloth ramper03.wav",
-      "Path": "SFX\\PERSO\\Cloth ramper03_10C4C929.wem"
+      "Path": "SFX\\PERSO\\Cloth ramper03_3B8EEF2D.wem"
+     },
+     {
+      "Id": "734819606",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_5.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_5_1B5B8370.wem"
+     },
+     {
+      "Id": "763828367",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_2.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_2_1BE57C43.wem"
+     },
+     {
+      "Id": "791009424",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_6.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_6_43C3566A.wem"
      },
      {
       "Id": "817409173",
@@ -838,16 +1163,90 @@
       "Id": "830527586",
       "Language": "SFX",
       "ShortName": "PERSO\\Cloth ramper.wav",
-      "Path": "SFX\\PERSO\\Cloth ramper_10C4C929.wem"
+      "Path": "SFX\\PERSO\\Cloth ramper_991DA4EC.wem"
      },
      {
       "Id": "865744123",
       "Language": "SFX",
       "ShortName": "PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_12.wav",
       "Path": "SFX\\PERSO\\Footsteps\\Ramper\\Herbe\\SW_Ramper_Herbe_12_2A3C71FC.wem"
+     },
+     {
+      "Id": "876827148",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_8.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_HEAVY_8_FF76D00F.wem"
+     },
+     {
+      "Id": "898637930",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_9.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_9_992BC98A.wem"
+     },
+     {
+      "Id": "955938359",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_3.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_3_09DAB26D.wem"
+     },
+     {
+      "Id": "956135550",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #3.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #3_33346619.wem"
+     },
+     {
+      "Id": "976123084",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #4.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #4_A35771FB.wem"
+     },
+     {
+      "Id": "1028358002",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #7.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #7_153EED56.wem"
+     },
+     {
+      "Id": "1052821990",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #1.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\Herbe\\SD KLAFT - SW_Bruit_Pas_Herbe #1_83AFF943.wem"
+     },
+     {
+      "Id": "1067752451",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Body\\VETO\\COUP02.wav",
+      "Path": "SFX\\PERSO\\Body\\VETO\\COUP02_DE4AFAEC.wem"
+     },
+     {
+      "Id": "1073559451",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_6.wav",
+      "Path": "SFX\\PERSO\\Footsteps\\MARCH\\PAVE\\SW_Bruit_Pas_Pave_SOFT_6_DF9EB045.wem"
      }
     ],
     "SwitchGroups": [
+     {
+      "Id": "1067940548",
+      "Name": "SW_PERS_FTP_Hero",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PERSONNAGES\\FOOTSTEPS\\SW_PERS_FTP_Hero",
+      "GUID": "{0344CE24-EFA8-4DB2-A857-89EA435AD9E3}",
+      "Switches": [
+       {
+        "Id": "2495190089",
+        "Name": "Herbe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PERSONNAGES\\FOOTSTEPS\\SW_PERS_FTP_Hero\\Herbe",
+        "GUID": "{4D6E58AB-0317-4CF6-9810-901D90AF1E38}"
+       },
+       {
+        "Id": "1543143651",
+        "Name": "Pave",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PERSONNAGES\\FOOTSTEPS\\SW_PERS_FTP_Hero\\Pave",
+        "GUID": "{74E7535D-D5B0-458A-9312-6EE4A78D3F32}"
+       }
+      ]
+     },
      {
       "Id": "3818353572",
       "Name": "SW_PERS_RAMP_Hero",

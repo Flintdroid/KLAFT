@@ -1,39 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="3189965218">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="2762286859">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Veto\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.629274" DurationMax="0.754104">
+				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Veto\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.506939" DurationMax="0.638423">
 					<IncludedMemoryFiles>
 						<File Id="533397186" Language="SFX">
 							<ShortName>PERSO\Cloth ramper04.wav</ShortName>
-							<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>
+							<Path>SFX\PERSO\Cloth ramper04_523CFE98.wem</Path>
 						</File>
 						<File Id="656218864" Language="SFX">
 							<ShortName>PERSO\Cloth ramper02.wav</ShortName>
-							<Path>SFX\PERSO\Cloth ramper02_10C4C929.wem</Path>
+							<Path>SFX\PERSO\Cloth ramper02_24B6811B.wem</Path>
 						</File>
 						<File Id="730074681" Language="SFX">
 							<ShortName>PERSO\Cloth ramper03.wav</ShortName>
-							<Path>SFX\PERSO\Cloth ramper03_10C4C929.wem</Path>
+							<Path>SFX\PERSO\Cloth ramper03_3C34C72A.wem</Path>
 						</File>
 						<File Id="830527586" Language="SFX">
 							<ShortName>PERSO\Cloth ramper.wav</ShortName>
-							<Path>SFX\PERSO\Cloth ramper_10C4C929.wem</Path>
+							<Path>SFX\PERSO\Cloth ramper_2A8400E5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2455823049" Name="Play_Ramp_Herbe" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Footsteps\Rmper_Héro\Play_Ramp_Herbe" GUID="{01749EDE-8497-4EBD-A9E8-528FEECA0DD7}" DurationType="OneShot" DurationMin="0.402497" DurationMax="1.0625">
+				<Event Id="1754226524" Name="Play_PERS_BRUI_VETO_COUP" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Veto\Play_PERS_BRUI_VETO_COUP" GUID="{862B029F-4BB2-4886-8B3B-563BB838B466}" DurationType="OneShot" DurationMin="0.086585" DurationMax="0.153272">
+					<IncludedMemoryFiles>
+						<File Id="34818717" Language="SFX">
+							<ShortName>PERSO\Body\VETO\COUP.wav</ShortName>
+							<Path>SFX\PERSO\Body\VETO\COUP_7D316042.wem</Path>
+						</File>
+						<File Id="1067752451" Language="SFX">
+							<ShortName>PERSO\Body\VETO\COUP02.wav</ShortName>
+							<Path>SFX\PERSO\Body\VETO\COUP02_290BFCC8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2215914434" Name="Play_PERS_FTP_Herbe" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Footsteps\FTP\Herbe\Play_PERS_FTP_Herbe" GUID="{7EBE32C8-ECC6-4C97-A460-0B750B7EA661}" DurationType="OneShot" DurationMin="0.417577" DurationMax="1.026051">
+					<IncludedMemoryFiles>
+						<File Id="264432207" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #6.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #6_7B1A9054.wem</Path>
+						</File>
+						<File Id="426421083" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #2.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #2_5A854A5A.wem</Path>
+						</File>
+						<File Id="585162244" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #5.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #5_8E55E2A4.wem</Path>
+						</File>
+						<File Id="956135550" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #3.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #3_FD2FA0F2.wem</Path>
+						</File>
+						<File Id="976123084" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #4.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #4_2D374C95.wem</Path>
+						</File>
+						<File Id="1028358002" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #7.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #7_801D4BA4.wem</Path>
+						</File>
+						<File Id="1052821990" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #1.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #1_8172E548.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2483551162" Name="Play_PERS_FTP_Pave_Heavy" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Footsteps\FTP\PAVE\Play_PERS_FTP_Pave_Heavy" GUID="{376BBDFC-02AA-40E7-B3F3-D3453D85D220}" DurationType="OneShot" DurationMin="0.239845" DurationMax="0.592535">
+					<IncludedMemoryFiles>
+						<File Id="403608477" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_9.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_9_351C7AD8.wem</Path>
+						</File>
+						<File Id="529767638" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_7.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_7_301F4807.wem</Path>
+						</File>
+						<File Id="640829140" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_11.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_11_AC974AB4.wem</Path>
+						</File>
+						<File Id="704227235" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_10.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_10_6EE41411.wem</Path>
+						</File>
+						<File Id="734819606" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_5.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_5_4DC3ED5B.wem</Path>
+						</File>
+						<File Id="791009424" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_6.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_6_4BDF1659.wem</Path>
+						</File>
+						<File Id="876827148" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_8.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_8_1DA70B3D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2311472293" Name="Play_PERS_FTP_Pave_Soft" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Footsteps\FTP\PAVE\Play_PERS_FTP_Pave_Soft" GUID="{303F4B3C-B8FB-4A98-98B8-D9E2C46DED7E}" DurationType="OneShot" DurationMin="0.272821" DurationMax="0.799216">
+					<IncludedMemoryFiles>
+						<File Id="66737117" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_5.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_5_09CFE410.wem</Path>
+						</File>
+						<File Id="148253501" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_10.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_10_B7625C94.wem</Path>
+						</File>
+						<File Id="399886222" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_1.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_1_35BF862A.wem</Path>
+						</File>
+						<File Id="540195159" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_7.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_7_F6AC7356.wem</Path>
+						</File>
+						<File Id="668789148" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_4.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_4_28AA4869.wem</Path>
+						</File>
+						<File Id="701221975" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_8.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_8_74086E95.wem</Path>
+						</File>
+						<File Id="763828367" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_2.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_2_FA11332E.wem</Path>
+						</File>
+						<File Id="898637930" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_9.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_9_25AF5569.wem</Path>
+						</File>
+						<File Id="955938359" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_3.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_3_696A6E76.wem</Path>
+						</File>
+						<File Id="1073559451" Language="SFX">
+							<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_6.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_6_BF9FC31B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2455823049" Name="Play_Ramp_Herbe" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Footsteps\Rmper_Héro\Play_Ramp_Herbe" GUID="{01749EDE-8497-4EBD-A9E8-528FEECA0DD7}" DurationType="OneShot" DurationMin="0.402497" DurationMax="0.964657">
 					<IncludedMemoryFiles>
 						<File Id="172570730" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8.wav</ShortName>
@@ -49,7 +169,7 @@
 						</File>
 						<File Id="461584228" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7.wav</ShortName>
-							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_08B42BFD.wem</Path>
+							<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_CFC27932.wem</Path>
 						</File>
 						<File Id="817409173" Language="SFX">
 							<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10.wav</ShortName>
@@ -107,6 +227,18 @@
 					<ShortName>PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav</ShortName>
 					<Path>SFX\PERSO\Barde\Impact hit\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem</Path>
 				</File>
+				<File Id="34818717" Language="SFX">
+					<ShortName>PERSO\Body\VETO\COUP.wav</ShortName>
+					<Path>SFX\PERSO\Body\VETO\COUP_7D316042.wem</Path>
+				</File>
+				<File Id="66737117" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_5.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_5_09CFE410.wem</Path>
+				</File>
+				<File Id="148253501" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_10.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_10_B7625C94.wem</Path>
+				</File>
 				<File Id="172570730" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8.wav</ShortName>
 					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_8_ACEE10FA.wem</Path>
@@ -118,6 +250,10 @@
 				<File Id="218600078" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15.wav</ShortName>
 					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_15_81D94D55.wem</Path>
+				</File>
+				<File Id="264432207" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #6.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #6_7B1A9054.wem</Path>
 				</File>
 				<File Id="282536497" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_10.wav</ShortName>
@@ -135,33 +271,85 @@
 					<ShortName>PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav</ShortName>
 					<Path>SFX\PERSO\Barde\Impact hit\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem</Path>
 				</File>
+				<File Id="399886222" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_1.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_1_35BF862A.wem</Path>
+				</File>
+				<File Id="403608477" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_9.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_9_351C7AD8.wem</Path>
+				</File>
+				<File Id="426421083" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #2.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #2_5A854A5A.wem</Path>
+				</File>
 				<File Id="461584228" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7.wav</ShortName>
-					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_08B42BFD.wem</Path>
+					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_7_CFC27932.wem</Path>
+				</File>
+				<File Id="529767638" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_7.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_7_301F4807.wem</Path>
 				</File>
 				<File Id="533397186" Language="SFX">
 					<ShortName>PERSO\Cloth ramper04.wav</ShortName>
-					<Path>SFX\PERSO\Cloth ramper04_10C4C929.wem</Path>
+					<Path>SFX\PERSO\Cloth ramper04_523CFE98.wem</Path>
+				</File>
+				<File Id="540195159" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_7.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_7_F6AC7356.wem</Path>
 				</File>
 				<File Id="543140271" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9.wav</ShortName>
 					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_9_49FEA996.wem</Path>
 				</File>
+				<File Id="585162244" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #5.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #5_8E55E2A4.wem</Path>
+				</File>
 				<File Id="595199163" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14.wav</ShortName>
 					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_14_0EF2E174.wem</Path>
 				</File>
+				<File Id="640829140" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_11.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_11_AC974AB4.wem</Path>
+				</File>
 				<File Id="656218864" Language="SFX">
 					<ShortName>PERSO\Cloth ramper02.wav</ShortName>
-					<Path>SFX\PERSO\Cloth ramper02_10C4C929.wem</Path>
+					<Path>SFX\PERSO\Cloth ramper02_24B6811B.wem</Path>
 				</File>
 				<File Id="661719658" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1.wav</ShortName>
 					<Path>SFX\PERSO\Footsteps\Ramper\Pave\SW_Ramper_Pave_1_D4B73613.wem</Path>
 				</File>
+				<File Id="668789148" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_4.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_4_28AA4869.wem</Path>
+				</File>
+				<File Id="701221975" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_8.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_8_74086E95.wem</Path>
+				</File>
+				<File Id="704227235" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_10.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_10_6EE41411.wem</Path>
+				</File>
 				<File Id="730074681" Language="SFX">
 					<ShortName>PERSO\Cloth ramper03.wav</ShortName>
-					<Path>SFX\PERSO\Cloth ramper03_10C4C929.wem</Path>
+					<Path>SFX\PERSO\Cloth ramper03_3C34C72A.wem</Path>
+				</File>
+				<File Id="734819606" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_5.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_5_4DC3ED5B.wem</Path>
+				</File>
+				<File Id="763828367" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_2.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_2_FA11332E.wem</Path>
+				</File>
+				<File Id="791009424" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_6.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_6_4BDF1659.wem</Path>
 				</File>
 				<File Id="817409173" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_10.wav</ShortName>
@@ -169,14 +357,56 @@
 				</File>
 				<File Id="830527586" Language="SFX">
 					<ShortName>PERSO\Cloth ramper.wav</ShortName>
-					<Path>SFX\PERSO\Cloth ramper_10C4C929.wem</Path>
+					<Path>SFX\PERSO\Cloth ramper_2A8400E5.wem</Path>
 				</File>
 				<File Id="865744123" Language="SFX">
 					<ShortName>PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12.wav</ShortName>
 					<Path>SFX\PERSO\Footsteps\Ramper\Herbe\SW_Ramper_Herbe_12_2A3C71FC.wem</Path>
 				</File>
+				<File Id="876827148" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_8.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_HEAVY_8_1DA70B3D.wem</Path>
+				</File>
+				<File Id="898637930" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_9.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_9_25AF5569.wem</Path>
+				</File>
+				<File Id="955938359" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_3.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_3_696A6E76.wem</Path>
+				</File>
+				<File Id="956135550" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #3.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #3_FD2FA0F2.wem</Path>
+				</File>
+				<File Id="976123084" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #4.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #4_2D374C95.wem</Path>
+				</File>
+				<File Id="1028358002" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #7.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #7_801D4BA4.wem</Path>
+				</File>
+				<File Id="1052821990" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #1.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\Herbe\SD KLAFT - SW_Bruit_Pas_Herbe #1_8172E548.wem</Path>
+				</File>
+				<File Id="1067752451" Language="SFX">
+					<ShortName>PERSO\Body\VETO\COUP02.wav</ShortName>
+					<Path>SFX\PERSO\Body\VETO\COUP02_290BFCC8.wem</Path>
+				</File>
+				<File Id="1073559451" Language="SFX">
+					<ShortName>PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_6.wav</ShortName>
+					<Path>SFX\PERSO\Footsteps\MARCH\PAVE\SW_Bruit_Pas_Pave_SOFT_6_BF9FC31B.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 			<SwitchGroups>
+				<SwitchGroup Id="1067940548" Name="SW_PERS_FTP_Hero" ObjectPath="\Switches\Default Work Unit\PERSONNAGES\FOOTSTEPS\SW_PERS_FTP_Hero" GUID="{0344CE24-EFA8-4DB2-A857-89EA435AD9E3}">
+					<Switches>
+						<Switch Id="2495190089" Name="Herbe" ObjectPath="\Switches\Default Work Unit\PERSONNAGES\FOOTSTEPS\SW_PERS_FTP_Hero\Herbe" GUID="{4D6E58AB-0317-4CF6-9810-901D90AF1E38}"/>
+						<Switch Id="1543143651" Name="Pave" ObjectPath="\Switches\Default Work Unit\PERSONNAGES\FOOTSTEPS\SW_PERS_FTP_Hero\Pave" GUID="{74E7535D-D5B0-458A-9312-6EE4A78D3F32}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3818353572" Name="SW_PERS_RAMP_Hero" ObjectPath="\Switches\Default Work Unit\PERSONNAGES\FOOTSTEPS\SW_PERS_RAMP_Hero" GUID="{62150EE0-C5C9-4A53-9394-CEC74E310AC8}">
 					<Switches>
 						<Switch Id="1543143651" Name="PAVE" ObjectPath="\Switches\Default Work Unit\PERSONNAGES\FOOTSTEPS\SW_PERS_RAMP_Hero\PAVE" GUID="{18D14442-B589-47A9-A214-7C95E3CD2886}"/>

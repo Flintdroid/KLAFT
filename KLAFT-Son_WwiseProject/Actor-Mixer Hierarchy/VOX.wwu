@@ -812,7 +812,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+											<ObjectRef Name="VOX" ID="{A59A2E8A-963F-4ABA-BD11-967B0CB69560}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -837,6 +837,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-001" ID="{9653631A-801F-4436-AEA6-203AEC9BE08C}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.287072987721691"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.287072987721691"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-001.wav</AudioFile>
 															<MediaIDList>
@@ -860,6 +865,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-002" ID="{D9384501-7D7B-4034-84D8-F71178EDC61C}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.247567530695771"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.247567530695771"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-002.wav</AudioFile>
 															<MediaIDList>
@@ -883,6 +893,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-003" ID="{31D8ED89-D621-4BC7-8D83-B8C3D321B91E}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.313409959072305"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.313409959072305"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-003.wav</AudioFile>
 															<MediaIDList>
@@ -906,6 +921,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-004" ID="{EA42860C-D3B7-42A9-9D9D-5E03599CF14E}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.333162687585266"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.333162687585266"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-004.wav</AudioFile>
 															<MediaIDList>
@@ -929,6 +949,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-005" ID="{BA70B9A7-06EE-4C1D-A262-3C79FE9E34AC}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.256785470668486"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.256785470668486"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-005.wav</AudioFile>
 															<MediaIDList>
@@ -953,7 +978,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+											<ObjectRef Name="VOX" ID="{A59A2E8A-963F-4ABA-BD11-967B0CB69560}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -978,6 +1003,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_APPEL_VETO-001" ID="{BC0B1406-39A0-462F-9259-633840925951}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.416956343792633"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.416956343792633"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-001.wav</AudioFile>
 															<MediaIDList>
@@ -1001,6 +1031,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_APPEL_VETO-002" ID="{80A11029-3E67-4656-A8C5-AD89C0353FD1}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.313838108231014"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.313838108231014"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-002.wav</AudioFile>
 															<MediaIDList>
@@ -1024,6 +1059,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_APPEL_VETO-003" ID="{F231E553-D126-4F34-B5F4-165143A4B3AA}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.390055934515689"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.390055934515689"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-003.wav</AudioFile>
 															<MediaIDList>
@@ -1047,6 +1087,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_APPEL_VETO-004" ID="{C3A4DBDA-CA54-4C7E-94A5-D1B55A9DC08B}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.330650864029104"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.330650864029104"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-004.wav</AudioFile>
 															<MediaIDList>
@@ -1070,6 +1115,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_APPEL_VETO-006" ID="{6F0E044A-936D-4174-A4EB-EB55077E4152}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.440494201909959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.440494201909959"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-006.wav</AudioFile>
 															<MediaIDList>
@@ -1094,7 +1144,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+											<ObjectRef Name="VOX" ID="{A59A2E8A-963F-4ABA-BD11-967B0CB69560}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1119,6 +1169,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_VICTORY_VETO-003" ID="{8A156883-53A0-4A88-8968-B34A9425B4AD}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.345839017735334"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.345839017735334"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-003.wav</AudioFile>
 															<MediaIDList>
@@ -1142,6 +1197,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_VICTORY_VETO-004" ID="{15E8AB63-B688-4198-8B09-75B7A5A8B323}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.40693724420191"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.40693724420191"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-004.wav</AudioFile>
 															<MediaIDList>
@@ -1160,17 +1220,17 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
-								<ActorMixer Name="VOX_VETO_Cris_Douleur" ID="{A15D0F24-3A82-41BF-9F68-41E56E17F218}" ShortID="369217119">
+								<ActorMixer Name="VOX_VETO_Decorruption" ID="{A15D0F24-3A82-41BF-9F68-41E56E17F218}" ShortID="369217119">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+											<ObjectRef Name="VOX" ID="{A59A2E8A-963F-4ABA-BD11-967B0CB69560}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="VOX_VETO_Cris_Douleur" ID="{4104D133-F35A-4F69-AB51-09287584F896}" ShortID="576307211">
+										<RandomSequenceContainer Name="VOX_VETO_Decorruption" ID="{4104D133-F35A-4F69-AB51-09287584F896}" ShortID="576307211">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
@@ -1179,6 +1239,63 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="DECORRUPTION-001" ID="{5D42BE3D-5087-4DFB-A1C2-3155F720CD29}" ShortID="1072451290">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="DECORRUPTION-001" ID="{14CFEBE1-CF6E-4722-A6CF-C253543448F9}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.118375497385175"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.118375497385175"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\Decorruption\DECORRUPTION-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1024795878"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="DECORRUPTION-001" ID="{14CFEBE1-CF6E-4722-A6CF-C253543448F9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="DECORRUPTION-002" ID="{BD30DB85-E807-46ED-99BE-C8A92544D440}" ShortID="994762776">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="DECORRUPTION-002" ID="{A4D3226D-09FA-46C0-B0CA-137162DAFEA3}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.492698016143703"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\Decorruption\DECORRUPTION-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="926376036"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="DECORRUPTION-002" ID="{A4D3226D-09FA-46C0-B0CA-137162DAFEA3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -1190,7 +1307,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+											<ObjectRef Name="VOX" ID="{A59A2E8A-963F-4ABA-BD11-967B0CB69560}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1215,6 +1332,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_HIT_VETO-001" ID="{FF8FE617-1AB8-4E1A-BEE1-E2FFB7D74CD8}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.354600741814461"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.354600741814461"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-001.wav</AudioFile>
 															<MediaIDList>
@@ -1238,6 +1360,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_HIT_VETO-002" ID="{2B04BBA0-DBCB-430C-81E7-5E41E921852F}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.382430167121419"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.382430167121419"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-002.wav</AudioFile>
 															<MediaIDList>
@@ -1261,6 +1388,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_HIT_VETO-003" ID="{C7105F98-36EF-4308-A301-C71C8B9C0461}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.398589188267394"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.398589188267394"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-003.wav</AudioFile>
 															<MediaIDList>
@@ -1284,6 +1416,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_HIT_VETO-004" ID="{3DE4ECEE-E73D-4577-9C5B-2C6D1AB70961}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.464122996248295"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.464122996248295"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-004.wav</AudioFile>
 															<MediaIDList>
@@ -1307,6 +1444,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_HIT_VETO-005" ID="{365F2B1D-9BE0-45F5-928C-097F65F71829}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.448861698499318"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.448861698499318"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-005.wav</AudioFile>
 															<MediaIDList>
@@ -1330,6 +1472,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="ONO_HIT_VETO-006" ID="{CFC34BE2-0A8A-40DC-91A1-A4353AFD27A3}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.439884464529331"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.439884464529331"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-006.wav</AudioFile>
 															<MediaIDList>

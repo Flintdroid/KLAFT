@@ -166,6 +166,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_VOX_VETO_Decorruption" ID="{42BFEE9E-A7FE-4FA4-B5E7-E75FE33F680B}">
+							<ChildrenList>
+								<Action Name="" ID="{A8B315F2-94CB-4919-B6C1-8521C9F8682F}" ShortID="583383423">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VOX_VETO_Decorruption" ID="{4104D133-F35A-4F69-AB51-09287584F896}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

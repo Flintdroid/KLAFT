@@ -39,6 +39,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_PERS_BRUI_VETO_COUP" ID="{862B029F-4BB2-4886-8B3B-563BB838B466}">
+							<ChildrenList>
+								<Action Name="" ID="{C5606F1C-CF8B-4BBD-B88F-3E987232A809}" ShortID="342591744">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PERS_BRUI_VETO_COUP" ID="{F2C94365-70DF-49B1-99D5-DA0EBDF0A709}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Footsteps" ID="{04E25563-69AE-4119-A428-3B6DDCB8971D}" ShortID="688255588">
@@ -67,6 +78,51 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="FTP" ID="{1F0D349E-E540-4F97-B209-0AADD7B364B1}" ShortID="955126438">
+							<ChildrenList>
+								<Folder Name="Herbe" ID="{9EE9A5B6-CDD8-4AEA-81E9-308D0FC1DD84}" ShortID="1017901476">
+									<ChildrenList>
+										<Event Name="Play_PERS_FTP_Herbe" ID="{7EBE32C8-ECC6-4C97-A460-0B750B7EA661}">
+											<ChildrenList>
+												<Action Name="" ID="{9916D388-4946-4CE7-AC06-616BBDDC6F28}" ShortID="41783295">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PERS_FTP_Herbe" ID="{08833088-BC5F-406C-9A36-85696C9F2D89}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="PAVE" ID="{6E3EA74A-88BB-4F0D-A6D3-83CC7F84725F}" ShortID="25713976">
+									<ChildrenList>
+										<Event Name="Play_PERS_FTP_Pave_Heavy" ID="{376BBDFC-02AA-40E7-B3F3-D3453D85D220}">
+											<ChildrenList>
+												<Action Name="" ID="{3ECE06ED-34E8-46ED-B02D-268BE97802A7}" ShortID="751035513">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PERS_FTP_Pave_Heavy" ID="{01FBEAF5-4BC7-48B4-A54A-3479C2DDD7AF}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_PERS_FTP_Pave_Soft" ID="{303F4B3C-B8FB-4A98-98B8-D9E2C46DED7E}">
+											<ChildrenList>
+												<Action Name="" ID="{BF17E80A-D9BA-4DBE-8782-4D1CE1923FA6}" ShortID="37058808">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="PERS_FTP_Pave_Soft" ID="{95021577-7E2C-45FC-82E0-657B1CFE211F}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
