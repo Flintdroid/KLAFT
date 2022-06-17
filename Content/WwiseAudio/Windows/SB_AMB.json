@@ -1,0 +1,196 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "925885567",
+    "GUID": "{E9DDCC24-5B56-4CA4-9856-9D38428FA434}",
+    "Language": "SFX",
+    "Hash": "3542222645",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AMB",
+    "ShortName": "SB_AMB",
+    "Path": "SB_AMB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3218002828",
+      "Name": "Play_AMB_Cristallerie",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Cristallerie\\Play_AMB_Cristallerie",
+      "GUID": "{4A9E18D0-BBE5-4BD9-BCDF-A184618A9211}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "86148298",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Pickaxe\\Mining_Axe_1.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Pickaxe\\Mining_Axe_1_99FD4275.wem"
+       },
+       {
+        "Id": "131839311",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_3.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_3_77FB4061.wem"
+       },
+       {
+        "Id": "283160276",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Minecart\\Minecart_1.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Minecart\\Minecart_1_CF7F468D.wem"
+       },
+       {
+        "Id": "480632708",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_2.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_2_9F740125.wem"
+       },
+       {
+        "Id": "562705575",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Pickaxe\\Mining_Axe_2.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Pickaxe\\Mining_Axe_2_7092632E.wem"
+       },
+       {
+        "Id": "758956671",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_5.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_5_F634FAE0.wem"
+       },
+       {
+        "Id": "812772404",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Minecart\\Minecart_2.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Minecart\\Minecart_2_10C4C929.wem"
+       },
+       {
+        "Id": "910219664",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_4.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_4_B2B19389.wem"
+       },
+       {
+        "Id": "1027366607",
+        "Language": "SFX",
+        "ShortName": "AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_1.wav",
+        "Path": "SFX\\AMB\\Cristallerie\\Gemmes\\SW_GEMME_SCINTILLEMENT_SAIN_1_5D6739A1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1895752797",
+      "Name": "Play_AMB_Foret",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Foret\\Play_AMB_Foret",
+      "GUID": "{AD5D0B7D-C873-4BFC-A06E-592C50BD777B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "294707068",
+        "Language": "SFX",
+        "ShortName": "AMB\\Foret\\Birds\\Birds_1.wav",
+        "Path": "SFX\\AMB\\Foret\\Birds\\Birds_1_1C6CA7FF.wem"
+       },
+       {
+        "Id": "415218091",
+        "Language": "SFX",
+        "ShortName": "AMB\\Foret\\Birds\\Birds_2.wav",
+        "Path": "SFX\\AMB\\Foret\\Birds\\Birds_2_29DD330A.wem"
+       },
+       {
+        "Id": "516687177",
+        "Language": "SFX",
+        "ShortName": "AMB\\Foret\\Birds\\Birds_3.wav",
+        "Path": "SFX\\AMB\\Foret\\Birds\\Birds_3_86D9E352.wem"
+       },
+       {
+        "Id": "588287137",
+        "Language": "SFX",
+        "ShortName": "AMB\\Foret\\Wind\\Foret_Wind.wav",
+        "Path": "SFX\\AMB\\Foret\\Wind\\Foret_Wind_97BEB31B.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3676138608",
+      "Name": "Play_AMB_Plaine",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Plaine\\Play_AMB_Plaine",
+      "GUID": "{DE1BD429-5C03-42C1-B38D-2ECD0FC5E414}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "205785989",
+        "Language": "SFX",
+        "ShortName": "AMB\\Plaine\\Birds\\Plaine_Birds_Distant_1.wav",
+        "Path": "SFX\\AMB\\Plaine\\Birds\\Plaine_Birds_Distant_1_10C4C929.wem"
+       },
+       {
+        "Id": "328552547",
+        "Language": "SFX",
+        "ShortName": "AMB\\Plaine\\Birds\\Plaine_Birds_Distant_3.wav",
+        "Path": "SFX\\AMB\\Plaine\\Birds\\Plaine_Birds_Distant_3_10C4C929.wem"
+       },
+       {
+        "Id": "832968079",
+        "Language": "SFX",
+        "ShortName": "AMB\\Plaine\\Wind\\Plaine_Wind.wav",
+        "Path": "SFX\\AMB\\Plaine\\Wind\\Plaine_Wind_652B1392.wem"
+       },
+       {
+        "Id": "940172562",
+        "Language": "SFX",
+        "ShortName": "AMB\\Plaine\\Birds\\Plaine_Birds_Distant_4.wav",
+        "Path": "SFX\\AMB\\Plaine\\Birds\\Plaine_Birds_Distant_4_10C4C929.wem"
+       },
+       {
+        "Id": "1060010682",
+        "Language": "SFX",
+        "ShortName": "AMB\\Plaine\\Birds\\Plaine_Birds_Distant_2.wav",
+        "Path": "SFX\\AMB\\Plaine\\Birds\\Plaine_Birds_Distant_2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3131519631",
+      "Name": "Play_AMB_Village",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB\\Village\\Play_AMB_Village",
+      "GUID": "{303221CB-128C-4116-AA4F-EB4589ED2863}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "213264294",
+        "Language": "SFX",
+        "ShortName": "AMB\\Village\\Market\\Village_Market_1.wav",
+        "Path": "SFX\\AMB\\Village\\Market\\Village_Market_1_E0048DF8.wem"
+       },
+       {
+        "Id": "453237215",
+        "Language": "SFX",
+        "ShortName": "AMB\\Village\\Market\\Village_Market_2.wav",
+        "Path": "SFX\\AMB\\Village\\Market\\Village_Market_2_FB641FA2.wem"
+       },
+       {
+        "Id": "579982564",
+        "Language": "SFX",
+        "ShortName": "AMB\\Village\\Wind\\Village_Wind_etc.wav",
+        "Path": "SFX\\AMB\\Village\\Wind\\Village_Wind_etc_519D2339.wem"
+       },
+       {
+        "Id": "935250185",
+        "Language": "SFX",
+        "ShortName": "AMB\\Village\\Market\\Village_Market_3.wav",
+        "Path": "SFX\\AMB\\Village\\Market\\Village_Market_3_5B14C297.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

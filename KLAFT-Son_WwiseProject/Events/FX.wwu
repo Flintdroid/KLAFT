@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{309A0AEB-4C9A-44B3-9041-88E9439B2484}" SchemaVersion="103" RootDocumentID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" ParentDocumentID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}">
+	<Events>
+		<WorkUnit Name="FX" ID="{309A0AEB-4C9A-44B3-9041-88E9439B2484}" OwnerID="{19A8AEFE-9162-4A82-9327-3CFD517AC956}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="COMBAT" ID="{DA2672FB-EB8D-43C9-9CBD-CCA1526E33D3}" ShortID="840425322">
+					<ChildrenList>
+						<Folder Name="CHM_PHASE_CMBT" ID="{FF642156-0313-4BDA-9214-09BC49DEF653}" ShortID="1006374515"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

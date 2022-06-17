@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57815366-06FC-4E98-80A7-B15017EF855D}" SchemaVersion="103" RootDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" ParentDocumentID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}">
+	<AudioObjects>
+		<WorkUnit Name="VOX" ID="{57815366-06FC-4E98-80A7-B15017EF855D}" OwnerID="{9F713A98-0D2C-4C95-8820-103AA92D64EC}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="ENNEMIS" ID="{A9E16469-9CE7-4652-AF61-2F96CEB8E131}" ShortID="283568187">
+					<ChildrenList>
+						<Folder Name="Bandit" ID="{0296F91F-FD2B-4477-9E51-4A497102E0D9}" ShortID="248624162">
+							<ChildrenList>
+								<ActorMixer Name="VOX_BDT_Reac" ID="{9821FF25-3EAD-4407-9FBB-7471B5AAA7EC}" ShortID="389465170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BDT_Cris_Douleur" ID="{3C03DC5E-CF2C-4A25-9325-49F3D1190F80}" ShortID="78823987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Lézard" ID="{70249F53-FBB2-47EF-85AB-BFFE4D416E17}" ShortID="931772696">
+							<ChildrenList>
+								<ActorMixer Name="VOX_LZD_Reac" ID="{3C5C2A43-CDAB-4168-BDBD-820FB8E31DD2}" ShortID="480100959">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_LZD_Cris_Douleur" ID="{D5558063-93AC-4393-B110-C5569FB1DDC4}" ShortID="761766994">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pantin" ID="{9EDD35A3-797B-414D-8021-BDC17AC20200}" ShortID="454703676">
+							<ChildrenList>
+								<ActorMixer Name="VOX_PANT_React" ID="{34631040-193A-418E-AA9F-364A21B90D4E}" ShortID="164029961">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_React" ID="{4B2BDD55-137D-45B4-B275-E1200B606EED}" ShortID="737262580">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_REAC-002" ID="{009E97D4-E32C-467D-BDED-F28B87ABF5C1}" ShortID="141727491">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-002" ID="{DEDD4821-D53A-45C4-B943-93294EE662E0}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0452586206896551"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.286637931034483"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.616379310344829"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.01724137931035"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="296882556"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-002" ID="{DEDD4821-D53A-45C4-B943-93294EE662E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PANTIN_REAC-001" ID="{D26642E3-AD5C-41C9-BEFD-3B782E53600F}" ShortID="366660186">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-001" ID="{3F57AC70-89C2-4E8B-9506-253771310126}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0474137931034483"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.200431034482759"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.211206896551724"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.22198275862069"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="124562742"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-001" ID="{3F57AC70-89C2-4E8B-9506-253771310126}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_PANT_Cris_Douleur" ID="{8828B062-668F-4921-8399-1E5FE23CD5CF}" ShortID="986028073">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_Cris_Douleur" ID="{B61DBA68-8C2A-446E-9CD8-13746877D538}" ShortID="16371124">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_CRIS_DOULEURS-001" ID="{F1D9B0AB-B299-4420-B83F-B77074D90A95}" ShortID="405031264">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-001" ID="{85219E56-8424-4E1B-AC38-300CAD49E143}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0603578184865901"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.431127274904215"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.06488436901341"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.00474182830459"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="990892073"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_CRIS_DOULEURS-001" ID="{85219E56-8424-4E1B-AC38-300CAD49E143}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PANTIN_CRIS_DOULEURS-002" ID="{282C1AE0-A92E-4256-A8C6-01B0A7E763CC}" ShortID="436365325">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-002" ID="{59B68401-3E72-49DE-BA8B-FA8038224CF6}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0258676364942529"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.174606546336206"/>
+																<Property Name="FadeOutShape" Type="int16" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.40094836566092"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.26535855184387"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="197328391"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_CRIS_DOULEURS-002" ID="{59B68401-3E72-49DE-BA8B-FA8038224CF6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_PANT_Mort" ID="{AEA1C08F-C146-4E86-909C-658440E90839}" ShortID="825463148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_Mort" ID="{8646516B-23F6-477E-8C30-9B032C375C3F}" ShortID="877255251">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_CRIS_DOULEURS-003" ID="{527B4776-7DE6-467E-A3F5-0C980E4884D8}" ShortID="261266196">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_CRIS_DOULEURS-003" ID="{AC571EC8-A259-47E8-90BF-A738D90807A7}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0215563637452107"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.12955346024904"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.428971638529694"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.56305164930556"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="652187579"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_CRIS_DOULEURS-003" ID="{AC571EC8-A259-47E8-90BF-A738D90807A7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_PANT_Donner_Coup" ID="{BB20741B-3987-4115-BBF2-6AE1CBF9E4CB}" ShortID="824719551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_PANT_Donner_Coup" ID="{63938657-8D89-418A-A799-70188249C68F}" ShortID="547727882">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PANTIN_REAC-001" ID="{ADE6CD66-877D-470A-AA70-2CB8DFBF58ED}" ShortID="66187963">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-001" ID="{31244251-0007-476E-AD7F-A949C26E33EB}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0150862068965519"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.53448275862069"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.771551724137931"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.16810344827586"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="765612297"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-001" ID="{31244251-0007-476E-AD7F-A949C26E33EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PANTIN_REAC-002" ID="{2E6358A4-780F-4EFB-BF58-CF666666B85B}" ShortID="600955615">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PANTIN_REAC-002" ID="{54A43D89-1B3C-483F-A8C5-F628A0A53D02}">
+															<PropertyList>
+																<Property Name="CrossfadeShape" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0172413793103451"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.418103448275862"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.816810344827582"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.88577586206896"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="597277480"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PANTIN_REAC-002" ID="{54A43D89-1B3C-483F-A8C5-F628A0A53D02}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PERSONNAGES" ID="{C449DA17-9C3D-4803-8212-5026D0D374B4}" ShortID="707513380">
+					<ChildrenList>
+						<Folder Name="Mage" ID="{ABDFD005-329C-4EE0-AE6E-4D340C30CD41}" ShortID="911462000">
+							<ChildrenList>
+								<ActorMixer Name="VOX_MAGE_Cris_Victoire" ID="{BE409CA1-347F-4474-9875-B01433C6EDBD}" ShortID="505763197">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_MAGE_Enga_Cmb" ID="{3581925C-4A17-4039-8D39-38831A4D6BA5}" ShortID="1001326308">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_MAGE_Appel" ID="{F6D43058-6E3D-4A80-AA99-044E0C4C6FF4}" ShortID="547025001">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_MAGE_Cris_Douleur" ID="{A1751E0E-CB1B-44E3-9020-CF69E43D4FD4}" ShortID="482964641">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Barde" ID="{AEC3BA0F-5586-4BB0-BE17-2A0010A75FB8}" ShortID="335908479">
+							<ChildrenList>
+								<ActorMixer Name="VOX_BARD_Appel" ID="{A5C82205-3CEB-4605-BEAD-5E253B29EC8C}" ShortID="361653891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_BARD_Appel" ID="{61D86EBD-8190-4C34-A31F-832F43F07735}" ShortID="383183989">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_APPEL_BARDE-005" ID="{B80BA1E0-7DCD-4931-B198-7FE77C5D0B6C}" ShortID="895071117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_APPEL_BARDE-005" ID="{4BB3CEE8-2712-46E9-8A67-EFAA498D2C80}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0296588740458015"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.183885019083969"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.223430184478372"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.19426399491094"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\ONO_APPEL_BARDE-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="839806510"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_APPEL_BARDE-005" ID="{4BB3CEE8-2712-46E9-8A67-EFAA498D2C80}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BARD_Enga_Cmb" ID="{F26E767A-E9B2-4D46-A84C-B2608F43A4E5}" ShortID="905889029">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_BARD_Enga_Cmb" ID="{DF57CFC1-FE2B-4AC1-885B-2729FA70D595}" ShortID="333583171">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{913CA9BD-A698-48EC-B202-BB564B95F47D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_ENGAAG_COMBAT_BARDE-006" ID="{4E67145E-77CD-4BA0-81CA-CD415959C89A}" ShortID="834708752">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAAG_COMBAT_BARDE-006" ID="{00379A35-B450-4905-B127-C255DCA45626}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.159815521628499"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.091323155216285"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.01977523324852"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.11565309584394"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="556459483"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAAG_COMBAT_BARDE-006" ID="{00379A35-B450-4905-B127-C255DCA45626}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAAG_COMBAT_BARDE-008" ID="{F56ADF02-494F-4C57-9DD4-D0F8DC3ED75B}" ShortID="126765458">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAAG_COMBAT_BARDE-008" ID="{049DC55C-CF3D-479A-A491-2D142B37FF8D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.201671967769296"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.27016433418151"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.722974978795589"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.8607092875318"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="972430348"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAAG_COMBAT_BARDE-008" ID="{049DC55C-CF3D-479A-A491-2D142B37FF8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAAG_COMBAT_BARDE-009" ID="{BA5F6876-B90B-46AC-AD79-C5048F53DD17}" ShortID="611021118">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAAG_COMBAT_BARDE-009" ID="{2815B8BE-B0B8-4BE1-8C41-1441C2FCECA9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.091323155216285"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0684923664122137"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.627846692111957"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.91778625954198"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="669547984"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAAG_COMBAT_BARDE-009" ID="{2815B8BE-B0B8-4BE1-8C41-1441C2FCECA9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BARD_Cris_Victoire" ID="{AB6FAE17-B2CF-4219-A705-937CFA93CC93}" ShortID="562335288">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_BARD_Cris_Douleur" ID="{6C05D9C0-6D6B-4343-9C5C-3D800AF32831}" ShortID="889030558">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_BARD_HIT" ID="{ABE1E188-F6FC-4D4B-B33C-09FCFA53D7DA}" ShortID="513569059">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1CC5381B-B8A5-48F0-AE42-23A6A9E5AE3D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_HIT_BARDE-004" ID="{48F4DBF9-7204-453D-BB6B-35114176BEC2}" ShortID="527952693">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_BARDE-004" ID="{83B68831-4805-48B6-915C-303065063170}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0563541666666666"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0544756944444444"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.338125"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.852826388888889"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\Hit\ONO_HIT_BARDE-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="520588617"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_BARDE-004" ID="{83B68831-4805-48B6-915C-303065063170}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_BARDE-006" ID="{31C65556-D00D-423D-A243-5A3E72029CBC}" ShortID="120822539">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_BARDE-006" ID="{1E866B37-0DBE-4DC1-BA59-F035A0131962}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0244201388888889"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0695034722222223"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.375694444444444"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.773930555555555"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\Hit\ONO_HIT_BARDE-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="923213743"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_BARDE-006" ID="{1E866B37-0DBE-4DC1-BA59-F035A0131962}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_BARDE-010" ID="{310FDCF2-8BB2-40A6-AABE-58C30D4AA8ED}" ShortID="186017643">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_BARDE-010" ID="{C3D70514-0942-45CA-AD49-194284B97A14}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0450833333333333"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.139006944444444"/>
+																<Property Name="FadeOutShape" Type="int16" Value="1"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.279892361111111"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.734482638888889"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>VOX\BARDE\Hit\ONO_HIT_BARDE-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="78133750"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_BARDE-010" ID="{C3D70514-0942-45CA-AD49-194284B97A14}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Veto" ID="{1F83CE80-DE2B-4FCE-BE9E-5A67C225907C}" ShortID="595247690">
+							<ChildrenList>
+								<ActorMixer Name="VOX_VETO_Enga_Cmb" ID="{13A69809-A699-4803-9254-B13EBFAC71AF}" ShortID="678227205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_VETO_Enga_Cmb" ID="{42E6778F-B2A1-4543-B96E-CE1C633D9FDC}" ShortID="238245399">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_ENGAG_COMBAT_VETO-001" ID="{42C48AC5-6497-4393-A94D-C4E9ED42F8CA}" ShortID="501137191">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-001" ID="{9653631A-801F-4436-AEA6-203AEC9BE08C}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5859098"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAG_COMBAT_VETO-001" ID="{9653631A-801F-4436-AEA6-203AEC9BE08C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAG_COMBAT_VETO-002" ID="{CAA968BC-E4BD-4228-9E04-D0C974BCFB21}" ShortID="460100275">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-002" ID="{D9384501-7D7B-4034-84D8-F71178EDC61C}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1049659696"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAG_COMBAT_VETO-002" ID="{D9384501-7D7B-4034-84D8-F71178EDC61C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAG_COMBAT_VETO-003" ID="{26214CD9-68FB-4DCD-8E62-BD89841C6D25}" ShortID="122675548">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-003" ID="{31D8ED89-D621-4BC7-8D83-B8C3D321B91E}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="653223579"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAG_COMBAT_VETO-003" ID="{31D8ED89-D621-4BC7-8D83-B8C3D321B91E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAG_COMBAT_VETO-004" ID="{2AD57645-C6DE-4284-9D3A-DB6A02A02184}" ShortID="889680837">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-004" ID="{EA42860C-D3B7-42A9-9D9D-5E03599CF14E}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="927061123"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAG_COMBAT_VETO-004" ID="{EA42860C-D3B7-42A9-9D9D-5E03599CF14E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_ENGAG_COMBAT_VETO-005" ID="{5577C1F2-2D5B-4A05-8F7E-663F61C8742A}" ShortID="271216059">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_ENGAG_COMBAT_VETO-005" ID="{BA70B9A7-06EE-4C1D-A262-3C79FE9E34AC}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\ONO_ENGAG_COMBAT_VETO-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="568673081"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_ENGAG_COMBAT_VETO-005" ID="{BA70B9A7-06EE-4C1D-A262-3C79FE9E34AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_VETO_Appel" ID="{4ED7CB0A-AA76-4337-9A6C-5F989439BBF5}" ShortID="951296635">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_VETO_Appel" ID="{DE6DF2B1-3E0B-4553-8583-C1D33DAA05F5}" ShortID="596829203">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_APPEL_VETO-001" ID="{A5D4433E-A2FA-4A3A-B280-4C8C745D21CB}" ShortID="187721013">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_APPEL_VETO-001" ID="{BC0B1406-39A0-462F-9259-633840925951}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="62259681"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_APPEL_VETO-001" ID="{BC0B1406-39A0-462F-9259-633840925951}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_APPEL_VETO-002" ID="{9CCFE803-93D4-4546-BC79-D721A3DECA18}" ShortID="81988810">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_APPEL_VETO-002" ID="{80A11029-3E67-4656-A8C5-AD89C0353FD1}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="51999793"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_APPEL_VETO-002" ID="{80A11029-3E67-4656-A8C5-AD89C0353FD1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_APPEL_VETO-003" ID="{23F91065-081C-4AB3-AABA-DF3CEAABF1A0}" ShortID="371233968">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_APPEL_VETO-003" ID="{F231E553-D126-4F34-B5F4-165143A4B3AA}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="980821479"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_APPEL_VETO-003" ID="{F231E553-D126-4F34-B5F4-165143A4B3AA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_APPEL_VETO-004" ID="{4723C5C9-8A1D-4780-9C3F-01339EA80120}" ShortID="705762380">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_APPEL_VETO-004" ID="{C3A4DBDA-CA54-4C7E-94A5-D1B55A9DC08B}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="356979004"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_APPEL_VETO-004" ID="{C3A4DBDA-CA54-4C7E-94A5-D1B55A9DC08B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_APPEL_VETO-006" ID="{08CA1985-114E-409E-80EA-3E9BFA84A5F7}" ShortID="547471539">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_APPEL_VETO-006" ID="{6F0E044A-936D-4174-A4EB-EB55077E4152}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\APPEL\ONO_APPEL_VETO-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="19065871"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_APPEL_VETO-006" ID="{6F0E044A-936D-4174-A4EB-EB55077E4152}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_VETO_Cris_Victoire" ID="{C0E80966-F724-4616-9880-431E0245E704}" ShortID="343856759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_VETO_Cris_Victoire" ID="{B120C75F-695C-47B4-B49D-EFDC5D7EC380}" ShortID="608502105">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_VICTORY_VETO-003" ID="{2577A3CD-0400-4B8A-A40B-D206022D7A2F}" ShortID="35213957">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_VICTORY_VETO-003" ID="{8A156883-53A0-4A88-8968-B34A9425B4AD}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="346942262"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_VICTORY_VETO-003" ID="{8A156883-53A0-4A88-8968-B34A9425B4AD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_VICTORY_VETO-004" ID="{735FA449-B678-4440-891B-1FF290515C05}" ShortID="336199186">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_VICTORY_VETO-004" ID="{15E8AB63-B688-4198-8B09-75B7A5A8B323}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="61292502"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_VICTORY_VETO-004" ID="{15E8AB63-B688-4198-8B09-75B7A5A8B323}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOX_VETO_Cris_Douleur" ID="{A15D0F24-3A82-41BF-9F68-41E56E17F218}" ShortID="369217119">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOX_VETO_Cris_Douleur" ID="{4104D133-F35A-4F69-AB51-09287584F896}" ShortID="576307211">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="VOIX_VETO_HIit" ID="{4E8FED84-5860-4883-B2A0-73D03023FF10}" ShortID="800692940">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VOIX_VETO_HIit" ID="{CA5AA039-FBFD-4E0E-9564-CB8476CD5255}" ShortID="1041868059">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ONO_HIT_VETO-001" ID="{7BFD4614-DD26-4007-B260-B8673E5BB6F3}" ShortID="865624495">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_VETO-001" ID="{FF8FE617-1AB8-4E1A-BEE1-E2FFB7D74CD8}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="232780025"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_VETO-001" ID="{FF8FE617-1AB8-4E1A-BEE1-E2FFB7D74CD8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_VETO-002" ID="{E523A50A-50B6-4C25-94E2-18AEC430AD90}" ShortID="877614769">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_VETO-002" ID="{2B04BBA0-DBCB-430C-81E7-5E41E921852F}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="534442628"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_VETO-002" ID="{2B04BBA0-DBCB-430C-81E7-5E41E921852F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_VETO-003" ID="{31170DCE-2FBD-4530-8828-0D8C1224B3B8}" ShortID="310542408">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_VETO-003" ID="{C7105F98-36EF-4308-A301-C71C8B9C0461}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="63171022"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_VETO-003" ID="{C7105F98-36EF-4308-A301-C71C8B9C0461}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_VETO-004" ID="{B852F46D-3DFF-4E5B-820F-0F236D146B4E}" ShortID="79075108">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_VETO-004" ID="{3DE4ECEE-E73D-4577-9C5B-2C6D1AB70961}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="963491228"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_VETO-004" ID="{3DE4ECEE-E73D-4577-9C5B-2C6D1AB70961}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_VETO-005" ID="{65AF06DA-7BD0-4C06-9F4D-816BBD230D06}" ShortID="921170155">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_VETO-005" ID="{365F2B1D-9BE0-45F5-928C-097F65F71829}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="286676746"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_VETO-005" ID="{365F2B1D-9BE0-45F5-928C-097F65F71829}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ONO_HIT_VETO-006" ID="{D3E51C12-1142-4706-9025-597B5357FDF4}" ShortID="682193477">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ONO_HIT_VETO-006" ID="{CFC34BE2-0A8A-40DC-91A1-A4353AFD27A3}">
+															<Language>SFX</Language>
+															<AudioFile>VOX\VETO\HIT\ONO_HIT_VETO-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="163266434"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="ONO_HIT_VETO-006" ID="{CFC34BE2-0A8A-40DC-91A1-A4353AFD27A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SPONSORS" ID="{41F05C46-DE45-4441-B8D4-BA3F4D45B97C}" ShortID="240671537">
+					<ChildrenList>
+						<Folder Name="CROCK_RUINE" ID="{70AED932-370D-4390-9455-6490E13F3C08}" ShortID="692928455"/>
+						<Folder Name="RUBISTA__PIERRE_TAILLE" ID="{95F06D5F-D12C-4B3D-A628-BEF0C01D1FAF}" ShortID="851606953"/>
+						<Folder Name="TRAQUE_A_PIED" ID="{08A52F70-87A2-4D4C-A183-D4F67DA58374}" ShortID="973645213"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="INDICES" ID="{240D475D-876B-4000-A955-0F4BB9AA9CD3}" ShortID="23148756">
+					<ChildrenList>
+						<Folder Name="Attaque" ID="{CE4F3B33-9FE0-4B5C-8FEA-91E2CD3433D3}" ShortID="135794211">
+							<ChildrenList>
+								<Folder Name="Fort" ID="{9371183E-3071-45FE-8834-DBCB3078AC0D}" ShortID="232311519"/>
+								<Folder Name="Moyen" ID="{06CBB0BE-5E17-4260-8949-CD697C7A4092}" ShortID="673692559"/>
+								<Folder Name="Faible" ID="{6C47FF74-0E87-45C6-A11C-CF0032EAD766}" ShortID="429282250"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Defense" ID="{7A3960A8-D0AE-40B1-ADE3-CCF541A533E4}" ShortID="357759536">
+							<ChildrenList>
+								<Folder Name="Faible" ID="{5FB89DDB-EA33-4191-BC8E-7286AB24D719}" ShortID="392491120"/>
+								<Folder Name="Moyen" ID="{C1E5174E-CA58-4905-858D-E5CB91D3E80B}" ShortID="596954871"/>
+								<Folder Name="Fort" ID="{E70A36F9-3811-45C5-8ACB-8D66CEBCDEBD}" ShortID="979820183"/>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Puissance" ID="{D65A3BC3-6695-4529-B6C5-9EC931125C90}" ShortID="1032856335">
+							<ChildrenList>
+								<Folder Name="Faible" ID="{5CA6DE3A-0CAD-4ADF-8949-DFEE6C828008}" ShortID="22239265"/>
+								<Folder Name="Moyen" ID="{D6EEF24B-709A-4C7C-B25F-E66C25B73FD5}" ShortID="96899544"/>
+								<Folder Name="Fort" ID="{DDBECC59-A343-4532-B826-9C6A881E1B41}" ShortID="346869037"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
