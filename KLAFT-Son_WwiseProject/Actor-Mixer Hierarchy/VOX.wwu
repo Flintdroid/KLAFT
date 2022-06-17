@@ -666,6 +666,54 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ONO_CRIS_VICTORY_BARDE-002" ID="{9CB0F789-4B29-4B80-874F-50A9BFB278AD}" ShortID="207387611">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DB64423C-F95F-4DEB-B5BF-40059C4396C7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D277137D-84B6-48EF-8144-E2EC3E7FFD20}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3640AD33-9111-44C4-95AA-5E3FF695CDD9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONO_CRIS_VICTORY_BARDE-002" ID="{5A15F3C5-977A-4BC3-AFA7-A9E67C16877D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0778311389593909"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.249059644670051"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.586327913494079"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.2830467428088"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>VOX\BARDE\Victoire\ONO_CRIS_VICTORY_BARDE-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986558447"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONO_CRIS_VICTORY_BARDE-002" ID="{5A15F3C5-977A-4BC3-AFA7-A9E67C16877D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="VOX_BARD_Cris_Douleur" ID="{6C05D9C0-6D6B-4343-9C5C-3D800AF32831}" ShortID="889030558">

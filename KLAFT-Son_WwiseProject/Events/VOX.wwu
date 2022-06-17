@@ -118,6 +118,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="BARD_Victory" ID="{5281762C-CF52-4E40-AF4A-CC6B5804B528}" ShortID="442613511">
+							<ChildrenList>
+								<Event Name="Play_ONO_CRIS_VICTORY_BARDE" ID="{BB820490-E87B-4D1A-AAF0-6D97FA333CC0}">
+									<ChildrenList>
+										<Action Name="" ID="{2458324B-A173-4697-9D04-8A1F8B27C319}" ShortID="254650893">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ONO_CRIS_VICTORY_BARDE-002" ID="{9CB0F789-4B29-4B80-874F-50A9BFB278AD}" WorkUnitID="{57815366-06FC-4E98-80A7-B15017EF855D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="VETO" ID="{E596DEAA-7948-4C4C-878E-4A141C0344F9}" ShortID="852187950">

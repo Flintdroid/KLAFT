@@ -95,6 +95,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Herbe_Fuite" ID="{1FD6FA86-4630-42ED-A85B-A6190D35116E}">
+											<ChildrenList>
+												<Action Name="" ID="{6D5D885F-E96C-4342-8AD8-A0952F1A2442}" ShortID="131236782">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Herbe" ID="{077F75DE-7E9A-4AFF-BD75-0E539FDB8567}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="PAVE" ID="{6E3EA74A-88BB-4F0D-A6D3-83CC7F84725F}" ShortID="25713976">
@@ -116,6 +127,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="PERS_FTP_Pave_Soft" ID="{95021577-7E2C-45FC-82E0-657B1CFE211F}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Pave_Fuite" ID="{AD50684E-D7C1-4274-950E-1C1AB8BE4270}">
+											<ChildrenList>
+												<Action Name="" ID="{8503E113-D065-4608-A816-56A6D8F97E3A}" ShortID="292281881">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Pave" ID="{A0AF5FC6-5CAD-46F1-BAE2-0669871B245F}" WorkUnitID="{B7A95B86-842A-44E2-91A8-259BD97AD38D}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
