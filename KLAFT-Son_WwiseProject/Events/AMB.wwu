@@ -105,6 +105,40 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_AMB_Cristallerie" ID="{D6157579-6AEA-43F6-A838-2519E3E94FBE}">
+							<ChildrenList>
+								<Action Name="" ID="{796FDBCE-D646-4BE7-A9EA-4E897FD673BD}" ShortID="867478703">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cristallerie_Gemmes" ID="{0F95650F-BB05-461D-807E-86C95035102F}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8E5F5668-A9E1-456A-BF00-87E57DDE7B73}" ShortID="94687640">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cristallerie_Minecart" ID="{384349E8-EF19-4178-A3E5-44B39C7DF831}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{98D90B2D-B3C4-4B6A-8682-FC26C770A3B3}" ShortID="726100387">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cristallerie_Pickaxe" ID="{E76AAFFF-3B98-4C59-B708-F467503B28A2}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Foret" ID="{50B48781-95B2-42BC-A519-F6A34D8C5623}" ShortID="570885236">
@@ -158,6 +192,33 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_AMB_Foret" ID="{74C30D7F-BCBD-4C53-8AAF-8420A8DB8AB1}">
+							<ChildrenList>
+								<Action Name="" ID="{67736C0A-D25E-4D10-8456-C8A881DFFE03}" ShortID="509710482">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Foret_Birds" ID="{00A09736-BDA8-4F6D-A65A-F608CD2EB94F}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{75309231-2E64-4CE4-A90A-531563A8FF08}" ShortID="1031891955">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Foret_Wind" ID="{D0465D83-2EA6-4386-B4A5-E404EAD7FF95}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Plaine" ID="{D694FC56-65FF-4424-A483-3443D3E98D4F}" ShortID="824464978">
@@ -194,6 +255,30 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AMB_Birds" ID="{3E732232-3C97-466F-86CF-63A9E370F2C6}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Plaine" ID="{549D53C6-5D8B-4771-BC5A-38AFC64CDDF4}">
+							<ChildrenList>
+								<Action Name="" ID="{0B2E1C04-F057-458C-83DA-1B0FE0B026BA}" ShortID="675553218">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Birds" ID="{3E732232-3C97-466F-86CF-63A9E370F2C6}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{603094D6-1969-4093-A453-7F1F7A5FF844}" ShortID="715802406">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Plaine_Wind" ID="{A3A61C21-5429-436F-97D9-40919CA14157}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -237,6 +322,30 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AMB_Market" ID="{937FEED4-0567-4D23-BCE3-F728D18F754D}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Village" ID="{31BEC786-A39C-481F-965F-A8FF738EF321}">
+							<ChildrenList>
+								<Action Name="" ID="{EAFB34C3-D337-4A8F-9A68-E5785E336269}" ShortID="685198223">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Market" ID="{937FEED4-0567-4D23-BCE3-F728D18F754D}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2332C7E6-774A-40CF-817C-7AF54BC770C9}" ShortID="604540087">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Village_Wind" ID="{172C0CE8-783E-4454-8EA1-EEEDC5DE1867}" WorkUnitID="{943FF8BB-CBA0-4D91-B117-B1DE7B269D31}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

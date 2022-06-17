@@ -1,7 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1743022906	Stop_AMB_Cristallerie			\Default Work Unit\AMB\Cristallerie\Stop_AMB_Cristallerie	
 	1895752797	Play_AMB_Foret			\Default Work Unit\AMB\Foret\Play_AMB_Foret	
+	2553317114	Stop_AMB_Plaine			\Default Work Unit\AMB\Plaine\Stop_AMB_Plaine	
+	3078626809	Stop_AMB_Village			\Default Work Unit\AMB\Village\Stop_AMB_Village	
 	3131519631	Play_AMB_Village			\Default Work Unit\AMB\Village\Play_AMB_Village	
 	3218002828	Play_AMB_Cristallerie			\Default Work Unit\AMB\Cristallerie\Play_AMB_Cristallerie	
+	3513359395	Stop_AMB_Foret			\Default Work Unit\AMB\Foret\Stop_AMB_Foret	
 	3676138608	Play_AMB_Plaine			\Default Work Unit\AMB\Plaine\Play_AMB_Plaine	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
