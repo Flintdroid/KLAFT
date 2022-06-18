@@ -3,12 +3,12 @@
 	<RootPaths>
 		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
 		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="541248123" GUID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}" Language="SFX" Hash="250898642">
+		<SoundBank Id="541248123" GUID="{5214CA2D-F3EC-49D0-B6FB-0BCFC92638C6}" Language="SFX" Hash="725667536">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_FX</ObjectPath>
 			<ShortName>SB_FX</ShortName>
 			<Path>SB_FX.bnk</Path>
@@ -17,7 +17,7 @@
 					<IncludedMemoryFiles>
 						<File Id="118412000" Language="SFX">
 							<ShortName>FX\COMBAT\SW_Changement_Phase_Combat_V2.wav</ShortName>
-							<Path>SFX\FX\COMBAT\SW_Changement_Phase_Combat_V2_17C2D094.wem</Path>
+							<Path>SFX\FX\COMBAT\SW_Changement_Phase_Combat_V2_8A492C25.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="198679999" Language="SFX">
 							<ShortName>FX\GEMMES\Corrompues\SW_GEMME_SCINTILLEMENT_CORROMPU_2_V2.wav</ShortName>
-							<Path>SFX\FX\GEMMES\Corrompues\SW_GEMME_SCINTILLEMENT_CORROMPU_2_V2_6D12B5AA.wem</Path>
+							<Path>SFX\FX\GEMMES\Corrompues\SW_GEMME_SCINTILLEMENT_CORROMPU_2_V2_AF4C0FCA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,7 +57,7 @@
 					<IncludedMemoryFiles>
 						<File Id="903560043" Language="SFX">
 							<ShortName>FX\EVENT\Carte\Regarde_en_main\SW_Survol_Carte_En_Main-001.wav</ShortName>
-							<Path>SFX\FX\EVENT\Carte\Regarde_en_main\SW_Survol_Carte_En_Main-001_F0D5F343.wem</Path>
+							<Path>SFX\FX\EVENT\Carte\Regarde_en_main\SW_Survol_Carte_En_Main-001_28231A74.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
