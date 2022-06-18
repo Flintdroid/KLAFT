@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3762717517">
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3622424688">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
 			<ShortName>SB_VOX</ShortName>
 			<Path>SB_VOX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3963515780" Name="Play_ONO_CRIS_VICTORY_BARDE" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Victory\Play_ONO_CRIS_VICTORY_BARDE" GUID="{BB820490-E87B-4D1A-AAF0-6D97FA333CC0}" DurationType="OneShot" DurationMin="1.555898" DurationMax="1.850285">
+					<IncludedMemoryFiles>
+						<File Id="986558447" Language="SFX">
+							<ShortName>VOX\BARDE\Victoire\ONO_CRIS_VICTORY_BARDE-002.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Victoire\ONO_CRIS_VICTORY_BARDE-002_9EC8B337.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1327486536" Name="Play_VOIX_VETO_HIit" ObjectPath="\Events\Default Work Unit\VOX\VETO\Play_VOIX_VETO_HIit" GUID="{7FF0CA51-D3B9-47FD-985A-E4176106E30A}" DurationType="OneShot" DurationMin="0.851939" DurationMax="0.961462">
 					<IncludedMemoryFiles>
 						<File Id="63171022" Language="SFX">
@@ -78,6 +86,70 @@
 						<File Id="923213743" Language="SFX">
 							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-006.wav</ShortName>
 							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-006_B08539E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="46312159" Name="Play_VOX_BDT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\BANDIT\VOX_BDT_Cris_Douleur\Play_VOX_BDT_Cris_Douleur" GUID="{11703B1A-9392-45AC-8432-BAF9B4949FB5}" DurationType="OneShot" DurationMin="0.592275" DurationMax="0.660944">
+					<IncludedMemoryFiles>
+						<File Id="39410418" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-004.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-004_A1730A3D.wem</Path>
+						</File>
+						<File Id="77048823" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-006.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-006_4FB32334.wem</Path>
+						</File>
+						<File Id="102516211" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-002.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-002_409B9AD7.wem</Path>
+						</File>
+						<File Id="127418074" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-001.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-001_C54D19CC.wem</Path>
+						</File>
+						<File Id="668360539" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-003.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-003_A4DA6745.wem</Path>
+						</File>
+						<File Id="758625015" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-005.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-005_F64D0418.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1967901538" Name="Play_VOX_BDT_Reac" ObjectPath="\Events\Default Work Unit\VOX\BANDIT\VOX_BDT_Reac\Play_VOX_BDT_Reac" GUID="{2FEA2E66-650D-411A-A861-82E1E7A02618}" DurationType="OneShot" DurationMin="0.566524" DurationMax="1.137339">
+					<IncludedMemoryFiles>
+						<File Id="170370318" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-001.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-001_20D28167.wem</Path>
+						</File>
+						<File Id="235044227" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-004.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-004_10BA7579.wem</Path>
+						</File>
+						<File Id="375140246" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-006.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-006_716C8A5D.wem</Path>
+						</File>
+						<File Id="471398185" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-002.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-002_BD2DB26D.wem</Path>
+						</File>
+						<File Id="611640476" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-003.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-003_5754DEA8.wem</Path>
+						</File>
+						<File Id="699538964" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-005.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-005_60B21118.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1629000726" Name="Play_VOX_LZD_Reac" ObjectPath="\Events\Default Work Unit\VOX\LEZARD\VOX_LZD_Reac\Play_VOX_LZD_Reac" GUID="{4E91E7FD-1F67-4718-8A72-507D6071D4E0}" DurationType="OneShot" DurationMin="1.369099" DurationMax="1.369099">
+					<IncludedMemoryFiles>
+						<File Id="115959853" Language="SFX">
+							<ShortName>VOX\LEZARD\REAC\LEZARD_REAC-001.wav</ShortName>
+							<Path>SFX\VOX\LEZARD\REAC\LEZARD_REAC-001_8539BA3A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

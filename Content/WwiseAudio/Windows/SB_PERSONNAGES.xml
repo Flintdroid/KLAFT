@@ -1,18 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Etudiant3A\Documents\GitHub\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="518084094">
+		<SoundBank Id="2823438860" GUID="{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}" Language="SFX" Hash="1857180066">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PERSONNAGES</ObjectPath>
 			<ShortName>SB_PERSONNAGES</ShortName>
 			<Path>SB_PERSONNAGES.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2562134028" Name="Play_Herbe_Fuite" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Footsteps\FTP\Herbe\Play_Herbe_Fuite" GUID="{1FD6FA86-4630-42ED-A85B-A6190D35116E}" DurationType="OneShot" DurationMin="0.370187" DurationMax="0.485583">
+					<IncludedMemoryFiles>
+						<File Id="58808148" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_2.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_2_10C4C929.wem</Path>
+						</File>
+						<File Id="77998201" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_10.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_10_10C4C929.wem</Path>
+						</File>
+						<File Id="143359635" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_9.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_9_10C4C929.wem</Path>
+						</File>
+						<File Id="203383959" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_3.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_3_10C4C929.wem</Path>
+						</File>
+						<File Id="338117789" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_4.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_4_10C4C929.wem</Path>
+						</File>
+						<File Id="513589891" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_8.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_8_10C4C929.wem</Path>
+						</File>
+						<File Id="517660556" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_5.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_5_10C4C929.wem</Path>
+						</File>
+						<File Id="565004694" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_1.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_1_10C4C929.wem</Path>
+						</File>
+						<File Id="732325841" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_7.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_7_10C4C929.wem</Path>
+						</File>
+						<File Id="822637006" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_6.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Herbe\SW_Bruit_Pas_Herbe_FUITE_6_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4151393692" Name="Play_Pave_Fuite" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Footsteps\FTP\PAVE\Play_Pave_Fuite" GUID="{AD50684E-D7C1-4274-950E-1C1AB8BE4270}" DurationType="OneShot" DurationMin="0.4375" DurationMax="0.557688">
+					<IncludedMemoryFiles>
+						<File Id="31156039" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_8.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_8_10C4C929.wem</Path>
+						</File>
+						<File Id="143735686" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_7.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_7_10C4C929.wem</Path>
+						</File>
+						<File Id="157579942" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_3.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_3_10C4C929.wem</Path>
+						</File>
+						<File Id="195633523" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_10.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_10_10C4C929.wem</Path>
+						</File>
+						<File Id="467743688" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_2.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_2_10C4C929.wem</Path>
+						</File>
+						<File Id="709961042" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_9.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_9_10C4C929.wem</Path>
+						</File>
+						<File Id="788710427" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_4.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_4_10C4C929.wem</Path>
+						</File>
+						<File Id="886587891" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_6.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_6_10C4C929.wem</Path>
+						</File>
+						<File Id="986881169" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_5.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_5_10C4C929.wem</Path>
+						</File>
+						<File Id="1012025408" Language="SFX">
+							<ShortName>PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_1.wav</ShortName>
+							<Path>SFX\PERSO\Footsteps\Fuite\Pavé\SW_Bruit_Pas_Pave_FUITE_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3931238372" Name="Play_PERS_BRUI_VETO_AGONIE" ObjectPath="\Events\Default Work Unit\PERSONNAGES\Veto\Play_PERS_BRUI_VETO_AGONIE" GUID="{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}" DurationType="OneShot" DurationMin="0.506939" DurationMax="0.638423">
 					<IncludedMemoryFiles>
 						<File Id="533397186" Language="SFX">
