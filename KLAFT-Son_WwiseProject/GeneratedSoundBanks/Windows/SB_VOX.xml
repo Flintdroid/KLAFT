@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1425815436" GUID="{AC5A7080-CD61-4C9C-8894-D3828FF52374}" Language="SFX" Hash="3622424688">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_VOX</ObjectPath>
+			<ShortName>SB_VOX</ShortName>
+			<Path>SB_VOX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3963515780" Name="Play_ONO_CRIS_VICTORY_BARDE" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Victory\Play_ONO_CRIS_VICTORY_BARDE" GUID="{BB820490-E87B-4D1A-AAF0-6D97FA333CC0}" DurationType="OneShot" DurationMin="1.555898" DurationMax="1.850285">
+					<IncludedMemoryFiles>
+						<File Id="986558447" Language="SFX">
+							<ShortName>VOX\BARDE\Victoire\ONO_CRIS_VICTORY_BARDE-002.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Victoire\ONO_CRIS_VICTORY_BARDE-002_9EC8B337.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1327486536" Name="Play_VOIX_VETO_HIit" ObjectPath="\Events\Default Work Unit\VOX\VETO\Play_VOIX_VETO_HIit" GUID="{7FF0CA51-D3B9-47FD-985A-E4176106E30A}" DurationType="OneShot" DurationMin="0.851939" DurationMax="0.961462">
+					<IncludedMemoryFiles>
+						<File Id="63171022" Language="SFX">
+							<ShortName>VOX\VETO\HIT\ONO_HIT_VETO-003.wav</ShortName>
+							<Path>SFX\VOX\VETO\HIT\ONO_HIT_VETO-003_D0CBE1C3.wem</Path>
+						</File>
+						<File Id="163266434" Language="SFX">
+							<ShortName>VOX\VETO\HIT\ONO_HIT_VETO-006.wav</ShortName>
+							<Path>SFX\VOX\VETO\HIT\ONO_HIT_VETO-006_38A59434.wem</Path>
+						</File>
+						<File Id="232780025" Language="SFX">
+							<ShortName>VOX\VETO\HIT\ONO_HIT_VETO-001.wav</ShortName>
+							<Path>SFX\VOX\VETO\HIT\ONO_HIT_VETO-001_5909C668.wem</Path>
+						</File>
+						<File Id="286676746" Language="SFX">
+							<ShortName>VOX\VETO\HIT\ONO_HIT_VETO-005.wav</ShortName>
+							<Path>SFX\VOX\VETO\HIT\ONO_HIT_VETO-005_B23C7250.wem</Path>
+						</File>
+						<File Id="534442628" Language="SFX">
+							<ShortName>VOX\VETO\HIT\ONO_HIT_VETO-002.wav</ShortName>
+							<Path>SFX\VOX\VETO\HIT\ONO_HIT_VETO-002_A518ED1A.wem</Path>
+						</File>
+						<File Id="963491228" Language="SFX">
+							<ShortName>VOX\VETO\HIT\ONO_HIT_VETO-004.wav</ShortName>
+							<Path>SFX\VOX\VETO\HIT\ONO_HIT_VETO-004_B57C91E1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2152833002" Name="Play_VOX_BARD_Appel" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Appel\Play_VOX_BARD_Appel" GUID="{152DE60F-AD74-4C45-AA78-39C4161AF6C9}" DurationType="OneShot" DurationMin="0.970834" DurationMax="0.970834">
+					<IncludedMemoryFiles>
+						<File Id="839806510" Language="SFX">
+							<ShortName>VOX\BARDE\ONO_APPEL_BARDE-005.wav</ShortName>
+							<Path>SFX\VOX\BARDE\ONO_APPEL_BARDE-005_B2001863.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="319568522" Name="Play_VOX_BARD_Enga_Cmb" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Enga_Cmb\Play_VOX_BARD_Enga_Cmb" GUID="{B1ABF677-273A-4776-B826-743A79B26154}" DurationType="OneShot" DurationMin="1.034371" DurationMax="1.366643">
+					<IncludedMemoryFiles>
+						<File Id="556459483" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-006_0DBD7F1A.wem</Path>
+						</File>
+						<File Id="669547984" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-009_249BEBCA.wem</Path>
+						</File>
+						<File Id="972430348" Language="SFX">
+							<ShortName>PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008.wav</ShortName>
+							<Path>SFX\PERSO\Barde\Engagement combat\ONO_ENGAAG_COMBAT_BARDE-008_3777DF1B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="140324371" Name="Play_VOX_BARD_HIT" ObjectPath="\Events\Default Work Unit\VOX\BARDE\BARD_Hit\Play_VOX_BARD_HIT" GUID="{E9E6C1CA-7895-404A-9D7B-0C714EF1775A}" DurationType="OneShot" DurationMin="0.365184" DurationMax="0.561286">
+					<IncludedMemoryFiles>
+						<File Id="78133750" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-010.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-010_50EE1F45.wem</Path>
+						</File>
+						<File Id="520588617" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-004.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-004_B455F7D9.wem</Path>
+						</File>
+						<File Id="923213743" Language="SFX">
+							<ShortName>VOX\BARDE\Hit\ONO_HIT_BARDE-006.wav</ShortName>
+							<Path>SFX\VOX\BARDE\Hit\ONO_HIT_BARDE-006_B08539E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="46312159" Name="Play_VOX_BDT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\BANDIT\VOX_BDT_Cris_Douleur\Play_VOX_BDT_Cris_Douleur" GUID="{11703B1A-9392-45AC-8432-BAF9B4949FB5}" DurationType="OneShot" DurationMin="0.592275" DurationMax="0.660944">
+					<IncludedMemoryFiles>
+						<File Id="39410418" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-004.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-004_A1730A3D.wem</Path>
+						</File>
+						<File Id="77048823" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-006.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-006_4FB32334.wem</Path>
+						</File>
+						<File Id="102516211" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-002.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-002_409B9AD7.wem</Path>
+						</File>
+						<File Id="127418074" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-001.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-001_C54D19CC.wem</Path>
+						</File>
+						<File Id="668360539" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-003.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-003_A4DA6745.wem</Path>
+						</File>
+						<File Id="758625015" Language="SFX">
+							<ShortName>VOX\BANDIT\HIT\ONO_CRIS_BANDIT-005.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\HIT\ONO_CRIS_BANDIT-005_F64D0418.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1967901538" Name="Play_VOX_BDT_Reac" ObjectPath="\Events\Default Work Unit\VOX\BANDIT\VOX_BDT_Reac\Play_VOX_BDT_Reac" GUID="{2FEA2E66-650D-411A-A861-82E1E7A02618}" DurationType="OneShot" DurationMin="0.566524" DurationMax="1.137339">
+					<IncludedMemoryFiles>
+						<File Id="170370318" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-001.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-001_20D28167.wem</Path>
+						</File>
+						<File Id="235044227" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-004.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-004_10BA7579.wem</Path>
+						</File>
+						<File Id="375140246" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-006.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-006_716C8A5D.wem</Path>
+						</File>
+						<File Id="471398185" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-002.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-002_BD2DB26D.wem</Path>
+						</File>
+						<File Id="611640476" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-003.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-003_5754DEA8.wem</Path>
+						</File>
+						<File Id="699538964" Language="SFX">
+							<ShortName>VOX\BANDIT\REAC\ONO_REACTION_BANDIT-005.wav</ShortName>
+							<Path>SFX\VOX\BANDIT\REAC\ONO_REACTION_BANDIT-005_60B21118.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1629000726" Name="Play_VOX_LZD_Reac" ObjectPath="\Events\Default Work Unit\VOX\LEZARD\VOX_LZD_Reac\Play_VOX_LZD_Reac" GUID="{4E91E7FD-1F67-4718-8A72-507D6071D4E0}" DurationType="OneShot" DurationMin="1.369099" DurationMax="1.369099">
+					<IncludedMemoryFiles>
+						<File Id="115959853" Language="SFX">
+							<ShortName>VOX\LEZARD\REAC\LEZARD_REAC-001.wav</ShortName>
+							<Path>SFX\VOX\LEZARD\REAC\LEZARD_REAC-001_8539BA3A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="374495388" Name="Play_VOX_PANT_Cris_Douleur" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\CRIS_DOULEUR\Play_VOX_PANT_Cris_Douleur" GUID="{7D48261F-FDF8-4912-A3A4-B81D6B6FF002}" DurationType="OneShot" DurationMin="0.86441" DurationMax="0.939857">
+					<IncludedMemoryFiles>
+						<File Id="197328391" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-002_DE3E47F2.wem</Path>
+						</File>
+						<File Id="990892073" Language="SFX">
+							<ShortName>VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\CRIS_DOULEUR\PANTIN_CRIS_DOULEURS-001_446329EE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3729616362" Name="Play_VOX_PANT_Donner_Coup" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\DONNER_COUP\Play_VOX_PANT_Donner_Coup" GUID="{53198A17-2EFB-4913-876C-E991C710B351}" DurationType="OneShot" DurationMin="1.068966" DurationMax="1.396552">
+					<IncludedMemoryFiles>
+						<File Id="597277480" Language="SFX">
+							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-002_4F2D9F54.wem</Path>
+						</File>
+						<File Id="765612297" Language="SFX">
+							<ShortName>VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\DONNER_COUP\PANTIN_REAC-001_976EFF3C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4068130120" Name="Play_VOX_PANT_Mort" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\MORT\Play_VOX_PANT_Mort" GUID="{FF357CB7-A517-40C9-A257-C670CD823B39}" DurationType="OneShot" DurationMin="2.13408" DurationMax="2.13408">
+					<IncludedMemoryFiles>
+						<File Id="652187579" Language="SFX">
+							<ShortName>VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\MORT\PANTIN_CRIS_DOULEURS-003_DC2126E0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3306837711" Name="Play_VOX_PANT_React" ObjectPath="\Events\Default Work Unit\VOX\PANTIN\REACT\Play_VOX_PANT_React" GUID="{4F37D5FC-F52D-40DB-A2AE-0D216CDF1617}" DurationType="OneShot" DurationMin="1.400862" DurationMax="2.010776">
+					<IncludedMemoryFiles>
+						<File Id="124562742" Language="SFX">
+							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-001.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-001_826EB2F4.wem</Path>
+						</File>
+						<File Id="296882556" Language="SFX">
+							<ShortName>VOX\PANTIN\REACT\PANTIN_REAC-002.wav</ShortName>
+							<Path>SFX\VOX\PANTIN\REACT\PANTIN_REAC-002_51D5D875.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3421725139" Name="Play_VOX_VETO_Appel" ObjectPath="\Events\Default Work Unit\VOX\VETO\Play_VOX_VETO_Appel" GUID="{2BCF1600-8B4F-4F39-ADF0-DAAE2C18EF0F}" DurationType="OneShot" DurationMin="1.202672" DurationMax="1.329329">
+					<IncludedMemoryFiles>
+						<File Id="19065871" Language="SFX">
+							<ShortName>VOX\VETO\APPEL\ONO_APPEL_VETO-006.wav</ShortName>
+							<Path>SFX\VOX\VETO\APPEL\ONO_APPEL_VETO-006_A23BF553.wem</Path>
+						</File>
+						<File Id="51999793" Language="SFX">
+							<ShortName>VOX\VETO\APPEL\ONO_APPEL_VETO-002.wav</ShortName>
+							<Path>SFX\VOX\VETO\APPEL\ONO_APPEL_VETO-002_15819BAE.wem</Path>
+						</File>
+						<File Id="62259681" Language="SFX">
+							<ShortName>VOX\VETO\APPEL\ONO_APPEL_VETO-001.wav</ShortName>
+							<Path>SFX\VOX\VETO\APPEL\ONO_APPEL_VETO-001_5317CF90.wem</Path>
+						</File>
+						<File Id="356979004" Language="SFX">
+							<ShortName>VOX\VETO\APPEL\ONO_APPEL_VETO-004.wav</ShortName>
+							<Path>SFX\VOX\VETO\APPEL\ONO_APPEL_VETO-004_B5A2FD6A.wem</Path>
+						</File>
+						<File Id="980821479" Language="SFX">
+							<ShortName>VOX\VETO\APPEL\ONO_APPEL_VETO-003.wav</ShortName>
+							<Path>SFX\VOX\VETO\APPEL\ONO_APPEL_VETO-003_8B1C8D69.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4221175738" Name="Play_VOX_VETO_Cris_Victoire" ObjectPath="\Events\Default Work Unit\VOX\VETO\Play_VOX_VETO_Cris_Victoire" GUID="{A4EE40DE-DB0B-4414-AAF7-A5BBA9554195}" DurationType="OneShot" DurationMin="1.283063" DurationMax="1.344161">
+					<IncludedMemoryFiles>
+						<File Id="61292502" Language="SFX">
+							<ShortName>VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-004.wav</ShortName>
+							<Path>SFX\VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-004_2CAD7E09.wem</Path>
+						</File>
+						<File Id="346942262" Language="SFX">
+							<ShortName>VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-003.wav</ShortName>
+							<Path>SFX\VOX\VETO\VICTOIRE\ONO_VICTORY_VETO-003_C2757FA6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="441192577" Name="Play_VOX_VETO_Decorruption" ObjectPath="\Events\Default Work Unit\VOX\VETO\Play_VOX_VETO_Decorruption" GUID="{42BFEE9E-A7FE-4FA4-B5E7-E75FE33F680B}" DurationType="OneShot" DurationMin="4.197531" DurationMax="4.571854">
+					<IncludedMemoryFiles>
+						<File Id="926376036" Language="SFX">
+							<ShortName>VOX\VETO\Decorruption\DECORRUPTION-002.wav</ShortName>
+							<Path>SFX\VOX\VETO\Decorruption\DECORRUPTION-002_9CFA8593.wem</Path>
+						</File>
+						<File Id="1024795878" Language="SFX">
+							<ShortName>VOX\VETO\Decorruption\DECORRUPTION-001.wav</ShortName>
+							<Path>SFX\VOX\VETO\Decorruption\DECORRUPTION-001_E94AA3D5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1207659309" Name="Play_VOX_VETO_Enga_Cmb" ObjectPath="\Events\Default Work Unit\VOX\VETO\Play_VOX_VETO_Enga_Cmb" GUID="{F08ED171-0B8A-4663-94D2-96123C675EA3}" DurationType="OneShot" DurationMin="1.597337" DurationMax="1.682932">
+					<IncludedMemoryFiles>
+						<File Id="5859098" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-001.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-001_42185FB1.wem</Path>
+						</File>
+						<File Id="568673081" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-005.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-005_61FFA9E1.wem</Path>
+						</File>
+						<File Id="653223579" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-003.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-003_C2390BF8.wem</Path>
+						</File>
+						<File Id="927061123" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-004.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-004_499C8CFE.wem</Path>
+						</File>
+						<File Id="1049659696" Language="SFX">
+							<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-002.wav</ShortName>
+							<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-002_3889EDD5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5859098" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-001.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-001_42185FB1.wem</Path>
+				</File>
+				<File Id="568673081" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-005.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-005_61FFA9E1.wem</Path>
+				</File>
+				<File Id="653223579" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-003.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-003_C2390BF8.wem</Path>
+				</File>
+				<File Id="927061123" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-004.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-004_499C8CFE.wem</Path>
+				</File>
+				<File Id="1049659696" Language="SFX">
+					<ShortName>VOX\VETO\ONO_ENGAG_COMBAT_VETO-002.wav</ShortName>
+					<Path>SFX\VOX\VETO\ONO_ENGAG_COMBAT_VETO-002_3889EDD5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1340644577	Play_FX_Gemmes_Sain			\Default Work Unit\FX\GEMMES\Play_FX_Gemmes_Sain	
+	2295183586	Play_FX_Gemmes_Lustrages			\Default Work Unit\FX\GEMMES\Play_FX_Gemmes_Lustrages	
+	2427894762	Play_FX_SW_Regarde_Carte_En_Main			\Default Work Unit\FX\CARTE\Play_FX_SW_Regarde_Carte_En_Main	
+	2771120507	Play_FX_Gemmes_Corrompues			\Default Work Unit\FX\GEMMES\Play_FX_Gemmes_Corrompues	
+	4024711712	Play_FX_Changement_Phase_CMBT			\Default Work Unit\FX\COMBAT\CHM_PHASE_CMBT\Play_FX_Changement_Phase_CMBT	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	118412000	SW_Changement_Phase_Combat_V2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\COMBAT\SW_Changement_Phase_Combat_V2_8A492C25.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\COMBAT\FX_SW_Changement_Phase\FX_Changement_Phase_CMBT\SW_Changement_Phase_Combat_V2		1378492
+	198679999	SW_GEMME_SCINTILLEMENT_CORROMPU_2_V2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\GEMMES\Corrompues\SW_GEMME_SCINTILLEMENT_CORROMPU_2_V2_AF4C0FCA.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\EVENT\Interaction\Gemmes\FX_SW_Gemmes\FX_Gemmes_Corrompues\SW_GEMME_SCINTILLEMENT_CORROMPU_2_V2		662696
+	262607778	SW_GEMME_LUSTRAGE_3	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\GEMMES\Lustrages\SW_GEMME_LUSTRAGE_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\EVENT\Interaction\Gemmes\FX_SW_Gemmes\FX_Gemmes_Lustrages\SW_GEMME_LUSTRAGE_3		179204
+	399710767	SW_GEMME_SCINTILLEMENT_SAIN_V2_2	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\GEMMES\Sain\SW_GEMME_SCINTILLEMENT_SAIN_V2_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\EVENT\Interaction\Gemmes\FX_SW_Gemmes\FX_Gemmes_Sain\SW_GEMME_SCINTILLEMENT_SAIN_V2_2		590896
+	844445940	SW_GEMME_SCINTILLEMENT_SAIN_V2_3	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\GEMMES\Sain\SW_GEMME_SCINTILLEMENT_SAIN_V2_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\EVENT\Interaction\Gemmes\FX_SW_Gemmes\FX_Gemmes_Sain\SW_GEMME_SCINTILLEMENT_SAIN_V2_3		730280
+	903560043	SW_Survol_Carte_En_Main-001	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\EVENT\Carte\Regarde_en_main\SW_Survol_Carte_En_Main-001_28231A74.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\EVENT\Carte\FX_SW_Regarde_Carte_En_Main\FX_SW_Regarde_Carte_En_Main\SW_Survol_Carte_En_Main-001		98000
+	926846017	SW_GEMME_LUSTRAGE_1	C:\3iS\KLAFT\KLAFT-Son\KLAFT\KLAFT-Son_WwiseProject\.cache\Windows\SFX\FX\GEMMES\Lustrages\SW_GEMME_LUSTRAGE_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\EVENT\Interaction\Gemmes\FX_SW_Gemmes\FX_Gemmes_Lustrages\SW_GEMME_LUSTRAGE_1		202280
+

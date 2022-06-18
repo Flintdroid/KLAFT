@@ -1,0 +1,124 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2823438860",
+    "GUID": "{C918EEA5-1D1E-4CEF-B356-DDEC1A96A5DD}",
+    "Language": "SFX",
+    "Hash": "2419821292",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PERSONNAGES",
+    "ShortName": "SB_PERSONNAGES",
+    "Path": "SB_PERSONNAGES.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3931238372",
+      "Name": "Play_PERS_BRUI_VETO_AGONIE",
+      "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Veto\\Play_PERS_BRUI_VETO_AGONIE",
+      "GUID": "{A865F994-1FD5-4F8E-9AE1-4A622D5A9E4B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.629274",
+      "DurationMax": "0.754104",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "533397186",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper04.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper04_10C4C929.wem"
+       },
+       {
+        "Id": "656218864",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper02.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper02_10C4C929.wem"
+       },
+       {
+        "Id": "730074681",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper03.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper03_10C4C929.wem"
+       },
+       {
+        "Id": "830527586",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Cloth ramper.wav",
+        "Path": "SFX\\PERSO\\Cloth ramper_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2269187458",
+      "Name": "Play_VOX_BARD_Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\PERSONNAGES\\Barde\\BARD_Impact\\Play_VOX_BARD_Impact",
+      "GUID": "{CA7E40FC-D177-4807-AFC6-5C56A16D313B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.188406",
+      "DurationMax": "0.451935",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "5884502",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Barde\\Impact hit\\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav",
+        "Path": "SFX\\PERSO\\Barde\\Impact hit\\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem"
+       },
+       {
+        "Id": "371963788",
+        "Language": "SFX",
+        "ShortName": "PERSO\\Barde\\Impact hit\\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav",
+        "Path": "SFX\\PERSO\\Barde\\Impact hit\\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "5884502",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Barde\\Impact hit\\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn.wav",
+      "Path": "SFX\\PERSO\\Barde\\Impact hit\\18 Sword Or Bayonet Juicy Stab 2_ Impact With Gush And Sword Turn_2790DFD3.wem"
+     },
+     {
+      "Id": "371963788",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Barde\\Impact hit\\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn.wav",
+      "Path": "SFX\\PERSO\\Barde\\Impact hit\\17 Sword Or Bayonet Juicy Stab 1_ Impact With Gush And Sword Turn_CFA33A5D.wem"
+     },
+     {
+      "Id": "533397186",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper04.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper04_10C4C929.wem"
+     },
+     {
+      "Id": "656218864",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper02.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper02_10C4C929.wem"
+     },
+     {
+      "Id": "730074681",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper03.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper03_10C4C929.wem"
+     },
+     {
+      "Id": "830527586",
+      "Language": "SFX",
+      "ShortName": "PERSO\\Cloth ramper.wav",
+      "Path": "SFX\\PERSO\\Cloth ramper_10C4C929.wem"
+     }
+    ]
+   }
+  ]
+ }
+}
