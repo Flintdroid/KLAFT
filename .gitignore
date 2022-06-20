@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/SOUND/Perso/Footstep/Play_PERS_FTP_Pave_Heavy.uasset
+Content/SOUND/Perso/Footstep/Play_PERS_FTP_Pave_Heavy.uasset
+Content/SOUND/Perso/Footstep/Play_PERS_FTP_Pave_Soft.uasset
