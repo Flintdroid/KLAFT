@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\",
-   "SourceFilesRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\3iS\\KLAFT\\KLAFT-Son\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Marc\\Documents\\GitHub\\KLAFT\\KLAFT-Son_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1425815436",
     "GUID": "{AC5A7080-CD61-4C9C-8894-D3828FF52374}",
     "Language": "SFX",
-    "Hash": "825830124",
+    "Hash": "1749911822",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_VOX",
     "ShortName": "SB_VOX",
     "Path": "SB_VOX.bnk",
@@ -28,7 +28,7 @@
       "GUID": "{BB820490-E87B-4D1A-AAF0-6D97FA333CC0}",
       "DurationType": "OneShot",
       "DurationMin": "1.555898",
-      "DurationMax": "1.850285",
+      "DurationMax": "1.696719",
       "IncludedMemoryFiles": [
        {
         "Id": "986558447",
